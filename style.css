@@ -1,0 +1,13 @@
+body{
+	background-color: black;
+	background-size: cover;
+}
+
+h1,p,ul{
+	color: aliceblue;
+	list-style-type:disc;
+}
+ol{
+	color: aliceblue;
+	list-style-type:decimal;
+}

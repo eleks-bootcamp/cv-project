@@ -1,0 +1,16 @@
+body{
+  color: #555;
+}
+h1{
+  color: darkblue;
+}
+img {
+  width:200px;
+  border-radius: 20%;
+}
+.list-contacts{
+  background-color: lightcyan;
+}
+.list-technologies{
+  background-color: lightsalmon;
+}

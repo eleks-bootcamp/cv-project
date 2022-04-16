@@ -1,0 +1,172 @@
+.cv{
+    font-family: 'Roboto', sans-serif;
+    width: 947px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side{
+    width: 347px;
+}
+
+.blue-rectangle{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(55, 97, 147, 1);
+}
+
+.name{
+    text-align: center;
+    margin: 32px 0 22px;
+    font-size: 29px;
+    line-height: 34px;
+    color: rgba(38, 64, 97, 1);
+}
+
+.photo{
+    width: 240px;
+    border-radius: 50%;
+    margin-left: 54px;
+}
+
+.contacts{
+    margin:24px 32px 0;
+    /* height: 190px;   */
+}
+
+.left-article-name{
+    font-size: 22px;
+    line-height: 26px;
+    color:rgba(38, 64, 97, 1);
+}
+
+.blue-line{
+    height: 1px;
+    width: 283px;
+    border-color: rgba(55, 97, 147, 1);
+    margin-bottom: 15px;
+}
+
+.contacts-list{
+    list-style: none;
+    margin-left: 24px;
+    font-size: 15px;
+    line-height: 15px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.contacts-item{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+.contacts-text{
+    margin-left:10px;
+}
+
+
+.languages{
+    margin:24px 32px 0;
+    /* height: 190px;   */
+}
+.languages-list{
+    list-style: none;
+    margin-left: 24px;
+    font-size: 15px;
+    line-height: 15px;
+}
+.languages-item{
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-side{
+    width: 644px;
+    padding-top: 46px;
+}
+
+.right-article{
+    margin: 27px 33px 0 32px;
+}
+.right-article-name{
+    font-size: 23px;
+    line-height: 27px;
+    color: rgba(38, 64, 97, 1);
+}
+.right-blue-line{
+    height: 1px;
+    width: 580px;
+    border-color: rgba(55, 97, 147, 1);
+}
+
+.summary-text{
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.skills-text{
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.skills-column{
+    list-style: none;
+}
+
+.experience-text{
+    margin-top: 15px;
+}
+.jobs-list{
+    list-style: none;
+    margin: 0 0 30px 40px;
+}
+.job{
+    margin-top: 20px;
+}
+.job-name{
+    font-size: 15px;
+    line-height: 18px;
+}
+.job-date{
+    font-size: 14px;
+    line-height: 16px;
+}
+.job-respon{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+.education-list{
+    list-style: none;
+    margin-bottom: 55px;
+}
+.education-item{
+    margin-top: 15px;
+}
+.spec{
+    font-size: 14px;
+    line-height: 16px;
+}
+.ed-name{
+    font-size: 16px;
+    line-height: 19px;
+}

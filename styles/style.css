@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.cv {
+    color: rgb(0, 0, 0);
+    padding: 10px 20 px;
+    width: 992px;
+    height: 947px;
+    margin: 0px auto;
+    border: 1px solid rgb(251, 255, 0);
+    /*align center;*/
+    font-family: 'Roboto', sans-serif;
+  }
+
+.myphoto {
+    width: 240px;
+    height: auto;
+    border-radius: 90%;
+    /*margin-bottom: 24px;*/
+    }
+.align-center {
+  text-align: center;
+}
+.contact-list {
+    padding: 0px 33px;
+    font-size: 22px;
+    /*margin: 10px;*/
+}
+.skill-list {
+  padding: 33px;
+  font-size: 23px;
+}
+.li {
+  font-size: 14px;
+  padding: 10px;
+  list-style-type: none;
+}
+.li.responsibilities {
+  margin-top: -12px;
+}
+.li-column {
+  font-size: 14px;
+  padding: 10px;
+  list-style-type: none;
+  display:block;
+  float:left;
+  width:28%;
+}
+.p {
+  font-size: 14px;
+}
+.ul {
+  padding: 0;
+}
+.ul-column {
+  column-count: 3;
+  padding: 0;
+}
+.ico {
+  width: 16px;
+  height: 16px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 10px;
+}
+a:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.full-name {
+    text-align: center;
+    font-size: 29px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #264061;
+}
+
+.adress {
+  float: left;
+  width: 347px;
+  height: 947px;
+  font-style: normal;
+  border-top:  40px solid #264061;
+}
+.article {
+  float: left;
+  width: 644px;
+  height: 907px;
+  border-bottom:  40px solid #264061;
+}
+.blue-box {
+  height: 40px;
+  background-color: #264061;
+}
+.botom-line {
+  border-bottom: 2px solid #376193;
+  color: #264061;
+}

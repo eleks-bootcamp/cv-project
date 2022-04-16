@@ -1,0 +1,103 @@
+html,body {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    display: block;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  .name {
+    font-size: 29px;
+    color: #264061;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 25px;
+    color: #264061;
+    border-bottom: 2px solid #264061;
+    padding-bottom: 6px;
+  }
+  
+  .cv {
+    box-sizing: border-box;
+    position: relative;
+    padding: 10px 10px;
+  }
+  
+  .photo {
+      width: 300px;
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .img {
+    width: 25px;
+    padding-right: 20px;
+  }
+  
+  .column {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .column-left {
+    width: 30%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+  
+  .column-right {
+    width: 60%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding-left: 22px;
+  }
+  
+  .skills {
+    column-count: 2;
+  }
+  
+  .summary {
+    padding-left: 19px;
+  }
+  
+  .education {
+    padding-left: 19px;
+  }
+  
+  .up-rectangle{
+    position: inherit;
+    background:#0f335e;
+    height: 40px;
+    width: 34%;
+    margin-bottom: 20px;
+  }
+  
+  .bottom {
+    position: inherit;
+    float: right;
+    background: #0f335e;
+    height: 37px;
+    width: 50%;
+  }
+  
+  
+
+  
+  
+  
+  

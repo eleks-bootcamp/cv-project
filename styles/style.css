@@ -1,7 +1,12 @@
 body {
-  margin: 0px;
+  margin: 20px;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
+  background: gray;
+}
+
+a {
+  all: unset;
 }
 
 .header, .sub-header {
@@ -24,6 +29,9 @@ body {
   width: fit-content;
   margin: auto;
   border: 1px solid #D3D3D3;
+  border-radius: 15px;
+  background: whitesmoke;
+  filter: drop-shadow(20px 15px 4px #1d1d1f);
 }
 
 .left-column, .right-column {
@@ -34,11 +42,14 @@ body {
 .left-column {
   width: 287px; /* 347px - (30+30) lefr/right paddings. */
   border-top: 40px solid #376193;
+  border-radius: 15px 0 0 15px;
+  background: rgb(223, 223, 240);
 }
 
 .right-column {
   width: 584px; /* 644px - (30+30) left/right paddings). */
   border-bottom: 40px solid #264061;
+  border-radius: 0 0 15px 0;
 }
 
 .photo {
@@ -49,6 +60,7 @@ body {
 
 .contacts li {
   margin-bottom: 10px;
+  filter: grayscale(100%);
 }
 
 .contacts-github {

@@ -48,6 +48,7 @@ a {
 
 .right-column {
   width: 584px; /* 644px - (30+30) left/right paddings). */
+  margin-top: 40px;
   border-bottom: 40px solid #264061;
   border-radius: 0 0 15px 0;
 }
@@ -72,7 +73,7 @@ a {
 }
 
 .contacts-gmail {
-  list-style-image: url('../icons/gmail_logo.png');
+  list-style-image: url('../icons/mail_logo.png');
 }
 
 .contacts-phone {

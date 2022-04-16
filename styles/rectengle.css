@@ -1,0 +1,48 @@
+.Recktangle {
+  margin: 1px 0px 0px 1px;
+  position: relative;
+  width: 346px;
+  height: 40px;
+  background: #376193;
+  border-radius: 0px;
+}
+
+.Recktangle-down {
+  margin: 55px 0px 1px 0px;
+  position: relative;
+  width: 644px;
+  height: 40px;
+  background: #264061;
+  border-radius: 0px;
+}
+
+.Recktangle-left{
+  margin: 2px 0px 0px 33px;
+  position: relative;
+  width: 282.5px;
+  height: 1px;
+  background: #376193;
+}
+
+.Recktangle-left2{
+  margin: 2.5px 0px 0px 33px;
+  position: relative;
+  width: 282.5px;
+  height: 1px;
+  background: #376193;
+}
+
+.Recktangle-right{
+  margin: 1.5px 0px 0px 31.5px;
+  position: relative;
+  width: 579.5px;
+  height: 1px;
+  background: #376193;
+}
+
+.Recktangle-right2{
+  margin: 1px 0px 0px 31.5px;
+  width: 579.5px;
+  height: 1px;
+  background: #376193;
+}

@@ -1,0 +1,20 @@
+body {
+    color: #555;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    min-height: 100vh;
+
+
+}
+
+img {
+
+    width: 240px;
+    height: 240px;
+    left: 278px;
+    top: 163px;
+    border-radius: 120px;
+    margin-top: 0;
+    text-align: center;
+}

@@ -104,6 +104,24 @@ ul {
     color: #000000;
 }
 
+.tomorrow {
+    position: absolute;
+    width: 600px;
+    height: 26px;
+    left: 33px;
+    top: 618px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #264061;
+}
+
 .img-contact-list {
     width: 16px;
     height: 16px;

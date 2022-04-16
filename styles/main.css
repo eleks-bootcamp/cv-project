@@ -1,0 +1,142 @@
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.cv {
+  --c-green: #1BB863;
+  --c-basic: #0C2D36;
+  --c-blue: #3BB3D3;
+
+  padding: 0 16px;
+  font-family: 'Manrope', 'Roboto', sans-serif;
+  color: var(--c-basic);
+}
+
+.cv__wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 992px;
+  margin: 0 auto;
+  border: 1px solid #e9eced;
+}
+
+.cv__aside {
+  width: 384px;
+  min-width: 400px;
+  padding: 32px 24px;
+  background-color: #F4F6F6;
+}
+
+.cv__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.cv__header .avatar {
+  margin-bottom: 32px;
+  border: 5px solid var(--c-blue);
+  border-radius: 50%;
+}
+
+.cv__header .title {
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 5px solid var(--c-green);
+}
+
+.cv__header .description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.cv__section {
+  margin-bottom: 32px;
+}
+
+.cv__section:last-of-type {
+  margin-bottom: 0;
+}
+
+.cv__section .section-title {
+  margin-bottom: 16px;
+  border-bottom: 2px solid var(--c-basic);
+}
+
+.cv__section .subsection-title {
+  margin-bottom: 12px;
+}
+
+.cv__section ul li::marker {
+  color: var(--c-green);
+  font-size: 1.5em;
+}
+
+.cv__section ol li::marker {
+  color: var(--c-green);
+  font-size: 1.2em;
+}
+
+.cv__section.cv__section--contacts ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cv__section.cv__section--contacts li {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.cv__section.cv__section--contacts img {
+  width: 24px;
+  height: 24px;
+}
+
+.cv__section.cv__section--skills ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 24px;
+  padding-left: 24px;
+}
+
+.cv__section a {
+  color: var(--c-blue);
+}
+
+.cv__main {
+  padding: 32px 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .cv__wrapper {
+    flex-direction: column;
+  }
+
+  .cv__aside {
+    width: 100%;
+    min-width: 100%;
+  }
+}

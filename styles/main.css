@@ -39,8 +39,7 @@ p {
 }
 
 .cv__aside {
-  width: 384px;
-  min-width: 400px;
+  min-width: 360px;
   padding: 32px 24px;
   background-color: #F4F6F6;
 }

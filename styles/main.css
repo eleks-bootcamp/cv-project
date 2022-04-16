@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+	
+.conteiner {
+width: 1440 px;
+height: 947px;
+background: #FFFFFF;
+}
+
+.content {
+position: absolute;
+width: 992px;
+height: 947px;
+left: 224px;
+top: 0px;
+background: #FFFFFF;
+border: 1px solid #D3D3D3;
+box-sizing: border-box;
+border-radius: 0px;
+}
+
+.content-logo-contact{
+  position: absolute;
+  width: 347px;
+  height: 947px;
+  background-color: #FFFFFF;
+  
+}
+
+.rectangle-top{
+position: absolute;
+width: 347px;
+height: 40px;
+background: #376193;
+border-radius: 0px;
+
+}
+
+.name {
+ 
+  position: absolute;
+  width: 195px;
+  height: 68px;
+  left: 77px;
+  top: 73px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #264061;
+}  
+
+
+.foto {
+ 
+position: absolute;
+width: 240px;
+height: 240px;
+left: 54px;
+top: 163px;
+border-radius: 120px;
+}
+
+.contacts{
+  position: absolute;
+  width: 91px;
+  height: 26px;
+  left: 33px;
+  top: 427px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #264061;
+  
+}
+
+.line {
+position: absolute;
+width: 282.5px;
+height: 1px;
+top: 25px;
+
+background: #376193;
+}
+
+.contact-my{
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 30px;
+color: #000000;
+
+margin-top: 20px;
+margin-left: 21px;
+
+}
+
+.icon-conact{
+  display: flex;
+	flex-direction: row;
+}
+
+.category-lang{
+  margin-top: 20px;
+
+  position: absolute;
+  width: 91px;
+  height: 26px;
+
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #264061;
+}
+
+.line-lang{
+  position: absolute;
+  width: 282.5px;
+  height: 2.5px;
+  top: 25px;
+  background: #376193;
+}
+
+
+.languages{
+  margin-top: 50px;
+  margin-left: 23px;
+
+  position: absolute;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 30px;
+color: #000000;
+
+}
+
+
+
+
+
+
+
+
+.rectangle-footer{
+  position: absolute;
+  width: 644px;
+  height: 40px;
+  left: 347px;
+  top: 906px;
+  background: #264061;
+  border-radius: 0px;
+  }

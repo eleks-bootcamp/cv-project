@@ -1,0 +1,122 @@
+body {
+  display: table;
+  font-family: Roboto, 'Helvetica Neue';
+  font-size: 16px;
+  width: 992px;
+  height: max-content;
+  margin: auto;
+  border: 1px solid #D3D3D3;
+}
+
+.text-header-text-color {
+  color: #264061;
+}
+
+.text-header {
+  border-bottom: 1px solid #376193;
+}
+
+.left-panel-text-header {
+  font-size: 22px;
+}
+
+.left-panel-paragraph {
+  margin-left: 24px;
+}
+
+.headered-block {
+  margin-left: 33px;
+  margin-top: 24px;
+}
+
+.name-block {
+  margin-top: 33px;
+  font-size: 29px;
+  text-align: center;
+}
+
+.page-header, .page-footer {
+  height: 40px;
+}
+
+.page-footer {
+  clear: left;
+  margin-top: 55px;
+  margin-right: 0;
+}
+
+.filled-rect {
+  background-color: #376193;
+}
+
+.left-panel {
+  float: left;
+  width: 347px;
+}
+
+.main-panel {
+  margin-top: 73px;
+  margin-left: 347px;
+}
+.main-panel-content {
+  margin-right: 33px;
+}
+
+.main-panel-text-header {
+  font-size: 23px;
+}
+
+.main-panel-text-block {
+  margin-top: 15.5px;
+}
+
+.photo {
+  width: 240px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.contacts-header {
+  font-size: 22px;
+}
+
+.left-panel-list-item {
+  padding: 9px;
+}
+
+.contact-git-txt, .contacts-linkedin-txt {
+  font-size: 13px;
+}
+
+.contact-mail-txt {
+  font-size: 16px;
+}
+
+.contact-phone-txt {
+  font-size: 15px;
+}
+
+.skills-list {
+  margin-left: 24px;
+  width: 100%;
+}
+
+.experience-item {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+.experience-item-top {
+  margin-bottom: 19px;
+}
+
+.experience-item-top-company{
+  font-size: 15px;
+}
+
+.experience-item-top-period {
+  font-size: 14px;
+}

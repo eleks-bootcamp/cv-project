@@ -1,0 +1,81 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: flex;
+    width: 992px;
+    min-height: 100%;
+    border: 1px solid #D3D3D3;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.left-side {
+    border-top: 40px solid #376193;
+    padding: 0 30px 0 30px;
+}
+h1 {
+    text-align: center;
+    color: #264061;
+    font-size: 29px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+h2 {
+    font-size: 22px;
+    color: #264061;
+    border-bottom: 1px solid #376193;
+    
+}
+.left-side img {
+    width: 240px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.contacts li {
+    padding-left: 25px;
+}
+
+.github {
+    background-image: url(../images/tw.png);
+    background-repeat: no-repeat;
+}
+.linkedin {
+    background-image: url(../images/in.png);
+    background-repeat: no-repeat;
+}
+.mail {
+    background-image: url(../images/mail.png);
+    background-repeat: no-repeat;
+}
+.phone {
+    background-image: url(../images/phone.png);
+    background-repeat: no-repeat;
+}
+.right-side {
+    border-bottom: 40px solid #376193;
+    padding: 0 30px 0 30px;
+    margin: 65px 0 0 0;
+}
+.skills li {
+    display: inline-block;
+    width: 30%;
+}
+.experience span {
+    display: block;
+}

@@ -122,6 +122,10 @@ p {
   padding-left: 24px;
 }
 
+.cv__section.cv__section--langs ul {
+  padding-left: 24px;
+}
+
 .cv__section a {
   color: var(--c-blue);
 }

@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+  --text-color:#264061;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.cv{
+  width: 992px;
+  display: flex;
+  justify-content: center;
+  border: solid 1px #e5e5e5;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left{
+  width: 347px;
+  display: flex;
+  flex-direction: column;
+}
+.right{
+  width: 644px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.image{
+  width: 240px;
+  border-radius: 50%;
+  align-self: center;
+}
+.name{
+  font-family: 'Roboto', sans-serif;
+  font-size: 29px;
+  font-weight: 400;
+  text-align: center;
+  color:var(--text-color);
+  margin-top: 0;
+}
+.rectangle{
+  background-color: var(--text-color);
+  height: 40px;
+}
+.footer{
+  margin-top: auto;
+}
+.section-header{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color:var(--text-color);
+  margin-bottom: 0;
+  line-height: 26px;
+}
+.content{
+  padding: 33px;
+}
+hr{
+  margin: 0 0 15.5px 0;
+  background-color: #376193;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.technologies{
+  list-style: none;
+}
+.education{
+  font-weight: 600;
+}
+.contacts{
+  list-style: none;
+}

@@ -1,0 +1,93 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cv {
+  margin: 0 auto;
+  width: 991px;
+  height: 947px;
+  color: #264061;
+}
+
+hr {
+  height: 1px;
+  margin-top: 0px;
+  background-color: #376193;
+}
+
+.rectangle {
+  text-align: center;
+  width: 351px;
+  height: 40px;
+  background: #376193;
+}
+
+.comunication {
+  float: left;
+  display: block;
+  width: 351px;
+  height: 727px;
+}
+
+.full-name {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.photo {
+  margin-left: 55px;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+}
+
+.title {
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-list .contacts-link {
+  text-decoration: none;
+  color: #264061;
+}
+
+.about {
+  float: right;
+  display: block;
+  width: 589px;
+  height: 786px;
+}
+
+.summary {
+  margin-top: 65px;
+}
+
+span {
+  margin-right: 110px;
+  padding-left: 40px;
+}
+
+.rectangle.end {
+  text-align: center;
+  width: 589px;
+  height: 40px;
+  margin-top: 48px;
+  background: #264061;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

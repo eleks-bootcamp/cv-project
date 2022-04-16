@@ -1,0 +1,335 @@
+.cv {
+  position: absolute;
+  width: 992px;
+  height: 947px;
+  left: 224px;
+  top: 0px;
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+  border-radius: 0px;
+
+}
+
+.full-name {
+  position: absolute;
+  width: 195px;
+  height: 68px;
+  left: 77px;
+  top: 53px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #264061;
+
+}
+
+.photo {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: 54px;
+  top: 163px;
+
+  background: #D3D3D3;
+  border-radius: 120px;
+}
+
+.blue-fill {
+  position: absolute;
+  width: 347px;
+  height: 40px;
+  left: 0px;
+  top: 1px;
+
+
+  background: #376193;
+  border-radius: 0px;
+}
+
+.horizontal-left {
+  position: absolute;
+  width: 282.5px;
+  height: 1px;
+  left: 33px;
+  top: 455.5px;
+
+  background: #376193;
+}
+
+.contacts-text {
+  position: absolute;
+  width: 91px;
+  height: 26px;
+  left: 33px;
+  top: 427px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #264061;
+}
+
+.contacts-list {
+  position: absolute;
+  width: 53px;
+  height: 15px;
+  left: 57px;
+  top: 472px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #000000;
+}
+
+.list {
+  list-style: none;
+
+}
+
+.photo-git {
+  padding-bottom: 20px;
+}
+
+.photo-linkedin {
+  padding-bottom: 20px;
+}
+
+.photo-email {
+  padding-bottom: 20px;
+}
+
+.photo-phone {
+  padding-bottom: 20px;
+}
+
+.photo-git:before {
+  content: url(/img/github.png);
+  position: absolute;
+  left: 10px;
+}
+
+.photo-linkedin:before {
+  content: url(/img/linkedin.png);
+  position: absolute;
+  left: 10px;
+}
+
+.photo-email:before {
+  content: url(/img/meil.png);
+  position: absolute;
+  left: 10px;
+}
+
+.photo-phone:before {
+  content: url(/img/tel.png);
+  position: absolute;
+  left: 10px;
+}
+
+.language-text {
+  position: absolute;
+  width: 91px;
+  height: 26px;
+  left: 33px;
+  top: 618px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #264061;
+}
+
+.horizontal-left-2 {
+  position: absolute;
+  width: 282.5px;
+  height: 1px;
+  left: 33px;
+  top: 646px;
+
+  background: #376193;
+}
+
+.language-list {
+  position: absolute;
+  width: 64px;
+  height: 18px;
+  left: 27px;
+  top: 662px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #000000;
+}
+
+.lang {
+  padding-bottom: 20px;
+
+}
+
+.summary-text {
+  position: absolute;
+  width: 101px;
+  height: 27px;
+  left: 380px;
+  top: 73px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+
+  color: #264061;
+}
+
+.horizontal-right {
+  position: absolute;
+  width: 579.5px;
+  height: 1px;
+  left: 380px;
+  top: 101.5px;
+
+  background: #376193;
+}
+
+.profile {
+  position: absolute;
+  width: 574px;
+  height: 72px;
+  left: 380px;
+  top: 118px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #000000;
+}
+
+.skills-text {
+  position: absolute;
+  width: 56px;
+  height: 27px;
+  left: 380px;
+  top: 216px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+
+  color: #264061;
+}
+
+.horizontal-right-2 {
+  position: absolute;
+  width: 579.5px;
+  height: 1px;
+  left: 380px;
+  top: 244px;
+
+  background: #376193;
+}
+
+.skills {
+  position: absolute;
+  width: 45px;
+  height: 19px;
+  left: 380px;
+  top: 260px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.list-2 {
+  column-count: 3;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-gap: 162px;
+}
+
+.course-text {
+  position: absolute;
+  width: 115px;
+  height: 27px;
+  left: 380px;
+  top: 331px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+
+  color: #264061;
+}
+
+.horizontal-right-3 {
+  position: absolute;
+  width: 579.5px;
+  height: 1px;
+  left: 380px;
+  top: 359.5px;
+
+  background: #376193;
+}
+
+.course-list {
+  position: absolute;
+  width: 525px;
+  height: 38px;
+  left: 380px;
+  top: 384px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.backdown {
+  padding-bottom: 20px;
+}
+
+.blue-fill-2 {
+  position: absolute;
+  width: 611px;
+  height: 40px;
+  left: 380px;
+  top: 906px;
+
+  background: #264061;
+  border-radius: 0px;
+}

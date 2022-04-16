@@ -1,0 +1,93 @@
+* {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.headings {
+  color: #264061;
+  border-bottom: 1px solid #376193;
+  height: 27px;
+  font-size: 23px;
+  line-height: 27px;
+}
+
+.margins {
+  margin-left: 32px;
+}
+
+.main-container {
+  width: 992px;
+  height: 100%;
+  margin: auto;
+}
+
+.left-container {
+  float: left;
+}
+
+.right-container {
+  float: right;
+}
+
+.name-container {
+  width: 195px;
+  height: 68px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summary-container {
+  margin-top: 32px;
+}
+
+.name-heading {
+  font-size: 29px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #264061;
+}
+
+.photo {
+  display: block;
+  width: 240px;
+  height: 240px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 120px;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts {
+  height: 26px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #264061;
+}
+
+.contacts-item,
+.languages-item {
+  height: 18px;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 5px;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contacts-list,
+.languages-list,
+.skills-list {
+  list-style-type: none;
+}
+
+.skills-list {
+  column-count: 3;
+}

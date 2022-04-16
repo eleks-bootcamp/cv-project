@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.header, .sub-header {
+  color: #264061;
+  font-weight: 400;
+}
+
+.header {
+  text-align: center;
+  font-size: 29px;
+}
+
+.sub-header {
+  border-bottom: 1px solid #376193;
+  font-size: 23px;
+}
+
+.content {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  border: 1px solid #D3D3D3;
+}
+
+.left-column, .right-column {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.left-column {
+  width: 287px; /* 347px - (30+30) lefr/right paddings. */
+  border-top: 40px solid #376193;
+}
+
+.right-column {
+  width: 584px; /* 644px - (30+30) left/right paddings). */
+  border-bottom: 40px solid #264061;
+}
+
+.photo {
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+}
+
+.contacts li {
+  margin-bottom: 10px;
+}
+
+.contacts-github {
+  list-style-image: url('../icons/github_logo.png');
+}
+
+.contacts-linkedin {
+  list-style-image: url('../icons/linkedin_logo.png');
+}
+
+.contacts-gmail {
+  list-style-image: url('../icons/gmail_logo.png');
+}
+
+.contacts-phone {
+  list-style-image: url('../icons/phone_logo.png');
+}
+
+.languages li {
+  margin-bottom: 10px;
+  /* list-style-type: none; */
+}
+
+.skills {
+  column-count: 3;
+}
+
+.experience li {
+  margin-bottom: 10px;
+}
+
+.experience-dates {
+  display: block;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-size: 14px;
+}

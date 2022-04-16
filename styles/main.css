@@ -116,23 +116,23 @@
 }
 
 .cv__link-icon_github {
-  background-image: url(/img/contact-icons/github-icon.png);
+  background-image: url(../img/contact-icons/github-icon.png);
 }
 
 .cv__link-icon_linkedin {
-  background-image: url(/img/contact-icons/linkedin-icon.png);
+  background-image: url(../img/contact-icons/linkedin-icon.png);
 }
 
 .cv__link-icon_email {
-  background-image: url(/img/contact-icons/mail-icon.png);
+  background-image: url(../img/contact-icons/mail-icon.png);
 }
 
 .cv__link-icon_tel {
-  background-image: url(/img/contact-icons/tel-icon.png);
+  background-image: url(../img/contact-icons/tel-icon.png);
 }
 
 .cv__link-icon_telegram {
-  background-image: url(/img/contact-icons/telegram-icon.png);
+  background-image: url(../img/contact-icons/telegram-icon.png);
 }
 
 .cv__link {

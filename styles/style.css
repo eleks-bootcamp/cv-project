@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.frame {
+  width: 1440px;
+  background-color: #ffffff;
+  height: 947px;
+}
+
+.rectangle_main {
+  position: absolute;
+  width: 1005px;
+  height: 1000px;
+  left: 202px;
+
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+
+.rectangle_top {
+  position: absolute;
+  width: 347px;
+  height: 40px;
+  left: 225px;
+  top: 1px;
+
+  background: #376193;
+  border-radius: 0px;
+}
+
+.rectangle_bottom {
+  position: absolute;
+  width: 612px;
+  height: 40px;
+  left: 572px;
+  top: 959px;
+
+  background: #376193;
+  border-radius: 0px;
+}
+
+.page {
+  display: flex;
+}
+
+.left_column {
+  display: block;
+
+  width: 402px;
+  margin: 73px 0;
+}
+
+/* #region information */
+.about_name {
+  margin-left: 101px;
+  width: 200px;
+  height: 68px;
+
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #264061;
+}
+
+.photo {
+  width: 240px;
+  height: 240px;
+  margin-left: 81px;
+  border-radius: 50%;
+}
+
+.about_contacts {
+  margin-top: 27px;
+  margin-left: 55px;
+  margin-right: 64px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #376193;
+  font-size: 22px;
+  line-height: 26px;
+  color: #264061;
+}
+
+.about_contacts_data {
+  margin: 0 0 19px 79px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+
+  color: #000000;
+}
+
+.about_languages {
+  margin-top: 27px;
+  margin-left: 55px;
+  margin-right: 64px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #376193;
+  font-size: 22px;
+  line-height: 26px;
+  color: #264061;
+}
+
+.about_languages_data {
+  margin: 0 0 19px 79px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+
+  color: #000000;
+}
+
+.url {
+  text-decoration: none;
+  color: #000000;
+}
+/* #endregion */
+
+.right_column {
+  width: 580px;
+  margin-top: 73px;
+  margin-right: 24px;
+  margin-bottom: 73px;
+  margin-left: 0;
+}
+
+/* #region summary */
+.summary_title {
+  margin-bottom: 0;
+  border-bottom: 1px solid #376193;
+
+  font-size: 23px;
+  line-height: 27px;
+  color: #264061;
+}
+
+.summary_text {
+  margin-top: 18px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+/* #endregion */
+
+/* #region skills */
+.skills_title {
+  margin-bottom: 0;
+  border-bottom: 1px solid #376193;
+
+  font-size: 23px;
+  line-height: 27px;
+  color: #264061;
+}
+
+.skills_text {
+  display:flex;
+  margin-top: 18px;
+  margin-bottom: 0;
+  margin-left: 40px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.skills_text_column {
+  width: 33%;
+  margin-bottom: 0;
+}
+/* #endregion */
+
+/* #region expirience */
+.expirience_title {
+  margin-bottom: 0;
+  border-bottom: 1px solid #376193;
+
+  font-size: 23px;
+  line-height: 27px;
+  color: #264061;
+}
+
+.expirience_text {
+  margin-top: 18px;
+  margin-top: 15px;
+  margin-bottom: 31px;
+  margin-left: 40px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.expirience_position {
+margin: 0;
+}
+
+.expirience_date {
+  margin: 0;
+}
+
+.expirience_responsibilities {
+margin-top: 8px;
+}
+/* #endregion */
+
+/* #region education */
+.study_title {
+  margin-bottom: 0;
+  border-bottom: 1px solid #376193;
+
+  font-size: 23px;
+  line-height: 27px;
+  color: #264061;
+}
+
+.study_text {
+  margin-top: 18px;
+  margin-top: 15px;
+  margin-bottom: 31px;
+  margin-left: 40px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.study_degree {
+  margin: 0;
+}
+
+.study_university {
+margin-top: 8px;
+}
+/* #endregion */

@@ -1,0 +1,98 @@
+body {
+    position: absolute;
+    width: 992px;
+    height: 947px;
+    left: 224px;
+    top: 0px;
+    background: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+main {
+    width: 347px;
+}
+
+.author-name {
+    color: #376193;
+    font-size: 29px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.author-foto {
+    width: 240px;
+    margin-left: 54px;
+    border-radius: 120px;
+}
+
+.title {
+    margin: 32px 33px 0 33px;
+    color: #264061;
+    font-size: 22px;
+    line-height: 26px;
+    border-bottom: 1px solid #376193;
+}
+
+
+.contacts-list,
+.languages-list {
+    list-style: none;
+    margin-left: 4px;
+}
+
+.contacts-list li,
+.languages-list li {
+    margin-bottom: 19px;
+}
+
+.contacts-list :nth-last-child(4) {
+    background: url(../img/icon/icon_github.png) no-repeat 0 4px;
+    padding-left: 24px;
+}
+
+.contacts-list :nth-last-child(3) {
+    background: url(../img/icon/icon_linkedin.png) no-repeat 0 4px;
+    padding-left: 24px;
+}
+
+.contacts-list :nth-last-child(2) {
+    background: url(../img/icon/icon_mail.png) no-repeat 0 4px;
+    padding-left: 24px;
+}
+
+.contacts-list :nth-last-child(1) {
+    background: url(../img/icon/icon_phone.png) no-repeat 0 4px;
+    padding-left: 24px;
+}
+
+aside {
+    position: absolute;
+    left: 348px;
+    top: 0px;
+    width: 644px;
+}
+
+.textcols-item {
+    display: inline-block;
+    width: 30%;
+}
+
+.wrap {
+    padding-left: 42px;
+}
+
+.educetion {
+    font-size: 14px;
+}
+
+.summary p,
+.educetion p {
+    margin-left: 33px;
+}
+
+.text-wrap p {
+    padding-left: 63px;
+}

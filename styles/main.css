@@ -1,11 +1,13 @@
 .left-column {
     width: 32%;
+    border: 10px solid transparent ;
 }
 .left-column .chapters {
     font-size: 22px;
 }
 .right-column {
-    width: 68%
+    width: 68%;
+    border: 10px solid transparent;
 }
 .right-column .chapters {
     font-size: 23px;
@@ -22,10 +24,8 @@ body {
 }
 .photo {
     align-items: center;
-   margin-left: 10%;
-   margin-right: 10%;
-   width: 240px;
-   height: 240px;
+   width: 200px;
+   height: 200px;
    border-radius: 50%;
 }
 .skills {

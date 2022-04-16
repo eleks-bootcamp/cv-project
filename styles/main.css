@@ -1,0 +1,225 @@
+.cv {
+  color: #555;
+  width: 992px;
+  height: 947px;
+  border: 1px solid gainsboro;
+  display: flex;
+  margin: 5px 250px;
+  font-family: Roboto;
+  color: black;
+
+}
+
+.left-side {
+  width: 347px;
+}
+
+.border-left-up {
+  height: 40px;
+  background-color: #376193;
+}
+
+.border-right-bottom {
+  height: 40px;
+  background-color: #376193;
+}
+
+.full-name {
+  color: #376193;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 5px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.photo {
+  width: 240px;
+  border-radius: 50%;
+  margin: 0px 50px;
+}
+
+
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 0px;
+
+}
+
+.email {
+  font-size: 16px;
+  list-style-type: none;
+  line-height: 19px
+}
+
+.contacts,
+.languages {
+  border-bottom: 1px solid #376193;
+  padding-bottom: 2px;
+  font-family: Roboto;
+  color: #264061;
+  font-size: 22px;
+}
+
+.contacts-list {
+  margin: 9px 10px 9px 0px;
+  width: 300px;
+  padding-left: px;
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+  line-height: 25px;
+  display: inline-block;
+  font-family: Roboto;
+}
+
+.contacts-ul {
+  list-style-type: none;
+  margin-left: -25px;
+  margin-top: -5px;
+}
+
+.images {
+
+  width: 16px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-left: 2px;
+  vertical-align: text-bottom;
+
+}
+
+.links {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.mail {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.phone {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.languages-list {
+  margin: 9px 15px;
+  padding-left: 5px;
+  list-style-type: none;
+  color: black;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: Roboto;
+  line-height: 25px;
+}
+
+.contacts-languages {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.skills-list {
+  list-style-type: none;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  margin: 10px;
+}
+
+.html {
+  font-size: 16px;
+  line-height: 19px;
+
+}
+
+.css {
+  font-size: 15px;
+  font-weight: 18px;
+}
+
+.git {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.js {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.experience,
+.education,
+.summary,
+.skills {
+  border-bottom: 1px solid #376193;
+  padding-bottom: 2px;
+  font-family: Roboto;
+  color: #264061;
+  font-size: 23px;
+  height: 27px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.summary-text {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.experience-block {
+  padding: 5px 10px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.position {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.company-name {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.education-block {
+  margin-top: -40px;
+  margin-left: 20px;
+}
+
+.graduate {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.university {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.working-time {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.right-side {
+  margin-top: 57px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+
+.blue-border-right-bottom {
+  height: 40px;
+  background-color: #376193;
+}

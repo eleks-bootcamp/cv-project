@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+
+.page {
+    max-width: 992px;
+    display: flex;
+}
+
+.left_side {
+    width: 35%;
+    padding: 4.35rem 2rem ;
+}
+
+.right_side {
+    width: 65%;
+    padding: 4.35rem 2rem;
+}
+
+.photo_container {
+    text-align: center;
+}
+
+.my_photo {
+    max-width: 240px;
+    border-radius: 120px;
+}
+
+.main_title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.81rem;
+}
+
+.title {
+    border-bottom: 2px solid rgba(55, 97, 147, 1);
+    font-size: 1.22rem;
+}
+
+.main_title, 
+.title {
+    color: rgba(38, 64, 97, 1);
+}
+.contacts .title_list, 
+.languages .title_list,
+.skills .title_list {
+    margin-top: 1.25rem;
+    padding-left: 1.5rem;
+}
+
+.skills .title_list {
+    columns: 4;
+    padding-left: 1.5rem;
+}
+
+.my_photo,
+.contacts,
+.languages,
+.skills,
+.experience,
+.education {
+    margin-top: 1.5rem;
+}
+
+.contacts .item,
+.languages .item,
+.description {
+    margin-top: 1rem;
+}
+
+.experience .description {
+    padding-left: 2.5rem;
+}

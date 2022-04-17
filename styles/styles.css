@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto";
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  width: 992px;
+  color: #264061;
+  display: flex;
+  flex-direction: row;
+}
+
+.wall1 {
+  width: 337px;
+  height: 40px;
+  background-color: #376193;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.name {
+  padding: 32px 77px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 29px;
+}
+
+.foto {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  margin: 25px;
+  font-size: 22px;
+  list-style-type: none;
+  color: #264061;
+  font-weight: bold;
+}
+.contacts-list {
+  list-style-type: none;
+  line-height: 2;
+}
+.cotial {
+  font-size: 13px;
+}
+
+.mail {
+  font-size: 15px;
+}
+
+hr {
+  background-color: #376193;
+  margin: 5px 0px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.skills {
+  column-count: 3;
+  font-size: 15px;
+}
+
+.wall2 {
+  width: 644px;
+  height: 40px;
+  background-color: #376193;
+}
+
+.text {
+  margin-left: 40px;
+}

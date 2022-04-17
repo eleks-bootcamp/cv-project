@@ -1,0 +1,135 @@
+html,
+body{
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto';
+}
+.CV{
+  display: flex;
+  margin: 0 auto;
+  width: 992px;
+  max-width: 100%;
+  border: 1px solid rgb(215, 207, 207);
+}
+.main-info{
+  width: 35%;
+}
+.summary-info{
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.main-title{
+  text-align: center;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 33.98px;
+  text-transform: uppercase;
+}
+.profile-photo img{
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 80%;
+  object-fit: cover;
+}
+.second-title{
+  margin-left: 20px;
+  color: #264061;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25.78px;
+  border-bottom: solid 1px #376193;
+  padding-bottom: 5px;
+}
+.contact-list{
+  list-style: none;
+  font-size: 16px;
+  line-height: 18.75px;
+}
+.contacts{
+  position: relative;
+  display: inline-block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+.contact-link{
+  text-decoration: none;
+  color: black;
+}
+.github{
+background-image: url('/icons/Vector.svg');
+}
+.linkedin{
+background-image: url('/icons/LinkedIn.svg');
+}
+.email{
+background-image: url('/icons/Email.svg');
+}
+.phone{
+  background-image: url('/icons/Phone.svg');
+}
+.languages-list{
+  list-style: none;
+}
+.language{
+  margin-bottom: 15px;
+}
+.summary-detail{
+  font-size: 15px;
+  line-height: 18px;
+  padding-left: 20px;
+  margin: 0;
+}
+.technical-list{
+  list-style: none;
+  columns: 3;
+  font-size: 16px;
+  line-height: 18.75px;
+  margin: 0;
+}
+.skills{
+flex: 33.33%;
+}
+.job-position{
+  list-style: none;
+  margin: 0;
+}
+.job-detail{
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 19px;
+}
+.spesialization{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  padding-left: 20px;
+  margin: 0;
+}
+.decoration-line{
+  height: 40px;
+
+}
+.first-line{
+  background-color:#376193;
+}
+.second-line{
+  margin-left: 20px;
+  margin-top: 30px;
+  background-color: #264061;
+}
+.unvisible{
+  background-color: transparent;
+  margin-left: 20px;
+}
+
+
+
+
+
+

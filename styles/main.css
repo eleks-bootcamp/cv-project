@@ -1,0 +1,116 @@
+.cv{
+  display: grid;
+  grid-template-columns: 347px 644px;
+  grid-gap: 1px;
+  margin: 0 auto;
+  width: 992px;
+  height: auto;
+  left: 224px;
+  right: 224px;
+  top: 0px;
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+  border-radius: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+
+a {
+  all: unset;
+}
+
+.head-style {
+  margin: auto;
+  font-size: 29px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #264061;
+}
+
+.image {
+  width: 240px;
+  height: 240;
+  border-radius: 50%;
+}
+
+.text-head {
+  font-size: 22px;
+  line-height: 26px;
+  color: #264061;
+}
+
+.text-head2 {
+  font-size: 23px;
+  line-height: 27px;
+  color: #264061;
+}
+
+.list {
+  list-style: none;
+  line-height: 15px;
+}
+
+.icons1 {
+  position: absolute;
+  left: 57px;
+  top: 474px;
+  bottom: 2.47%;
+}
+
+.icons2 {
+  position: absolute;
+  left: 57px;
+  top: 509px;
+  bottom: 2.47%;
+}
+
+.icons3 {
+  position: absolute;
+  left: 57px;
+  top: 545px;
+  bottom: 2.47%;
+}
+
+.icons4 {
+  position: absolute;
+  left: 57px;
+  top: 578px;
+  bottom: 2.47%;
+}
+
+.text-summary {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.ul-column {
+  list-style: none;
+  column-count: 3;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 0;
+}
+
+.job-title {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.company {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.text-education-year {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.job-university {
+  font-size: 16px;
+  line-height: 19px;
+}

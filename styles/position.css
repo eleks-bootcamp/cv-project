@@ -1,0 +1,139 @@
+.left{
+  margin: 0;
+  position: relative;
+  width: 347px;
+  height: auto;
+}
+
+.right {
+  margin-left: 1px;
+  position: relative;
+  width: 644px;
+  height: auto;
+}
+
+.Position-Contacts {
+  margin: 24px 0px 0px 33px;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.Position-Language {
+  margin: 25px 0px 0px 33px;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.Position-Summary {
+  margin: 73px 0px 0px 32px;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.Position-Skills {
+  margin: 26px 0px 0px 32px;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.Position-Experience{
+  margin: 26px 0px 0px 32px;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.Position-Education {
+  margin: 30px 0px 0px 32px;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.Position-image {
+  margin: 22px 0px 0px 54px;
+  position: relative;
+}
+
+.Position-Head {
+  margin: 32px 0px 0px 77px;
+  position: relative;
+  width: 195px;
+  height: auto;
+}
+
+.Position-Coltact-list {
+  margin: 15.5px 0px 0px 83px;
+  padding: 0;
+  position: relative;
+  height: auto;
+}
+
+.Position-Language-list {
+  padding: 0;
+  margin: 15px 0px 0px 57px;
+  position: relative;
+}
+
+.li-information{
+  margin-bottom: 19px;
+}
+
+.li-information2{
+  margin-left: 56px;
+  margin-bottom: 1px;
+  padding: none;
+}
+
+.Position-text-Summary {
+  margin: 15.5px 38px 0px 32px;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.position-ul-column {
+  margin: 15px 0px 0px 56px;
+  padding: 0;
+  position: relative;
+  height: auto;
+}
+
+.position-job-title {
+  margin: 31px 0px 0px 72px;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.position-year {
+  margin: 1px 0px 0px 72px;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.position-job {
+  margin: 19px 0px 0px 72px;
+  position: relative;
+  width: 525px;
+  height: auto;
+}
+
+.position-text-education {
+  margin: 15px 0px 0px 32px;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.position-university {
+  margin: 3px 0px 0px 32px;
+  position: relative;
+  width: auto;
+  height: auto;
+}

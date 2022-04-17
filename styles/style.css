@@ -1,0 +1,122 @@
+.cv {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 990px;
+  height: auto;
+  background-color: whitesmoke;
+  border: 1px solid #D3D3D3;
+}
+
+
+.text-style {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+
+.cv-left {
+  width: 35%;
+  height: auto;
+}
+
+.cv-right {
+  width: 65%;
+  height: auto;
+}
+
+.cv-rektangle {
+  margin: 0;
+  height: 40px;
+  width: auto;
+  background-color: rgb(40, 116, 40);
+}
+
+.color-body {
+  background-color: whitesmoke;
+}
+
+.cv-block {
+  position: relative;
+  margin-bottom: 24px;
+  padding: 0;
+  width: auto;
+  height: auto;
+}
+
+.cv-name {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #264061;
+}
+
+.cv-head {
+  font-size: 1.5rem;
+  margin-left: 33px;
+  margin-right: 33px;
+  color: #264061;
+  border-bottom: #264061 solid 1px;
+}
+
+
+.cv-text {
+  margin-left: 33px;
+  margin-right: 33px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.image {
+  margin: 0 auto;
+  display: block;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+.contacts-github {
+  list-style-image: url('../image/Vectorgit.png');
+}
+
+.contacts-linkedin {
+  list-style-image: url('../image/Vectorln.png');
+}
+
+.contacts-mail {
+  list-style-image: url('../image/Vectormail.png');
+}
+
+.contacts-phone {
+  list-style-image: url('../image/Vectorphone.png');
+}
+
+.list-after {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.list-withoutafter {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.cv-list {
+  box-sizing: border-box;
+  padding: 0;
+  margin-left: 80px;
+}
+
+.cv-skills {
+  list-style: none;
+  column-count: 3;
+  font-size: 1rem;
+  padding-left: 45px;
+}
+
+.cv-experience {
+  list-style: none;
+  padding-left: 45px;
+  font-size: 1rem;
+}

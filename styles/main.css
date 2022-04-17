@@ -1,0 +1,165 @@
+/* Common */
+
+.cv {
+  position: absolute;
+  display: flex;
+  border: 1px solid #D3D3D3;
+  width: 992px;
+  height: 947px;
+  left: 224px;
+  top: 0px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  justify-content: space-between;
+}
+
+.left-side .decorative-block {
+  width: 347px;
+  height: 40px;
+}
+
+.right-side .decorative-block {
+  width: 644px;
+  height: 40px;
+}
+
+.bg-blue-100 {
+  background: #376193;
+}
+
+.bg-blue-200 {
+  background: #264061;
+}
+
+/* Left-side */
+
+.my-name {
+  text-align: center;
+  margin-top: 10%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  text-transform: uppercase;
+  color: #264061;
+}
+
+.photo-box {
+  margin-top: 5%;
+  width: 240px;
+  height: 240px;
+  align-self: center;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+}
+
+.contacts-section {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.contacts-list {
+  list-style-type: none;
+}
+
+.lang-section {
+  margin-left: 10%;
+}
+
+.contacts-list,
+.lang-list {
+  list-style-type: none;
+  margin-left: -5%;
+}
+
+.contacts-list a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contacts-list li {
+  margin-top: 5%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+
+.lang-list li {
+  margin-top: 5%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+
+h3 {
+  margin-right: 15%;
+  border-bottom: 1px solid #376193;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #264061;
+}
+
+/* Right-side */
+
+.right-side h3 {
+  margin-left: 5%;
+}
+
+.summary-title {
+  margin-top: -3%;
+}
+
+.summary-text, .education-text {
+  margin-left: 5%;
+  margin-right: 15%;
+}
+
+.skills-list {
+  list-style-type: none;
+  columns: 3;
+  margin-left: 3%;
+}
+
+.experience-list {
+  list-style-type: none;
+  margin-left: 5%;
+  margin-right: 15%;
+  margin-top: 7%;
+}
+.experience-list li {
+  margin-bottom: 5%;
+}
+.summary-text, .alma-mater, .skills-list, .experience-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.experience-position, .graduation {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}

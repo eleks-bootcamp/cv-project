@@ -129,7 +129,8 @@ h3 {
   margin-top: -3%;
 }
 
-.summary-text, .education-text {
+.summary-text,
+.education-text {
   margin-left: 5%;
   margin-right: 15%;
 }
@@ -146,17 +147,24 @@ h3 {
   margin-right: 15%;
   margin-top: 7%;
 }
+
 .experience-list li {
   margin-bottom: 5%;
 }
-.summary-text, .alma-mater, .skills-list, .experience-description {
+
+.summary-text,
+.alma-mater,
+.skills-list,
+.experience-description {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: #000000;
 }
-.experience-position, .graduation {
+
+.experience-position,
+.graduation {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;

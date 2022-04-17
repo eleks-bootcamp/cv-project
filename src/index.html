@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV | Vowk Valentyn</title>
-    <link rel="icon" href="./icons/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV | Vowk Valentyn</title>
+  <link rel="icon" href="./icons/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
   <main class="cv">
-    <section class="comunication">
-      <div class="rectangle"></div>
+    <div class="cv__left-side">
+      
+      <div class="cv__rectangle top"></div>
 
-      <h1 class="full-name">Valentyn <br> Vowk</h1>
+      <div class="cv__section full-name">
+        <h2 class="cv__main-title">VOWK <br> VALENTYN</h2>
 
-      <img class="photo" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="User">
+        <img class="cv__photo" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="User">
+      </div>
 
-      <div class="social">
-        <h3 class="title">Contacts</h3>
+      <div class="cv__section contacts">
+        <h2 class="cv__title contacts">Contacts</h2>
 
-        <hr>
-
-        <ul class="contacts-list">
+        <ul class="cv__contacts-list">
           <li>
             <img src="./icons/github.svg" alt="Github">
-            <a href="https://github.com/Valentyn232" target="_blank" class="contacts-link">Valentyn232</a>
+            <a href="https://github.com/Valentyn232" target="_blank" class="cv__contacts-link">Valentyn232</a>
           </li>
           <li>
             <img src="./icons/linkedin.svg" alt="Linkedin">
-            <a href="https://www.linkedin.com/in/valentyn-vowk-349047236/" target="_blank" class="contacts-link">Valentyn Vowk</a>
+            <a href="https://www.linkedin.com/in/valentyn-vowk-349047236/" target="_blank" class="cv__contacts-link">Valentyn Vowk</a>
           </li>
           <li>
             <img src="./icons/e-mail.svg" alt="E-mail">
@@ -44,29 +44,29 @@
         </ul>
       </div>
 
-      <div class="languages">
-        <h3 class="title">Language</h3>
+      <div class="cv__section languages">
+        <h2 class="cv__title languages">Languages</h2>
 
-        <hr>
-
-        <ul class="languages-list">
-          <li>
+        <ul class="cv__languages-list">
+          <li class="cv__languages-list-item">
             Ukaine
           </li>
-          <li>
+          <li class="cv__languages-list-item">
             English(basic)
           </li>
         </ul>
-        </div>
-    </section>
 
-    <section class="about">
-      <div class="summary">
-        <h3 class="title">Summary</h3>
+      </div>
 
-        <hr>
+    </div>
 
-        <ul class="summary-list">
+    <div class="cv__right-side">
+      <div class="cv__rectangle invisible"></div>
+
+      <div class="cv__section summary">
+        <h2 class="cv__title summary">Summary</h2>
+
+        <ul class="cv__summary-list">
           <li>
             I'm 13 years old and I'm studying programming
           </li>
@@ -82,36 +82,39 @@
         </ul>
       </div>
 
-      <div class="Skills">
-        <h3 class="title">Skills</h3>
+      <div class="cv__section skills">
+        <h2 class="cv__title">Skills</h2>
 
-        <hr>
-
-        <span>HTML</span>
-
-        <span>CSS</span>
-
-        <span>Git</span>
+        <ul class="cv__skills-list">
+          <li>
+            HTML
+          </li>
+          <li>
+            CSS
+          </li>
+          <li>
+            Git
+          </li>
+        </ul>
       </div>
 
-      <div class="experience">
-        <h3 class="title">Experience</h3>
+      <div class="cv__section experience">
+        <h2 class="cv__title">Experience</h2>
 
-        <hr>
-
-        <p>I have no experience now</p>
+        <ul class="cv__experience-list">
+          <li>
+            Courses from Eleks <br> <span class="cv__dates">March 2022 - for now</span>
+          </li>
+        </ul>
       </div>
 
-      <div class="education">
-        <h3 class="title">Education</h3>
+      <div class="cv__section education">
+        <h2 class="cv__title">Education</h2>
 
-        <hr>
-
-        <p>Dolyna, Lyceum No. 5</p>
+        <p class="cv__my-education">Dolyna, Lyceum No. 5</p>
       </div>
 
-      <div class="rectangle end"></div>
-    </section>
-  </main>
+      <div class="cv__rectangle bottom"></div>
+    </div>
 </body>
 </html>

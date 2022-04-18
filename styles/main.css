@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --var-color-title: #264061;
+    --var-color-text: #000000;
+    --var-color-border-bottom: #376193;
+}
+
+.wrap {
+    width: 80%;
+    min-height: 50vh;
+    border: 1px solid #D3D3D3;
+    display: flex;
+    margin: 0 auto;
+}
+
+/*--------------------------wrap-first---------------------------------------*/
+.wrap-first {
+    width: 33%;
+    text-align: center;
+}
+
+.wrap-first-top{
+    width: 100%;
+    height: 1.8rem;
+    background: var(--var-color-border-bottom);
+}
+
+.wrap-first-name_foto > h1 {
+    color: var(--var-color-title);
+    margin-bottom: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.8vw;
+    line-height: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+}
+
+.wrap-first-name_foto > img {
+    width: 18vw;
+    height: 18vw;
+    border-radius: 9vw;
+}
+
+.wrap-info {
+    margin: 24px 33px 19px 33px;
+}
+
+.wrap-info-title {
+    border-bottom: 1px solid var(--var-color-border-bottom);
+    margin-bottom: 18px;
+    color: var(--var-color-title);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 26px;
+    text-align: start;
+}
+
+.wrap-info-lang-ul > li {
+    color: var(--var-color-text);
+    text-align: start;
+    margin: 0 0 0 24px;
+}
+
+.wrap-info-lang-ul > .wrap-info-margin {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--var-color-text);
+}
+
+.wrap-info-margin > img {
+    width: 1.1rem;
+    margin-right: 4px;
+}
+
+/*--------------------------------wrap-second---------------------------------*/
+.wrap-second {
+    width: 67%;
+}
+
+.size {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.list-style {
+    list-style: none;
+}
+
+/*--------------------------------Summary-------------------*/
+
+.wrap-first-about_me {
+    color: var(--var-color-text);
+    text-align: start;
+}
+
+/*-------------------------------------Skills--------------------------------*/
+.margin-top {
+    margin-top: 4.7rem;
+}
+
+.wrap-info-skills {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 150px;
+    margin: 0 0 0 2rem;
+}
+
+.wrap-info-skills > li {
+    color: var(--var-color-text);
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+/*-------------------------------Experience-------------------------*/
+.wrap-info-Experience {
+    margin: 0 0 0 2rem;
+}
+
+.wrap-info-Experience > li {
+    color: var(--var-color-text);
+    margin-bottom: 1rem;
+}
+
+
+/*------------------------------Education-----------------------------------*/
+
+.wrap-info-Education > li {
+    color: var(--var-color-text);
+    margin-bottom: 1rem;
+}

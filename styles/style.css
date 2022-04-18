@@ -1,0 +1,110 @@
+.list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #264061;
+}
+
+.left {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    left: 105px;
+    top: 400px;
+}
+
+.right {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 500px;
+    top: 73px;
+}
+
+.rightbox {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #264061;
+}
+
+.undercontact {
+    position: absolute;
+    width: 282.5px;
+    height: 1px;
+    left: 0px;
+    top: 50px;
+}
+
+.undercontact2 {
+    position: absolute;
+    width: 282.5px;
+    height: 1px;
+    left: 0px;
+    top: 243px;
+}
+
+.Me {
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 0px;
+    top: 47px;
+}
+
+.kills {
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 0px;
+    top: 170px;
+}
+
+.work {
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 0px;
+    top: 327px;
+}
+
+.edu {
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 0px;
+    top: 430px;
+}
+
+.bigup {
+    position: absolute;
+    width: 347px;
+    height: 40px;
+    left: 80px;
+    top: 1px;
+    background: #376193;
+    border-radius: 0px;
+}
+
+.bigend {
+    position: absolute;
+    width: 520px;
+    height: 40px;
+    left: 465px;
+    top: 890px;
+    background: #264061;
+    border-radius: 0px;
+}

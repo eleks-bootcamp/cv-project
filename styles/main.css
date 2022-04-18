@@ -1,0 +1,110 @@
+/* Colors */
+
+:root {
+  --blue-light: #376193;
+  --blue-dark: #264061;
+  --light-grey: #d3d3d3;
+  --white: #fff;
+}
+
+.blue-light {
+  background-color: var(--blue-light);
+}
+
+.blue-dark {
+  background-color: var(--blue-dark);
+}
+
+/* CV */
+.cv {
+  width: 992px;
+  min-height: 100%;
+  max-height: 1544px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  /* border: 1px solid var(--light-grey); */
+  background: var(--white);
+  box-sizing: border-box;
+}
+
+/* Column-Left-side */
+
+.cv-column-left-side {
+  width: 40%;
+  height: 100%;
+}
+
+.cv-side-content {
+  padding: 1.5em;
+}
+
+.cv-full-name {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: var(--blue-dark);
+}
+
+.cv-image {
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  overflow: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.cv-image-adjustment {
+  width: 240px;
+}
+
+.cv-contacts-icon {
+  margin-right: 0.5rem;
+}
+
+/* Column-Right-side */
+
+.cv-column-right-side {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cv-summary-text {
+  padding-left: 1rem;
+}
+
+.cv-skills {
+  columns: 2;
+}
+
+.cv-section-education {
+  margin-bottom: 0;
+}
+
+/* CV Common */
+
+.cv-section {
+  margin-bottom: 1.5rem;
+}
+
+.cv-section-title {
+  color: var(--blue-dark);
+  border-bottom: 2px solid var(--blue-dark);
+  padding-bottom: 0.3rem;
+}
+
+.cv-section-list {
+  padding-left: 1rem;
+  list-style-type: none;
+}
+
+.cv-rectangle {
+  height: 40px;
+  width: 100%;
+}

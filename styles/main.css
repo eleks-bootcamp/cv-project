@@ -1,0 +1,54 @@
+body {background: rgb(202, 230, 225);}
+.head {color:darkblue; font: tahoma;}
+.contacts {border-top: solid 40px;
+  text-align: center;
+  border-color: rgb(43, 83, 152);
+  width: 400px;
+
+
+}
+.cv1 { border-left:  solid 1px;
+  border-bottom: solid 1px;
+  border-right: solid 1px;
+  border-color: rgba(51, 43, 50, 0.45);
+  justify-content: space-between;
+  display: flex;
+}
+
+.picture {width: 150px; border-radius: 50%; height: 200px;
+text-align: left;}
+.cv {
+  background: white;
+  width: 60%;
+  padding: 0px 60px 0px 60px;
+  margin: 50px auto;
+}
+.cont {text-align: left;
+font-size: 22px;
+     padding-left: 20px;
+     width: 300px;
+
+   }
+
+.els {
+  padding: 60px;
+  width: 700px;
+  font-size: 22px;
+}
+.zagol {
+  font-size: 32px;
+  color: rgb(17, 103, 184);
+  border-bottom: solid 2px;
+  border-color: rgb(17, 103, 184);
+  width: 90%;
+}
+.foo {border-bottom:  solid 40px;
+  padding-top: 40px;
+  width: 500px;
+  border-color: rgb(43, 83, 152);
+margin-left: 380px;
+padding-right:  20px;
+}
+.pos {text-decoration: none;
+color: rgb(149, 56, 142);
+border: solid 1px}

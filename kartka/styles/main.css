@@ -13,13 +13,13 @@ border-color: rgb(89, 79, 143);}
 .picture {text-align: center;
 padding-top: 15px}
 .butt {
-  width: 70px;
+  width: 85px;
   height: 30px;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-right: 0px;
-  padding-top: 5px;
+  padding-top: 7px;
   padding-bottom: 5px;
-font-size: 22px;
+font-size: 25px;
   background: rgb(95, 23, 97);
   margin-left: 25px;
   margin-top: 25px;
@@ -31,13 +31,17 @@ border-radius: 8%;
   padding-right:  15px;
  font-size: 24px;
  font-family: tahoma}
-  .text {text-align: justify;
+ .text {text-align: justify;
     padding-left: 15px;
     padding-right: 15px;
   padding-top: 35px;
 font-size: 18px;
 font-family: arial}
-.picture2 {width: 25px; height: 25px;
+.picture2 {width: 30px; height: 30px;
+  position: absolute;
+  padding-left: 7px;
+top: 237px;
+
 }
 .foo {text-align: center;
   height: 50px;

@@ -1,0 +1,71 @@
+.cv
+{
+    background-color: whitesmoke;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid var(--grey-100);
+    display: flex;
+    justify-content: space-between;
+}
+.sv-block
+{
+    margin-bottom: 2rem;
+}
+
+.left
+{
+    width: 30%;
+}
+
+.right
+{
+    width: 65%;
+}
+
+.my-foto
+{
+    margin: 20px; 
+}
+
+.foto
+{
+    width: 85%;
+    border-radius: 50%;
+    margin-left: 10%; 
+}
+
+.skills-list
+{
+    column-count:3;
+}
+
+.head
+{
+    text-align: center;
+    color: rgb(31, 31, 94);
+    font-size: 1,5rem;
+    margin-bottom: 1,5rem;
+    border-bottom: 1px solid rgb(31, 31, 94);
+}
+
+h1
+{
+    color: rgb(31, 31, 94);
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 20px;
+}
+
+.sv-deco
+{
+    background-color: rgb(31, 31, 94);
+    width: 100%;
+    height: 7%;
+}
+
+.sv-deco-r
+{
+margin-bottom: 7%;
+}

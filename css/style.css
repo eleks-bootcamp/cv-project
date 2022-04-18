@@ -1,0 +1,59 @@
+.cv {
+  display: flex;
+  width: 992px;
+  min-height: 447px;
+  margin: 0 auto;
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+}
+.cv-side-left {
+  width: 35%;
+  height: 100%;
+}
+.cv-side-right {
+  display: flex;
+  flex-direction: column;
+}
+.cv-section {
+  margin-bottom: 1.5rem;
+}
+.cv-side-content {
+  padding: 0rem 2rem 2rem 2rem;
+}
+.cv-full-name {
+  text-align: center;
+  color: #264061;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+.my-photo {
+  border-radius: 50%;
+  width: 100%;
+}
+.cv-section-title {
+  color: #264061;
+  border-bottom: 1px solid  #376193;
+  margin-bottom: 1.5rem;
+
+}
+.cv-skill-list {
+  columns: 3;
+}
+.cv-box {
+  height: 40px;
+  width: 100%;
+}
+.box-up {
+  background: #376193;
+}
+.box-down {
+  background: #264061;
+  margin-top: 67px;
+}
+.box-none {
+ color: none;
+}
+ul {
+  list-style-type: none;
+}

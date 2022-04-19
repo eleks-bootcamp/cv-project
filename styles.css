@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+
+.cv {
+    width: 992px;
+    min-height: 100%;
+    max-height: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid #D3D3D3;
+}
+
+.cv-section {
+    margin-right: 1.5rem;
+    margin-left: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left-block {
+    background-color: #FFFFFF;
+    width: 35%;
+    height: 100%;
+}
+
+.cv-photo img {
+    clip-path: circle();
+    background: lightgray;
+    width: 240px;
+    height: 240px;
+    margin-left: 22px;
+    margin-top: 24px;
+}
+
+.cv-section-title {
+    color: #264061;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 24px;
+}
+
+.cv-full-name {
+    text-align: center;
+    font-size: 29px;
+    line-height: 33.98px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 32px;
+}
+
+.cv-contacts-list {
+    padding-left: 1.5rem;
+    list-style: none;
+}
+
+.cv-contacts-list li {
+    padding-left: 1rem;
+    font-size: 13px;
+    padding-bottom: 1rem;
+}
+
+.cv-languages-list {
+    padding-left: 1.5rem;
+    list-style: none;
+}
+
+.cv-languages-list li {
+    padding-left: 1rem;
+    font-size: 15px;
+    padding-bottom: 0.8rem;
+}
+
+.cv-languages-list li:last-child {
+    padding-bottom: 0;
+}
+
+.cv-skills-list {
+    columns: 1;
+    /* padding: 1.5rem; */
+    padding-left: 24px;
+    font-size: 15px;
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.right-block {
+    background-color: #FFFFFF;
+    width: 65%;
+    height: 100%;
+}
+
+.blue-box1 {
+    height: 40px;
+    width: 100%;
+    background-color: #264061;
+}
+
+.blue-box2 {
+    height: 40px;
+    width: 100%;
+    background-color: #264061;
+    margin-top: 198px;
+}
+
+.separator-line {
+    border: 0;
+    border-top: 1px solid #376193;
+    margin-top: 0;
+}
+
+.cv-contacts-list li svg {
+    padding-right: 5px;
+}
+
+.cv-contacts-list li a {
+    vertical-align: top;
+    text-decoration: none;
+    color:black;
+}
+
+.cv-contacts-list li a:visited { text-decoration: none; color:black; }
+.cv-contacts-list li a:focus { text-decoration: none; color:black; }

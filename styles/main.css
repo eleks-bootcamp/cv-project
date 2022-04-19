@@ -1,0 +1,150 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  all: unset;
+}
+
+.cv {
+  display: flex;
+  width: 993px;
+  min-height: 100%;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+}
+
+.cv-left-column {
+  width: 35%;
+  height: 100%;
+}
+
+.decoration-block {
+  height: 40px;
+  width: 100%;
+}
+
+.blue-top {
+  background: #376193;
+}
+
+.blue-bottom{
+  background: #264061;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #264061;
+}
+
+.title-text {
+  margin-left: 33px;
+  font-size: 22px;
+  border-bottom: 1px solid #376193;
+  margin-bottom: 16px;
+}
+
+.basic-text{
+  font-size: 15px;
+  color: #000000;
+  padding-left: 32px;
+}
+
+.full-name {
+  margin-top: 32px;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.photo {
+  margin-left: 54px;
+  width: 240px;
+  height: 240px;
+  border-radius: 120px;
+  background: #D3D3D3;
+}
+
+.list {
+  list-style: none;
+  padding-left: 33px;
+}
+
+.contacts-list li {
+  padding-bottom: 20px;
+  padding-left: 47px;
+}
+
+.photo-git:before {
+  content: url(/img/github.png);
+  position: absolute;
+  left: 320px;
+}
+
+.photo-linkedin:before {
+  content: url(/img/linkedin.png);
+  position: absolute;
+  left: 320px;
+}
+
+.photo-email:before {
+  content: url(/img/meil.png);
+  position: absolute;
+  left: 320px;
+}
+
+.photo-phone:before {
+  content: url(/img/tel.png);
+  position: absolute;
+  left: 320px;
+}
+
+.languages-list li {
+  padding-left: 25px;
+  padding-bottom: 20px;
+}
+
+.cv-right-column {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.side{
+  padding: 32px;
+}
+
+.skills-list{
+  columns: 3;
+  list-style: none;
+  padding-left: 56px;
+}
+
+.course-list{
+  padding-left: 72px;
+}
+
+.course-list li{
+  padding-bottom: 20px;
+}

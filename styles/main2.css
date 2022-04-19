@@ -1,0 +1,172 @@
+.rectangle {
+    width: 992px;
+    height: 1002px;
+    margin: 0 auto;
+
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.rectangle-blue-color {
+    background: #376193;
+    border-radius: 0px;
+}
+
+.top-line {
+    width: 347px;
+    height: 40px;
+    top: 1px;
+}
+
+.info-block {
+    display: flex;
+    height: 867px;
+}
+
+.left-block {
+    width: 347px;
+    /* height: 867px; */
+}
+
+.full-name {
+    /* top: 32px; */
+    width: 195px;
+    margin: 0 auto;
+    margin-top: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #264061;
+}
+
+.photo {
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 22px;
+
+    background:#D3D3D3;
+    border-radius: 120px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 120px;
+}
+
+h2  {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #264061;
+}
+
+.git-list-logo {
+    list-style-image: url(/pics/Vector.png);
+}
+
+.linkedin-list-logo {
+    list-style-image: url(/pics/linkedin.png)
+}
+
+.email-list-logo {
+    list-style-image: url(/pics/email.png);
+}
+
+.phone-list-logo {
+    list-style-image: url(/pics/phone.png);
+}
+
+li {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 57px;
+}
+
+a {
+    all:unset;
+}
+
+p {
+    margin: 0;
+    /* margin-top: 15px;
+    margin-left: 33px; */
+}
+
+.no-bullet {
+    list-style-type:none;
+}
+
+.lang-list {
+    padding-left: 20px;
+    /* margin-top: 16px; */
+}
+
+.list-columns {
+    column-count: 3;
+}
+
+.text   {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+}
+
+.left-block-text {
+    margin-left: 33px;
+    margin-top: 15px;
+}
+
+.titles-left {
+    margin: 0;
+    margin-left: 33px;
+    margin-top: 24px;
+    margin-right: 31px;
+    border-bottom: 1px solid #376193;
+}
+
+.expirience-text-block {
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-right: 31px;
+}
+
+.margin-19 {
+    margin-top: 19px;
+}
+
+.right-block {
+    /* margin-left: auto; */
+    /* height: auto; */
+    width: 644px;
+}
+
+.footer-line {
+    /* display: flex;
+    margin-right: 0; */
+    margin-left: auto;
+    width: 644px;
+    height: 40px;
+    bottom: 1px;
+    margin-top: 54px;
+    /* position: relative; */
+}
+

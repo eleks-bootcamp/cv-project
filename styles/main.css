@@ -1,0 +1,151 @@
+.body {
+  background-color: whitesmoke;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.cv {
+width: 800px;
+  min-height: 100%;
+
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid gray;
+  background: white;
+  box-sizing: border-box;
+}
+
+.cv-decorative-bloke {
+  height: 40px;
+  width: 100%;
+
+}
+
+.blue-bg-100 {
+  background-color: #264061;
+}
+
+.blue-bg-200 {
+  background-color: #376193;
+}
+
+.cv-section {
+  margin-bottom: 1.5rem;
+}
+
+.cv-section-title {
+  color: #376193;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid  #264061;
+}
+
+
+
+li {list-style-type: none;
+}
+
+.cv-skils-list {
+  column-count: 3;
+  padding-left: 1.5rem;
+}
+
+.cv-contact-list {
+  padding-left: 1.5rem;
+}
+
+.cv-contact-list li{
+  margin-bottom: 1rem;
+}
+
+.cv-exp-list {
+  padding-left: 1.5rem;
+}
+
+.cv-exp-list li{
+  margin-bottom: 1rem;
+}
+
+.cv-lang-list {
+  padding-left: 1.5rem;
+}
+
+.cv-lang-list li{
+  margin-bottom: 1rem;
+}
+
+.git {
+  list-style-image: url(./git.png);
+}
+
+.lin {
+  list-style-image: url(./Vector\ \(1\).png);
+}
+
+.mail {
+  list-style-image: url(./Vector\ \(2\).png);
+}
+
+.tel {
+  list-style-image: url(./Vector\ \(3\).png);
+}
+
+a {
+  all: unset;
+}
+
+.img {
+  height: 240px;
+  width: 240px;
+  border-radius: 100%;
+}
+
+
+
+.cv-full-name {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: #376193;
+
+}
+
+.cv-side-contest {
+  padding: 2rem;
+}
+
+.cv-left-side {
+  width: 35%;
+  height: 100% ;
+}
+
+.right-side {
+  width: 65%;
+  height: 100% ;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

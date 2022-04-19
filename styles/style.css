@@ -1,0 +1,14 @@
+body {
+    background: darkolivegreen;
+    color: black;
+  }
+  p {
+    background: oldlace;
+    color: black;
+  }
+
+
+  .list {
+    border: 4px solid orangered;
+    color: rgb(0, 0, 0);
+  }

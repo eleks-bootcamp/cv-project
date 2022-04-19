@@ -1,21 +1,43 @@
+.color-blue-100 {
+    background-color: #376193;
+}
+
+.color-blue-200 {
+    background-color: #264061;
+}
+
+.color-main-content {
+    background-color: whitesmoke;
+}
+
+.color-text-title {
+    color: #264061;
+}
+
 body {
-    position: absolute;
-    width: 992px;
-    height: 947px;
-    left: 224px;
-    top: 0px;
-    background: #FFFFFF;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
 }
 
 main {
+    width: 992px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-section {
     width: 347px;
 }
 
-.author-name {
-    color: #376193;
+.decor-block-top {
+    width: 347px;
+    height: 40px;
+}
+
+.ful-name {
+    margin-top: 32px;
+    text-align: center;
     font-size: 29px;
     line-height: 34px;
     text-align: center;
@@ -23,76 +45,88 @@ main {
 }
 
 .author-foto {
+    margin: 22px 54px;
     width: 240px;
-    margin-left: 54px;
     border-radius: 120px;
 }
 
 .title {
-    margin: 32px 33px 0 33px;
-    color: #264061;
+    border-bottom: 1px solid #376193;
+    margin: 0 33px;
     font-size: 22px;
     line-height: 26px;
-    border-bottom: 1px solid #376193;
+    font-weight: 600;
 }
 
-
-.contacts-list,
+.contact-list,
 .languages-list {
-    list-style: none;
-    margin-left: 4px;
+    margin: 15px 57px;
 }
 
-.contacts-list li,
+.contact-list li,
 .languages-list li {
-    margin-bottom: 19px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 17px;
 }
 
-.contacts-list :nth-last-child(4) {
-    background: url(../img/icon/icon_github.png) no-repeat 0 4px;
-    padding-left: 24px;
+.contact-list a {
+    color: black;
 }
 
-.contacts-list :nth-last-child(3) {
-    background: url(../img/icon/icon_linkedin.png) no-repeat 0 4px;
-    padding-left: 24px;
-}
-
-.contacts-list :nth-last-child(2) {
-    background: url(../img/icon/icon_mail.png) no-repeat 0 4px;
-    padding-left: 24px;
-}
-
-.contacts-list :nth-last-child(1) {
-    background: url(../img/icon/icon_phone.png) no-repeat 0 4px;
-    padding-left: 24px;
-}
-
-aside {
-    position: absolute;
-    left: 348px;
-    top: 0px;
+.right-section {
     width: 644px;
+    min-height: 3000px;
+    font-size: 16px;
+    line-height: 19px;
 }
 
-.textcols-item {
-    display: inline-block;
-    width: 30%;
+.summary {
+    margin-top: 32px;
 }
 
-.wrap {
-    padding-left: 42px;
+.summary p {
+    margin: 18px 0 0 32px;
 }
 
-.educetion {
-    font-size: 14px;
+.skills {
+    margin-top: 26px;
 }
 
-.summary p,
-.educetion p {
-    margin-left: 33px;
+.skills-list {
+    margin-left: 57px;
+    margin-top: 15px;
+    columns: 3;
+
 }
 
-.text-wrap p {
-    padding-left: 63px;
+.experience {
+    margin-top: 24px;
+}
+
+.experience p {
+    margin-top: 15px;
+    margin-left: 72px;
+
+}
+
+.education {
+    margin-top: 30px;
+}
+
+.education p {
+    margin-top: 15px;
+    margin-left: 32px;
+}
+
+.decor-block-hiden {
+    width: 644px;
+    height: 40px;
+}
+
+.decor-block-bottom {
+    width: 644px;
+    height: 40px;
+    margin-top: 200px;
+ 
 }

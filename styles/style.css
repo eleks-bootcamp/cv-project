@@ -64,7 +64,7 @@ body {
   width: 16px;
   height: 16px;
   display: inline-block;
-  background-image: url("/img/githab.png");
+  background-image: url(https://github.com/MyroslavLeshchuk/cv-project/blob/master/img/githab.png?raw=true);
   background-size: auto;
   background-repeat: no-repeat;
   list-style-position: outside;
@@ -79,7 +79,7 @@ li {
   width: 16px;
   height: 16px;
   display: inline-block;
-  background-image: url("/img/linkedin.png");
+  background-image: url(https://github.com/MyroslavLeshchuk/cv-project/blob/master/img/linkedin.png?raw=true);
   background-size: auto;
   background-repeat: no-repeat;
   list-style-position: outside;
@@ -92,7 +92,7 @@ li {
   width: 16px;
   height: 16px;
   display: inline-block;
-  background-image: url("/img/telegram-logo.png");
+  background-image: url(https://github.com/MyroslavLeshchuk/cv-project/blob/master/img/telegram-logo.png?raw=true);
   background-size: 16px 16px;
   background-repeat: no-repeat;
   list-style-position: outside;
@@ -105,7 +105,7 @@ li {
   width: 16px;
   height: 16px;
   display: inline-block;
-  background-image: url("/img/phone.png");
+  background-image: url(https://github.com/MyroslavLeshchuk/cv-project/blob/master/img/phone.png?raw=true);
   background-size: auto;
   background-repeat: no-repeat;
   list-style-position: outside;
@@ -118,7 +118,7 @@ li {
   width: 16px;
   height: 16px;
   display: inline-block;
-  background-image: url("/img/email.png");
+  background-image: url(https://github.com/MyroslavLeshchuk/cv-project/blob/master/img/email.png?raw=true);
   background-size: auto;
   vertical-align: middle;
   margin-right: 10px;

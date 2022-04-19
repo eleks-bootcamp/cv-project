@@ -44,3 +44,7 @@ li {
 .languages {
     padding-left: 20px;
 }
+.cv {
+    margin: 0 auto;
+    width: 50vw;
+}

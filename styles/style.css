@@ -68,6 +68,8 @@ body {
   background-size: auto;
   background-repeat: no-repeat;
   list-style-position: outside;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 li {
   padding: 5px;
@@ -81,6 +83,8 @@ li {
   background-size: auto;
   background-repeat: no-repeat;
   list-style-position: outside;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .cv-contacts li:nth-child(3)::before {
@@ -92,6 +96,8 @@ li {
   background-size: 16px 16px;
   background-repeat: no-repeat;
   list-style-position: outside;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .cv-contacts li:nth-child(4)::before {
@@ -103,6 +109,8 @@ li {
   background-size: auto;
   background-repeat: no-repeat;
   list-style-position: outside;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .cv-contacts li:nth-child(5)::before {
@@ -113,9 +121,10 @@ li {
   background-image: url("/img/email.png");
   background-size: auto;
   vertical-align: middle;
+  margin-right: 10px;
   background-repeat: no-repeat;
   list-style-position: outside;
-  margin-right: 10px;
+  
 }
 .cv-languages {
   font-family: "Roboto", sans-serif;

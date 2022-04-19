@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+
+
+<html>
+<head>
+  <!--
+    comment
+  -->
+  <meta charset="UTF-8">
+  <title>CV | Ostap Bedrylo</title>>
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/main.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    .body {
+      height: 100%;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      background: whitesmoke;
+    }
+    
+    .cv {
+      width: 800px ;
+      height: 100%;
+      max-height: 1200px;
+      background: white;
+      font-family: "Roboto";
+      margin: 0 auto;
+      border: 1px solid lightgrey;
+      display: flex;
+    }
+    
+    .leftside{
+      width: 35%;
+      height: 100%;
+      /*background: red;*/
+      /*float: left;*/
+      display: flex;
+      flex-direction: column;
+    }
+
+    .deco-block{
+      border: 0;
+      width: 100%;
+      height: 2.5%;
+      min-height: 40px;
+      background: #376193;
+    }
+
+    h1{
+      color: #264061;
+      text-align: center;
+      font-size: 2rem;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .main-photo {
+                              
+      width: 240px;
+      height: 240px;
+      
+      margin: 0 auto;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+    }
+
+    .group_name{
+      color: #264061;
+      font-size: 1.5rem;
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-bottom: 0;
+      margin-top: 0;
+      border-bottom: 1px solid #376193;
+
+      /*text-align: left;*/
+
+    }
+
+    .rightside{
+      width: 65%;
+      height: 100%;
+      /*background: red;*/
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    .left_list{
+      font-size: 1rem;
+      text-align: left;
+      margin-left: 10px;
+      margin-bottom: 1rem;
+      
+    }
+
+    .right-text-block {
+      margin-left: 30px;
+      margin-top: 1rem;
+      margin-right: 30px;
+      margin-bottom: 1rem;
+    }
+    
+    .right-text-block2  {
+      margin-left: 10px;
+      margin-top: 0.5rem;
+      margin-right: 30px;
+      margin-bottom: 1rem;
+    }
+
+    .ulcount3 {
+
+      column-count: 3;
+      list-style: none;
+      margin: 0;
+    }
+
+    .respons{
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+
+  
+    .ul_skills {
+      list-style: none;
+      column-count: 3;
+    }
+*/
+
+  </style>
+</head>
+<body>
+  <div class="cv">
+    <div class="leftside">
+      <div class="deco-block"></div>
+      <h1>
+        Ostap
+        <br> Bedrylo
+      </h1>
+      <div class="main-photo">
+        <img src="./MyPhoto.jpg" alt="photo">
+      </div>
+          
+      <div class="group_name">Contacts</div>
+
+      <div  class="left_list">
+        <ul style="list-style: none"> 
+          <li><a href="https://github.com/OstapBedrylo">OstapBedrylo</a> </li>
+          <li><a href="https://www.linkedin.com/in/ostap-b-19245556/">ostap-b-19245556</a> </li>
+          <li>ua.ostap@gmail.com</li>
+          <li>+38 067-773-7227</li>
+          <li>+38 063-27-26-234</li>
+        </ul>
+        
+      </div>
+
+      <div class="group_name">Languages</div>
+
+      <div  class="left_list">
+        <ul>  
+          <li>Ukrainian - native</li>
+          <li>English - upper int.</li>
+          <li>German - with vocab.</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+
+    <div class="rightside">
+
+      <div class="deco-block" style="background: white; height: 65px;"></div>
+
+      <div class="group_name">Goal</div>
+
+      <div class="right-text-block">Frontend developer. Starting from junior)</div>
+       
+      <div class="group_name">General info</div>
+
+      <div class="right-text-block2">
+        <ul style="list-style: none">
+          <li>Nationality:    Ukrainian</li>
+          <li>Age:	          35</li>
+          <li>Family:         wife, 3 childs (8, 3, 0 years)</li>
+        </ul>
+      </div>
+
+      <div class="group_name">Technologies Im studying now</div>
+
+      <div class="right-text-block2">
+        <ul class="ul_skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git</li>
+          <li>JavaScript</li>
+          <li>React</li>
+
+        </ul>
+      </div>  
+
+        <div class="group_name">Experience</div>
+
+        <ul class="left_list" >
+          <li>position
+            <br>date
+            <br><p class="respons">responsibilities
+                </p>
+          </li>
+
+          <li>position
+            <br>date
+            <br><p class="respons">responsibilities
+                </p>
+          </li>
+
+          <li>position
+            <br>date
+            <br><p class="respons">responsibilities
+                </p>
+          </li>
+
+        </ul>
+
+        <div class="group_name">Education</div>
+
+        <div class="right-text-block2">
+          <ul style="list-style: none">
+            <li>2022 - Eleks front-end courses</li>
+            <li>2008 – master's degree of Economical Cybernetics</li>
+          </ul>
+        </div>
+
+        <div class="group_name">Hobbys</div>
+
+        <div class="right-text-block">tourism, hiking, skiing</div>
+
+        <div class="deco-block"></div>
+    </div>
+
+  </div>
+</body>
+</html>

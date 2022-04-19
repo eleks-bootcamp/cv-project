@@ -1,0 +1,106 @@
+.wrapper{
+    max-width: 992px;
+    margin: 0 auto;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-sizing: border-box;
+    border-radius: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;  
+}
+/* Left Side*/
+.cv-emptybox-left{
+    width: 347px;
+    height: 40px;
+    background: #376193;
+    border
+}
+
+.cv-name{
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #264061;
+}
+
+.cv-photo{
+    max-width: 240px;
+    border-radius: 50%;
+    margin-left: 54px;
+    margin-top: 22px;
+}
+
+.cv-contacts,
+.cv-languages{
+    margin:24px 33px 0px;
+}
+
+.cv-contacts,
+.cv-languages,
+.cv-right-summary,
+.cv-right-skills,
+.cv-right-experience,
+.cv-right-education{
+    font-size: 22px;
+    line-height: 26px;
+    color: #264061;
+    border-bottom: solid 1px #376193;
+}
+
+.cv-right-summary,
+.cv-right-skills,
+.cv-right-experience,
+.cv-right-education{
+    margin: 0 28px;
+}
+
+.cv-contacts-list,
+.cv-languages-list{  
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 15px;
+}
+.cv-languages-list{
+    padding-left: 50px;
+}
+
+.cv-contacts-list li,
+.cv-languages-list li{
+    padding-left: 10px;
+    margin-top: 18px;
+}
+
+/*Right side*/
+.cv-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cv-right-emptybox{
+    width: 644px;
+    height: 40px;
+    box-sizing: border-box;
+}
+.cv-right-summary{
+    margin-top: 20px;
+}
+.cv-right-skills-descr ul{
+    columns: 2;
+}
+
+.emptybox-color{
+    background: #264061;
+}
+
+.cv-right-summary-descr,
+.cv-right-skills-descr,
+.cv-right-experience-descr,
+.cv-right-education-descr{
+    padding: 0 40px;
+}

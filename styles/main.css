@@ -1,0 +1,101 @@
+.cv {
+    padding: 10px 20px;
+    color: #333;
+    width: 992px;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: 'Roboto'
+    }
+    
+    .main-content {
+        display: flex;
+    }
+    .left {
+        width: 347px;
+    }
+    
+    .top-ract {
+        height: 40px;
+        width: 347px;
+        background: #376193;
+    }
+    
+    .contacts-1 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .text-contacts {
+        margin-left: 10px;
+        color: #333;
+    }
+    
+    .buttom-ract {
+        height: 40px;
+        background: #376193;
+    
+    
+    }
+    
+    .name {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 34px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #264061;
+        }
+    
+    .photo-conteiner {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .photo {
+        width: 240px;
+    height: 240px;
+    background: #D3D3D3;
+    border-radius: 120px;
+    }
+    
+    .section-title {
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    border-bottom: 1px solid #376193;
+    padding-bottom: 3px;
+    
+    
+    color: #264061;
+    }
+    
+    .right {
+    width: 644px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    }
+    
+        
+    
+    .top-block {
+        margin-left: 32px;
+        margin-top: 45px;
+        position: absolute;
+    }
+    
+    .skills-list {
+        columns: 3;
+    }
+    
+    .job-date {
+        font-style: italic;
+    }

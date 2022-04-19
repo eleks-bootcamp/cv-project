@@ -1,4 +1,19 @@
-.body {
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  all: unset;
+}
+
+.cv {
   background: #fff;
   color: #000000;
   width: 992px;
@@ -7,12 +22,58 @@
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
+  margin: auto;
 }
 
 .left-section {
   width: 347px;
   float: left;
+  box-sizing: border-box;
+}
 
+.left-blue-block {
+  height: 40px;
+  background: #376193;
+}
+
+.title {
+  color: #264061;
+  border-bottom: 1px solid #376193;
+  font-size: 22px;
+}
+
+.cv-full-name {
+  font-size: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 32px;
+  margin-bottom: 22px;
+  border: none;
+}
+
+.cv-photo {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.left-lists {
+  line-height: 35px;
+}
+
+.list-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.cv-padding {
+  padding: 33px 33px 0 33px;;
 }
 
 .right-section {
@@ -23,12 +84,7 @@
 
 }
 
-.upper-blue-block {
-  height: 40px;
-  background: #376193;
-}
-
-.lower-blue-block {
+.right-blue-block {
   height: 40px;
   width: 644px;
   background: #264061;
@@ -37,64 +93,18 @@
 
 }
 
-.headers{
-  color: #264061;
-  border-bottom: 1px solid #376193;
-  font-size: 22px;
-}
-
-.cv-name {
-  font-size: 29px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 32px;
-  border: none;
-}
-
-.cv-image {
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-}
-
-.left-container {
-  margin: 32px 33px 0 33px;
-}
-.image-container {
-  display: flex;
-  justify-content: center;
-}
-
-.left-lists {
-  list-style: none;
-  line-height: 35px;
-}
-
- .icon {
-  width: 16px;
-  height: 16px;
-}
-
-.right-container {
-  margin: 57px 33px 0 33px;
-}
-
-.right-container .headers {
-  font-size: 23px;
-}
-
 .skills-list {
-  list-style: none;
   column-count: 3;
-  font-size: 14px;
 }
 
-.education-list {
-  list-style: none;
+.cv-cursor-pointer {
+  cursor: pointer;
 }
 
-.summary {
-  font-size: 15px;
-  line-height: 17.58px;
+.content-space {
+  margin-bottom: 24px;
 }
 
+.upper-space {
+  margin-top: 40px;
+}

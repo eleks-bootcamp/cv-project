@@ -1,0 +1,50 @@
+.left-column {
+    width: 32%;
+    border: 10px solid transparent ;
+}
+.left-column .chapters {
+    font-size: 22px;
+}
+.right-column {
+    width: 68%;
+    border: 10px solid transparent;
+}
+.right-column .chapters {
+    font-size: 23px;
+}
+body {
+    
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+.full-name {
+    text-align: center;
+    font-size: 29px;
+}
+.photo {
+    align-items: center;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+.skills {
+    width: 580px;
+    height: 54px;
+}
+.chapters {
+    border-bottom: 3px solid #376193;
+    }
+li {
+    list-style: none;
+}
+.contacts {
+    padding-left: 20px;
+}
+.languages {
+    padding-left: 20px;
+}
+.cv {
+    margin: 0 auto;
+    width: 50vw;
+}

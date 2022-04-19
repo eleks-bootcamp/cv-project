@@ -1,0 +1,85 @@
+.wholecv {
+    background: whitesmoke;
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    columns: 2;
+    display: flex;
+}
+.leftside {
+    background: rgb(77, 82, 77);
+    box-sizing: border-box;
+    width: 25%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.rightside {
+    background: whitesmoke;
+    box-sizing: border-box;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 2.5%
+}
+.photo {
+    box-sizing: border-box;
+    margin: 12.5%;
+    border-radius: 50%;
+}
+.myphoto {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.charpters {
+    margin-left: 10%;
+    border-bottom: 1px solid;
+    font-size: 150%;
+}
+ul {
+    padding-inline-start: 10px;
+}    
+li {
+    list-style: none;
+}
+p {
+    margin: 7px;
+    font-size: 110%;
+}
+h1 {
+    font-size: 2.5em;
+}
+.fullname {
+    font-size: 2.5em;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.gendescription {
+    font-size: 85%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.charpters-right {
+    font-size: 110%;
+    font-weight: 600;
+    border-bottom: 1px solid;
+
+}
+.bigul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bigul2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.skillsimg {
+    width: 200px;
+}

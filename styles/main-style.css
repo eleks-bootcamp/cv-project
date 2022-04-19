@@ -1,0 +1,118 @@
+/* Reset */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  all: unset;
+}
+
+
+/* Styles */
+.cv {
+  width: 990px;
+  margin: 0 auto;
+  min-height: 100%;
+  max-height: 1500px;
+  display: flex;
+  box-sizing: border-box;
+  border-color: rgb(202, 202, 202);
+  flex-direction: row;
+}
+
+.cv-left-side {
+  width: 35%;
+  height: 100%;
+}
+
+.cv-decorative-block {
+  height: 40px;
+  width:100%;
+}
+
+.cv-side-content {
+  padding: 2rem;
+}
+
+.color-bg-100 {
+  width: 345px;
+  height: 40px;
+  background: #ffbfd2;
+}
+
+.cv-name {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+  color: rgb(60, 60, 129);
+  margin-top: 2.6rem;
+}
+
+img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.cv-contact-list {
+  padding: 1rem;
+  margin-left: 2rem;
+}
+
+.bi {
+  margin-left: -0.8rem;
+  list-style-type: none;
+}
+
+.cv-language-list {
+  list-style-type: none;
+  margin-left: 0%;
+}
+
+.cv-right-side {
+  width: 645px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cv-section-title {
+  color: rgb(60, 60, 129);
+  margin-top: 2.6rem;
+  margin-bottom: 1rem;
+  border-bottom: 1.5px solid;
+}
+
+
+.cv-section-title-left {
+  color: rgb(60, 60, 129);
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+  border-bottom: 1.5px solid;
+}
+
+.cv-skills-list {
+  columns: 3;
+}
+
+.cv-education-list {
+  margin-left: 1.2rem;
+}
+
+.color-bg-200 {
+  width: 645px;
+  height: 40px;
+  background: #fca1bc;
+}

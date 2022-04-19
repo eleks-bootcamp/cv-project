@@ -1,6 +1,6 @@
 .rectangle {
     width: 992px;
-    height: 947px;
+    height: 1002px;
     margin: 0 auto;
 
     background: #FFFFFF;
@@ -102,8 +102,8 @@ a {
 
 p {
     margin: 0;
-    margin-top: 15px;
-    margin-left: 33px;
+    /* margin-top: 15px;
+    margin-left: 33px; */
 }
 
 .no-bullet {
@@ -119,9 +119,21 @@ p {
     column-count: 3;
 }
 
-/* .skills {
+.text   {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 
-} */
+    color: #000000;
+
+}
+
+.left-block-text {
+    margin-left: 33px;
+    margin-top: 15px;
+}
 
 .titles-left {
     margin: 0;
@@ -129,6 +141,16 @@ p {
     margin-top: 24px;
     margin-right: 31px;
     border-bottom: 1px solid #376193;
+}
+
+.expirience-text-block {
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-right: 31px;
+}
+
+.margin-19 {
+    margin-top: 19px;
 }
 
 .right-block {
@@ -143,6 +165,8 @@ p {
     margin-left: auto;
     width: 644px;
     height: 40px;
-    bottom: 0px;
+    bottom: 1px;
+    margin-top: 54px;
+    /* position: relative; */
 }
 

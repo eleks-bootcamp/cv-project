@@ -4,20 +4,70 @@
     <meta charset="utf-8">
     <title>CV Veselivskiy Muhailo</title>
     <style>
+.cv-decorated-block{
+  height: 40px;
+  width: 100%;
+}
+.blue-bg-100{
+background-color: rgb(27, 27, 209);
+}
+.blue-bg-200{
+  background-color: rgb(4, 4, 65);
+}
+.cv-main{
+width: 992;
+min-height: 100%;
+max-height: 1200px;
+margin: 0 auto;
+border: 1px solid grey;
+background-color: white;
+box-sizing: border-box;
+display:flex;
+}
+.cv-left-side{
+  width: 35%;
+  height: 100%;
+}
+.cv-right-side{
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+.cv-side-content{
+  padding: 2rem;
+}
+.cv-section{
+  margin-bottom: 1.5rem;
+}
+.cv-section-title{
+  color: rgb(4, 4, 65);
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgb(27, 27, 209);
+}
+img{
+  width: 200px;
+  border-radius: 50%;
+}
+
 
     </style>
   </head>
-  <body>
+  <body style="background: whitesmoke;">
     <div class="cv-main">
-        <div class="cv-right-side">
-            <div class="blue-bg-100"> </div>
-            <h1 class="cv-full-name">
+        <div class="cv-left-side">
+           <div class="cv-side-content">
+            <div class="cv-decorated-block blue-bg-100"> </div>
+             <div class="cv-section">
+              <h1 class="cv-full-name">
                 Веселівський Михайло Степанович
-            </h1>
+              </h1>
 
-            <div class="cv-avatar">
-            <img src="./photo_2021-01-04_17-44-50.jpg" alt="моє фото">
-            </div>
+              <div class="cv-avatar">
+            <img src="./photo_2021-01-04_17-44-50 copy.jpg" alt="моє фото">
+              </div>
                 <div class="cv-contact-list">
                     <ul class="cv-ul-contact-list">
                         <li> <a href="https://github.com/Muxacuk1">  github.com</a></li>
@@ -27,9 +77,19 @@
                         <li><a href="https://t.me/Mexac">Telegram</a></li>
                     </ul>
                 </div>
+                <div class="cv-languages">Languages
+                  <ul>
+                    <li>english</li>
+                    <li>ukraine</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
         </div>
 
-        <div class="left-side">
+        <div class="cv-right-side">
+          <div class="cv-decorated-block"></div>
+            <div class="cv-side-content">
             <div class="cv-summury">Про себе: Відповідальний, акуратний, уважний, дисциплінований. Хороші організаторські та управлінські здібності. Дослідницький склад розуму. Присутній стаж управління персоналом. Веду спортивний спосіб життя. Маю водійські права категорії В, досвід водіння 4 роки. Шкідливі звички: немає. Бажання працювати в команді.
             </div>
             <div class="cv-skill">навчальні курси
@@ -49,9 +109,10 @@
                     <li>Вища економічна освіта ЛДУВС "Менеджмент Оганізацій</li>
                  </ul>
             </div>
-            <div class="blue-bg-200"></div>
+          </div>
+            <div class="cv-decorated-block blue-bg-200"></div>
         </div>
 
     </div>
-    </body>
+  </body>
 </html>

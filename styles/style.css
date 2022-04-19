@@ -1,0 +1,183 @@
+body {
+  background-color: #e5e5e5;
+}
+.cv-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  /* outline: 1px solid red; */
+}
+.cv-left {
+  width: 35%;
+}
+.cv-right {
+    display: flex;
+    flex-direction: column;
+  width: 65%;
+  justify-content: space-between;
+}
+.start-rectangle {
+  width: 100%;
+  height: 40px;
+  background-color: #264061;
+}
+.full-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #264061;
+  text-align: center;
+}
+.cv-border-image {
+  width: 250px;
+  height: 250px;
+  /* border: 1px solid red; */
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 1.5rem auto;
+}
+.cv-image {
+  width: 100%;
+}
+.cv-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #264061;
+}
+.cv-border-bottom-title {
+  width: 80%;
+  border-bottom: 2px solid #376193;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.cv-contacts {
+  list-style-type: none;
+  font-size: 18px;
+}
+.cv-contacts li:nth-child(1)::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("/img/githab.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  list-style-position: outside;
+}
+li {
+  padding: 5px;
+}
+.cv-contacts li:nth-child(2)::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("/img/linkedin.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  list-style-position: outside;
+}
+
+.cv-contacts li:nth-child(3)::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("/img/telegram-logo.png");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  list-style-position: outside;
+}
+
+.cv-contacts li:nth-child(4)::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("/img/phone.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  list-style-position: outside;
+}
+
+.cv-contacts li:nth-child(5)::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("/img/email.png");
+  background-size: auto;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  list-style-position: outside;
+  margin-right: 10px;
+}
+.cv-languages {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.cv-ul-languages {
+  list-style-type: none;
+}
+.cv-right-start-rectangle {
+  width: 100%;
+  height: 56px;
+  visibility: hidden;
+}
+.cv-summary {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 120px;
+  text-indent: 5%;
+  /* word-break: break-all; */
+  text-align: justify;
+}
+.cv-skills {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.cv-skills-ul {
+  list-style-type: none;
+  columns: 2;
+}
+.cv-experience {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 70px;
+  text-indent: 5%;
+  word-break: break-all;
+  text-align: justify;
+}
+.cv-education {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 70px;
+  text-indent: 5%;
+  word-break: break-all;
+  text-align: justify;
+}
+.cv-end-rectangle{
+    width: 100%;
+    height: 40px;
+    background-color: #264061;
+    /* align-content: flex-end; */
+}

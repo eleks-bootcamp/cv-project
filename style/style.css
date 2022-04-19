@@ -44,4 +44,19 @@ main {
 .blue-step {
   margin: 50px 0 0 0;
 }
+.massage {
+  list-style-image: url("../img/massage.svg");
+}
+.linkedin {
+  list-style-image: url("../img/linkedin.svg");
+}
+.phone {
+  list-style-image: url("../img/phone.svg");
+}
+.telegram {
+  list-style-image: url("../img/telegram.svg");
+}
+.git {
+  list-style-image: url("../img/git.svg");
+}
 

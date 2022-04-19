@@ -12,7 +12,7 @@ body {
   color: #000000;
 }
 	
-.conteiner {
+.container {
   background: #E5E5E5;
   display: flex;
   justify-content: center;
@@ -41,7 +41,7 @@ body {
 
 .name {
   display: block;
-  margin: 25px 50px 25px 50px;
+  margin: 25px 50px;
   font-size: 1.9rem;
   line-height: 34px;
   text-align: center;
@@ -49,7 +49,7 @@ body {
   color: #264061;
 }  
 
-.foto {
+.photo {
   display: block;
   width: 250px;
   height: 250px;
@@ -86,7 +86,7 @@ body {
 }
 
 .about-me {
-  margin: 0 33px 0 33px;
+  margin: 0 33px;
   text-align: justify;
 }
 

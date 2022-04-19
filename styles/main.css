@@ -1,0 +1,102 @@
+:body {
+  background-color: whitesmoke;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.cv-decorative-line-up {
+  position: absolute;
+  width: 347px;
+  height: 40px;
+  background: #376193;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cv-decorative-line-down {
+  position: absolute;
+  width: 644px;
+  height: 40px;
+  top: 906px;
+  background: #264061;
+  flex-direction: column; 
+  justify-content: space-between;
+}
+
+.cv {
+  width: 992px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+}
+
+.cv-left-side {
+  width: 35%;
+  height: 100%;
+}
+
+.cv-side-content {
+  padding: 2rem;
+}
+
+.cv-full-name{
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: #264061;
+  }
+
+  .cv-photo {
+  background-color: lightgrey;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  }
+
+  .cv-contacts-list {
+    padding-left: 1.5rem;
+  }
+
+  .cv-contacts-list li {
+    margin-bottom: 1rem;
+  }
+
+  .cv-languages-list {
+    padding-left: 1.5rem;
+  }
+
+  .cv-languages-list li {
+    margin-bottom: 1rem;
+  }
+
+.cv-right-side {
+  width: 65%;
+  height: 100%;
+  }
+
+  .cv-skills-list {
+    columns: 3;
+    padding-left: 1.5rem;
+  }
+
+  .cv-experience-list li {
+    margin-bottom: 2rem;
+    }
+
+  .cv-section-title {
+    color: #264061;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #D3D3D3;
+  }
+

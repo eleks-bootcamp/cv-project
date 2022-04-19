@@ -1,0 +1,113 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:  #FFFFFF;
+    font-size: 18px;
+
+}
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 992px;
+}
+.main-content {
+    max-width: 644px;
+    margin-left: 30px;
+}
+.title {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #264061;
+    
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 27px;
+color: #264061;
+
+}
+
+.Skills {
+   columns: 3;
+   padding-left: 1,5rem;
+   
+}
+.Skills-text {
+    
+}
+.summary {
+    margin-top: 55px;
+}
+
+.summary-text {
+    margin-left: 380px;
+    margin-right:38px ;
+}
+.dark-blue {
+    background:  #264061;;
+    height: 40px;
+    width: 644px;
+}
+.sidebar {
+    max-width:347px ;
+    display: flex;
+    flex-direction: column;
+}
+.block_name {
+  width: 195px;
+   height: 68px;
+   margin-top: 32px;
+   margin-left: 77px;
+}
+.block_photo {
+   margin-top: 15px;
+  
+}
+.photo {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 54px;
+    margin-top: 15px;
+}
+
+
+.name {
+  position: absolute;
+width: 195px;
+height: 68px;
+bottom: 20px;
+top: 73px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 34px;
+text-align: center;
+text-transform: uppercase;
+
+color: #264061;
+
+}
+.blue {
+    background: #376193;
+    height: 40px;
+    width: 347px;
+}
+.sidebar-title {
+    margin-top: 15px;
+    margin-left: 33px;
+    margin-bottom: 5px;
+}
+.contact {
+    margin-left: 50px;
+}
+
+.languages {
+    margin-left: 50px; 
+}

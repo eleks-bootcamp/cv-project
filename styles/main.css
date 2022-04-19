@@ -1,0 +1,38 @@
+body {
+  background: rgb(233, 122, 78);
+  color: #555;
+}
+.my-cv {
+  display: flex;
+  flex-direction: row;
+  border: 0.5px solid darkblue;
+  justify-content: space-between;
+  width: 100%;
+  height: 600px;
+}
+.left-side {
+  width: 35%;
+  padding: 20px;
+}
+.right-side {
+  width: 65%;
+  padding: 20px;
+}
+.h1-cv {
+  justify-content: center;
+  color: darkblue;
+}
+img {
+  justify-content: center;
+  width: 200px;
+  border-radius: 20%;
+}
+.list-ul {
+  border: 0.5px solid darkblue;
+  background: rgb(243, 200, 183);
+}
+.list-ul-two {
+  border: 0.5px solid darkblue;
+  background: lightsalmon;
+}
+

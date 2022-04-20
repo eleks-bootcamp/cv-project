@@ -1,0 +1,182 @@
+.border{
+    position: absolute;
+    width: 992px;
+    height: 947px;
+    left: 224px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.rectangular-head{
+  /*margin-top: -8px;
+  margin-left: -8px;*/
+  padding:0;
+  height: 36px;
+  width: 325px;
+  left: 225px;
+  top: 1px;
+  border-radius: 0px;
+  background-color: #376193;
+}
+
+.main-title{
+  color: #264061;
+  position: absolute;
+  width: 155px;
+  height: 55px;
+  left: 70px;
+  top: 27px;
+}
+
+.image{
+  position: absolute;
+  width: 240px;
+  height: 232px;
+  left: 27px;
+  top: 100px;
+  border-radius: 120px
+}
+.text{
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  color:#264061;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: larger;
+  font-size: 20px
+}
+
+.contacts{
+  left: 25px;
+  top: 374px;
+}
+
+.rectangular{
+  position: absolute;
+  width: 290px;
+  height: 1px;
+  background: #376193;
+}
+
+.rectangular.contacts{
+  left: 22px;
+  top: 403px;
+}
+
+.list-contacts{
+
+  position: absolute;
+  list-style-type: none;
+  left: 22px;
+  top: 410px;
+}
+
+.text.languages{
+    left: 26px;
+    top: 660px;
+}
+
+.rectangular.languages{
+    left: 24px;
+    top: 691px;
+}
+
+.ukrainian{
+  position: absolute;
+    left: 27px;
+    top: 702px;
+}
+
+.english{
+  position: absolute;
+    left: 27px;
+    top: 727px;
+}
+
+.text.summary{
+  left: 407px;
+  top: 57px;
+}
+
+.rectangular.summary{
+    left: 404.5px;
+    top: 85.5px;
+    width: 560px;
+}
+
+.text-summary{
+    position: absolute;
+    left: 407px;
+    top: 87.5px
+}
+
+.text.skills{
+  left: 407px;
+  top: 280px;
+}
+
+.rectangular.skills{
+  left: 404.5px;
+  top: 311px;
+  width:560px;
+}
+
+.text-skills{
+    position: absolute;
+    left: 407px;
+    top: 317px;
+}
+
+.text.experience{
+  left: 407px;
+  top: 440px;
+}
+
+.rectangular.experience{
+  left: 404.5px;
+  top: 465px;
+  width:560px;
+}
+
+.list-skills{
+  position: absolute;
+  list-style-type: none;
+  width: 555px;
+  columns: 3;
+  font-size: 18px;
+
+}
+
+.text-experience{
+  left: 407px;
+  top: 475px;
+}
+
+.text.education{
+  left: 407px;
+  top: 600px;
+}
+
+.rectangular.education{
+  left: 404.5px;
+  top: 625px;
+  width:560px
+}
+
+.text-education{
+  position: absolute;
+  left: 407px;
+  top: 635px;
+}
+
+.rectangular-bottom{
+  position: absolute;
+  width: 644px;
+  height: 40px;
+  left: 346px;
+  top: 906px;
+  background: #264061;
+}

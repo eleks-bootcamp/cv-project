@@ -4,6 +4,20 @@
     <meta charset="utf-8">
     <title>CV Veselivskiy Muhailo</title>
     <style>
+      body {
+      height: 100%;
+      background: whitesmoke;
+
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      all: unset;
+    }
 .cv-decorated-block{
   height: 40px;
   width: 100%;
@@ -30,7 +44,6 @@ display:flex;
 }
 .cv-right-side{
   width: 65%;
-  height: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -51,24 +64,30 @@ img{
   width: 200px;
   border-radius: 50%;
 }
+.cv-skills-list{
+  columns: 3;
+}
 
 
     </style>
   </head>
-  <body style="background: whitesmoke;">
+  <body>
     <div class="cv-main">
         <div class="cv-left-side">
+          <div class="cv-decorated-block blue-bg-100"> </div>
            <div class="cv-side-content">
-            <div class="cv-decorated-block blue-bg-100"> </div>
              <div class="cv-section">
               <h1 class="cv-full-name">
                 Веселівський Михайло Степанович
               </h1>
-
+             </div>
+              <div class="cv-section">
               <div class="cv-avatar">
             <img src="./photo_2021-01-04_17-44-50 copy.jpg" alt="моє фото">
               </div>
+              </div>
                 <div class="cv-contact-list">
+                  <h2 class="cv-section-title">Contact list</h2>
                     <ul class="cv-ul-contact-list">
                         <li> <a href="https://github.com/Muxacuk1">  github.com</a></li>
                         <li> <a href="https://www.linkedin.com/feed/">www.linkedin.com</a></li>
@@ -77,7 +96,8 @@ img{
                         <li><a href="https://t.me/Mexac">Telegram</a></li>
                     </ul>
                 </div>
-                <div class="cv-languages">Languages
+                <div class="cv-languages">
+                  <h2 class="cv-section-title">Languages</h2>
                   <ul>
                     <li>english</li>
                     <li>ukraine</li>
@@ -85,26 +105,31 @@ img{
                 </div>
               </div>
             </div>
-        </div>
-
         <div class="cv-right-side">
           <div class="cv-decorated-block"></div>
             <div class="cv-side-content">
+              <h2 class="cv-section-title">Summary</h2>
             <div class="cv-summury">Про себе: Відповідальний, акуратний, уважний, дисциплінований. Хороші організаторські та управлінські здібності. Дослідницький склад розуму. Присутній стаж управління персоналом. Веду спортивний спосіб життя. Маю водійські права категорії В, досвід водіння 4 роки. Шкідливі звички: немає. Бажання працювати в команді.
             </div>
-            <div class="cv-skill">навчальні курси
-                <ul class="cv-tehnologiest-list">
+            <h2 class="cv-section-title">Skills</h2>
+            <div class="cv-skill">
+                <ul class="cv-skills-list">
                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>Git</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
                 </ul>
             </div>
             <div class="cv-study-list">
+              <h2 class="cv-section-title">Experience</h2>
                 <ol class="cv-study-list-ol">
                     <li>курс frontend developer від компанії Eleks</li>
                 </ol>
             </div>
 
             <div class="cv-educations">
+              <h2 class="cv-section-title">Education</h2>
                 <ul class="cv-educations-ul">
                     <li>Вища економічна освіта ЛДУВС "Менеджмент Оганізацій</li>
                  </ul>

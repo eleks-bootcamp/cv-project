@@ -1,0 +1,14 @@
+#my-super-p {
+    background: darkblue ;
+    color: white;
+  }
+  .list {
+    border: 4px solid orange;
+    background: red;
+  }
+
+  img {
+    width: auto;
+    height: auto;
+    border-radius: 0%;
+  }

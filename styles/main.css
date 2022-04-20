@@ -92,7 +92,6 @@ a {
 
 .cv-right {
     width: 65%;
-    height: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;

@@ -1,0 +1,43 @@
+.main-body {
+  width: 900px;
+  min-height: 100%;
+  max-height: 1200px;
+  background: whitesmoke;
+}
+.left {
+  float: left;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.right {
+  float: right;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.My-name {
+  color: darkblue;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.h2 {
+  color: darkblue;
+  text-align: start;
+  border-bottom: 3px solid darkblue;
+}
+
+.skills {
+  columns: 3;
+}

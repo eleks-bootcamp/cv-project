@@ -148,7 +148,6 @@ li {
   margin-left: 20px;
   margin-right: 120px;
   text-indent: 5%;
-  /* word-break: break-all; */
   text-align: justify;
 }
 .cv-skills {
@@ -188,5 +187,4 @@ li {
     width: 100%;
     height: 40px;
     background-color: #264061;
-    /* align-content: flex-end; */
 }

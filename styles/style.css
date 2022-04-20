@@ -1,0 +1,138 @@
+:root {
+  --blue-100: #376193;
+  --blue-200: #264061;
+  --grey-100: #d3d3d3;
+  --white: #fff;
+}
+
+/* Colors */
+.blue-bg-100 {
+  background-color: var(--blue-100);
+}
+
+.blue-bg-200 {
+  background-color: var(--blue-200);
+}
+
+/* Reset */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Source Sans Pro;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  all: unset;
+}
+
+/* CV */
+/* NOTE: please check https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+.cv {
+  width: 992px;
+  min-height: 100%;
+  max-height: 1200px;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid var(--grey-100);
+  background: var(--white);
+  box-sizing: border-box;
+}
+
+/* Left side */
+.cv-left-side {
+  width: 35%;
+  height: 100%;
+}
+
+.cv-side-content {
+  padding: 2rem;
+}
+
+.cv-full-name {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: var(--blue-200);
+}
+
+.cv-photo {
+  background-color: lightgrey;
+  display: flex;
+ margin: auto;
+ justify-content: center;
+ border-radius: 50%;
+ size-adjust: 240px;
+ overflow: hidden;
+ width: 240px;
+ height: 240px;
+ margin: 0 auto;
+
+
+
+ 
+}
+
+/* Right side */
+.cv-right-side {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cv-skills-list {
+  columns: 3;
+}
+
+/* Common */
+.cv-section {
+  margin-bottom: 1.5rem;
+
+}
+
+.cv-section-title {
+  color: var(--blue-200);
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--blue-100);
+}
+
+.bi {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.4rem;
+  display: inline-block;
+  vertical-align: -0.125rem;
+}
+
+.cv-cursor-pointer {
+  cursor: pointer;
+}
+
+.cv-decorative-block {
+  height: 40px;
+  width: 100%;
+}
+
+.cv-list {
+  padding-left: 1.5rem;
+  list-style: none;
+  
+}
+
+.cv-list li {
+  margin-bottom: 1rem;
+}

@@ -1,200 +1,141 @@
-.main-box{
-position: absolute;
-width: 992px;
-height: 947px;
-left: 224px;
-top: 0px;
-border: 1px solid red;
-}
-.top-box{
-  background-color: #376193;
-  position: absolute;
-  width: 347px;
-  height: 40px;
-}
-.main-box img{
-margin-top: 142px;
-margin-left: 54px;
-  width: 240px;
-  height: 240px;
-  background-color: #D3D3D3;
-  border-radius: 120px;
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #E5E5E5;
 }
 
-.list-contacts img{
-  width: 15px;
-  height: 15px;
-  margin-top: 0px;
-  margin-left: 0px;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
 }
 
+a {
+  all: unset;
+}
 
 h1{
-position: absolute;
-width: 195px;
-height: 68px;
-left: 70px;
-top: 65px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 29px;
-line-height: 34px;
-text-align: center;
-text-transform: uppercase;
-
-color: #264061;
-}
-
-h2{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 26px;
-
-color: #264061;
-}
-
-.underline {
-position: absolute;
-width: 282.5px;
-height: 1px;
-left: 40px;
-top: 430px;
-
-background: #376193;
-}
-
-.underline2{
-  position: absolute;
-  margin-top: 30px;
-  left: 40px;
-  width: 282.5px;
-  height: 1px;
-
-  background: #376193;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  }
+  img{
+    width: auto;
+    height: 240px;
+    border-radius: 120px;
   }
 
-.underline3{
-  position: absolute;
-  bottom: 850px;
-  left: 380px;
-  width: 579.5px;
-  height: 1px;
+.Fullpage{
+  width: 992px;
+  height: 947px;
+  margin: 0 auto;
+  display: flex;
+  background: #fff;
+}
+.left-block{
+  width: 35%;
+  height: 100%;
+}
+.right-block{
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-  background: #376193;
-  }
-  .underline4{
-  position: absolute;
-  bottom: 700px;
-  left: 380px;
-  width: 579.5px;
-  height: 1px;
 
-  background: #376193;
-  }
-  .underline5{
-    position: absolute;
-    bottom: 595px;
-    left: 380px;
-    width: 579.5px;
-    height: 1px;
+/*left-block*/
 
-    background: #376193;
-    }
-    .underline6{
-      position: absolute;
-      bottom:190px;
-      left: 380px;
-      width: 579.5px;
-      height: 1px;
 
-      background: #376193;
-      }
-
+.top-decoration-block{
+  width: 100%;
+  height: 40px;
+  background-color: #376193;
+}
+.title-name{
+  margin-top: 32px;
+}
+.my-photo{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 22px;
+}
+.Discription-h2 h2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #264061;
+  border-bottom: 1px solid  #264061;
+  margin-right: 33px;
+  margin-left: 33px;
+}
+ul{
+  list-style-type: none;
+}
 li{
-  list-style-type:none;
+  margin-left: 15px;
+  margin-top: 20px;
 }
-
 a{
-  text-decoration: none;
+  margin-left: 10px;
+}
+.Languages{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
 }
 
-.list-contacts li a{
-  margin-left: 7px;
-  line-height: 40px;
+/*Right-block*/
+.decoration-block-top{
+  display: flex;
+  width: 100%;
+  height: 40px;
 }
-
- .Languages{
-    margin-left: 40px;
-  }
-  .Languages p{
-    margin-left: 20px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-  }
-
-.Summary{
-  position: absolute;
-  left: 380px;
-  bottom: 730px;
+.decoration-block-bottom{
+  background-color: #264061;
+  display: flex;
+  width: 100%;
+  height: 40px;
 }
-.Skills{
-  position: absolute;
-  left: 380px;
-  bottom: 631px;
+.Summary {
+  margin-left: 33px;
+  margin-right: 33px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
 }
-.Skills ul{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
+.Skills-list{
+  list-style-type: none;
   column-count: 3;
 }
-.Skills li{
-  margin-right: 150px;
-}
 .Experience{
-  position: absolute;
-  left: 380px;
-  bottom: 240px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+  margin-left: 33px;
+  margin-right: 33px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
 .Education{
-  position: absolute;
-  left: 380px;
-  bottom: 105px;
-
-font-family: 'Roboto';
+  margin-left: 33px;
+  margin-right: 33px;
+  font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 }
-.bottom-box{
-  background-color: #376193;
-  position: absolute;
-  width: 644px;
-  height: 40px;
-  left: 348px;
-  bottom: 0px;
-}
-
-
-
-
-
 
 

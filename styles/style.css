@@ -51,12 +51,7 @@ a {
 }
 
 .cv-photo {
-  background-color: lightgrey;
   border-radius: 50%;
-  overflow: hidden;
-  width: 240px;
-  height: 240px;
-  margin: 0 auto;
 }
 
 .cv-right-side {

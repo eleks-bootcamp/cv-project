@@ -6,6 +6,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 .cv {
 width: 800px;
   min-height: 100%;
-
+max-height: 1200px;
   display: flex;
   margin: 0 auto;
   border: 1px solid gray;
@@ -130,10 +131,11 @@ a {
 
 .right-side {
   width: 65%;
-  height: 100% ;
+
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  justify-content:space-between;
+
 }
 
 

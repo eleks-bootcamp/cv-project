@@ -67,10 +67,6 @@ a {
   flex-direction: column;
 }
 
-.cv-skills-list {
-  columns: 3;
-}
-
 .cv-section {
   margin-bottom: 1.5rem;
 }

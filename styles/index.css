@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    height: 100%;
+    margin: auto;
+}
+
+.cv_full_name {
+margin-bottom: 1.5rem;
+font-size: 29px;
+line-height: 100%;
+text-align: center;
+text-transform: uppercase;
+color: #264061;
+}
+
+img {
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+    border-radius: 120px;
+    background-color: lightgrey;
+    display: flex;
+}
+
+.cv {
+    width: 992px;
+    min-height: 100px;
+    max-height: 1400px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: 400, Regular;
+}
+
+.cv_blue_small_decor {
+    width: 347px;
+    height: 40px;
+    top: 1px;
+    left: 225px;
+    background-color: #376193;
+}
+
+.cv_left_side {
+    height: 100%;
+    width: 35%;
+}
+
+.cv_blue_large_decor {
+    width: 644px;
+    height: 40px;
+    top: 906px;
+    left: 572px;
+    background-color: #264061;
+}
+
+.cv_right_side {
+    height: 100px;
+    width: 65%;
+    padding-top: 1%;
+    margin: 4%;
+}
+
+.cv_section_title {
+    font-size: 23px;
+    color: #264061;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cv_skills_list {
+    columns: 2;
+}

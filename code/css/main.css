@@ -1,5 +1,4 @@
 body {
-  color: #555;
   font-family: arial;
 
 }
@@ -7,6 +6,7 @@ body {
 .cv {}
 
 .wrap {
+  width: 992px;
   padding: 32px 0 0 0;
   margin: 0 auto;
 }

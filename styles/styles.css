@@ -19,6 +19,7 @@ body {
 
 .col2 {
   width: 65%;
+
 }
 
 .wall1 {
@@ -69,6 +70,10 @@ p,
 hr {
   background-color: #376193;
   margin: 5px 0px;
+}
+
+.comtainer2 {
+margin-left: 40px;
 }
 
 .decor {

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My resume</title>
+	<link rel="stylesheet" href="style/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <div class="section"></div>
+	      <h1 class="name">Gennadii Iurkevych</h1>
+          <img src="./img/Gennadii.jpg" alt="Gennadii Iurkevych">
+          <h2 class="contact">Contacts</h2>
+            <ul class="links">
+              <li>
+                <img class="icons" src="img/git.png" alt="github">
+                <a target="_blank" href="https://github.com/GennadiiIurkevych">GennadiiIurkevych</a>
+              </li>
+              <li>
+                <img class="icons" src="img/in.png" alt="linkedin">
+                <a target="_blank" href="https://www.linkedin.com/in/gennadii-iurkevych-0a34a054?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBTWQtz5NSVuiwmPj0i3jtg%3D%3D">gennadii-iurkevych</a>
+              </li>
+              <li>
+                <img class="icons" src="img/mail.png" alt="email">
+                <a target="_blank" href="mailto:yurgensport@gmail.com">yurgensport@gmail.com</a>
+              </li>
+              <li>
+                <img class="icons" src="img/phone.png" alt="phone">
+                <a target="_blank" href="tel:+380679338375">+380679338375 (Vodafone)</a>
+              </li>
+              <li>
+                <img class="icons" src="img/telegram.png" alt="telegram">
+                <a target="_blank" href="http://t.me/+380679338375">http://t.me/+380679338375</a>
+              </li> 
+            </ul>
+          <h2 class="contact">Language</h2>
+            <p>Ukranian</p> 
+            <p>Polish - intermediate</p> 
+            <p>English - А1-А2</p>
+		</div>        
+      <div class="box-information">
+        <div class="section2"></div>
+          <h2 class="contact">Summury</h2>
+            <p class="summury">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci commodi consequuntur corporis dicta dolor dolore doloribus ea error et exercitationem in inventore ipsa itaque modi necessitatibus nemo nihil possimus praesentium provident quaerat, quas quo reprehenderit sapiente sit suscipit tenetur unde vel velit veniam.
+            </p>
+          <h2 class="contact">Skills</h2>
+          
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>        
+            </ul>
+          <h2 class="contact">Experience</h2>
+            <p>
+              Director at Lviv child-junior sport school "Energetyk"<br>March 2000 - July 2021
+            </p>   
+            <p>
+              Coach at Lviv child-junior sport school "Energetyk"<br>September 1993 - February 2000
+            </p>
+          <h2 class="contact">Education</h2>
+            <p class="summury">
+              Weightlifting coach<br>
+              Lviv state institute of physical culture (1987-1992) (Ukraine)
+            </p>
+            <p class="summury">
+              HTML, CSS<br>
+              Byte Marathone - October 2021
+            </p> 
+            <p class="summury">
+              JavaScript<br>
+              Marathone GoIT - December 2021
+            </p>
+            <p class="summury">
+              JavaScript<br>
+              WayUp course - January 2022
+            </p>
+            <p class="summury">
+              HTML, CSS, JavaScript
+              YouTube - self-study October 2021 -March 2022
+            </p>
+        <div class="section2 section2-col"></div>
+      </div>
+	</div>  
+</body>
+</html>

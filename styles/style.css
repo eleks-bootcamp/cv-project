@@ -1,0 +1,114 @@
+:root {
+  --blue-100: #376193;
+  --blue-200: #264061;
+  --white : #FFF;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #E5E5E5;
+}
+
+.cv {
+  display: flex;
+  flex-direction: row;
+  font-family:  Roboto;
+  width: 990px;
+  height: 100%;
+  background: var(--white);
+  margin: 0 auto;
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+
+}
+
+.cv-blue-100 {
+  background-color: var(--blue-100);
+}
+
+.cv-blue-200 {
+  background-color: var(--blue-200);
+}
+
+.cv-left-side {
+  width: 35%;
+  height: 100%;
+}
+
+.cv-decorate-block {
+  width: 100%;
+  height: 40px;
+}
+
+.cv-side-content {
+  padding: 32px;
+}
+
+.cv-full-name {
+  font-size: 1.8rem;
+  color: var(--blue-200);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cv-section {
+  padding-bottom: 1.5rem;
+}
+
+.cv-image {
+  display: flex;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.cv-section-title {
+  color: var(--blue-200);
+  border-bottom: 1px solid var(--blue-200);
+}
+
+.cv-contacts-list {
+  padding-left: 1.5rem;
+  list-style-type: none;
+
+}
+
+.cv-contacts-list li{
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.cv-languages-list {
+  padding-left: 1.5rem;
+}
+
+.cv-languages-list li{
+  padding-bottom: 1rem;
+}
+
+.cv-skills-list{
+  padding-left: 1.5rem;
+  columns: 3;
+}
+
+.cv-experience-list li{
+  padding-bottom: 1.5rem;
+}
+
+.cv-education-list li{
+  padding-bottom: 1.5rem;
+}
+
+
+
+.cv-right-side{
+  width: 65%;
+  /* Висота блоку буде збільшуватиь відповідно до контенту  */
+  height: 100%;
+  /* Задаючи нижні параметри ми добємось приліплення cv-decorative-vlock до низу сторінки але поїде Summary*/
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}

@@ -32,6 +32,9 @@ display: flex;}
             display: flex;
             justify-content: center;
             align-items: center;}
+        .radius {border-radius: 50%;
+            height: 240px;
+            width: 240px;}
 
 
         .naz {

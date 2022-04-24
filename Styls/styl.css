@@ -2,6 +2,7 @@
     border: 1px solid; 
 height: 1000px;
 width: 950px;
+margin: 0 auto;
 display: flex;}
 
     .colon-left {
@@ -138,8 +139,8 @@ display: flex;}
             margin-top: 15px;}
         
         .line {
-            /* border: 1px solid; */
-            height: 319px;
+            /* border: 1px solid;  */
+            height: 245px;
             width: 600px;
             display: flex;
             align-items: flex-end;}  

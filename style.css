@@ -1,0 +1,350 @@
+body {
+    position: relative;
+        width: 1440px;
+        height: 947px;
+      
+    
+        background: #FFFFFF;
+    }
+    
+    .cv {
+        position: absolute;
+        width: 992px;
+        height: 947px;
+        left: 224px;
+        top: 0px;
+    
+        background: #FFFFFF;
+        border: 1px solid #D3D3D3;
+        box-sizing: border-box;
+        border-radius: 0px;
+    }
+    
+    .violet-square {
+        position: absolute;
+        width: 347px;
+        height: 40px;
+        left: 1px;
+        top: 1px;
+    
+        background: hsla(294, 25%, 25%, 0.79);;
+        border: 1px solid hsl(294, 25%, 25%);
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+    }
+    
+    .name {
+        position: absolute;
+        width: 195px;
+        height: 68px;
+        left: 77px;
+        top: 73px;
+    
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 34px;
+        text-align: center;
+        text-transform: uppercase;
+    
+        color: hsl(276, 5%, 40%);
+    }
+    
+    .my-photo {
+        position: absolute;
+        width: 240px;
+        height: 240px;
+        left: 54px;
+        top: 163px;
+    
+        background: #D3D3D3;
+        border-radius: 120px;
+    }
+    
+    .contact-title {
+        position: absolute;
+        width: 91px;
+        height: 26px;
+        left: 33px;
+        top: 427px;
+    
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        
+        color: hsl(294, 25%, 25%);
+    }
+    
+    .line {
+        position: absolute;
+        width: 282.5px;
+        height: 1px;
+        left: 33px;
+        top: 455.5px;
+        background: hsl(276, 5%, 40%);
+    }
+    
+    .list {
+        list-style: none;
+        position: absolute;
+        height: 15px;
+        left: 57px;
+        top: 472px;
+        margin-bottom: 24px;
+    
+        font-family: 'Arial';;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+    
+        color: hsl(30, 2%, 23%);
+    }
+    
+    .img-contact-list {
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+    }
+    
+    .languages-title {
+        position: absolute;
+        width: 111px;
+        height: 26px;
+        left: 33px;
+        top: 618px;
+    
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        
+        color: hsl(294, 25%, 25%);
+    
+    }
+    
+    .line-2 {
+        position: absolute;
+        width: 282.5px;
+        height: 1px;
+        left: 33px;
+        top: 646px;
+    
+        background: hsl(276, 5%, 40%);
+    }
+    
+    .list1 {
+        list-style: none;
+        position: absolute;
+        width: 64px;
+        height: 18px;
+        left: 57px;
+        top: 662px;
+    
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        
+        color: hsl(30, 2%, 23%);
+    }
+    
+    li {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    
+    .summaru-title {
+        position: absolute;
+        width: 101px;
+        height: 27px;
+        left: 380px;
+        top: 73px;
+    
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 27px;
+        
+    
+    
+        color: hsl(294, 25%, 25%);
+    }
+    .long-line-1 {
+        position: absolute;
+        width: 579.5px;
+        height: 1px;
+        left: 379.5px;
+        top: 101.5px;
+    
+        background: hsl(276, 5%, 40%);
+    }
+    
+    .summary-text {
+        position: absolute;
+        width: 574px;
+        height: 72px;
+        left: 380px;
+        top: 118px;
+    
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+    
+        color: hsl(30, 2%, 23%);
+    
+    }
+    
+    .skills-title {
+        position: absolute;
+        width: 56px;
+        height: 27px;
+        left: 380px;
+        top: 200px;
+    
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 27px;
+        
+        color: hsl(294, 25%, 25%);
+    }
+    .long-line-2 {
+        position: absolute;
+        width: 579.5px;
+        height: 1px;
+        left: 379.5px;
+        top: 228px;
+    
+        background: hsl(276, 5%, 40%);
+    }
+    
+    .my-skills {
+        
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: hsl(30, 2%, 23%);
+        column-count: 2;
+        column-width: 146px;
+        height: 200px;
+        position: absolute;
+        left: 404px;
+        top: 250px;
+    }
+    
+    
+    
+    
+    .experience-title {
+        position: absolute;
+        width: 105px;
+        height: 27px;
+        left: 380px;
+        top: 330px;
+    
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 27px;
+        
+        color: hsl(294, 25%, 25%);
+    
+    }
+    .long-line-3 {
+        position: absolute;
+        width: 579.5px;
+        height: 1px;
+        left: 379.5px;
+        top: 358px;
+    
+        background: hsl(276, 5%, 40%);
+    
+    }
+    
+    
+    .list2 {
+        list-style-type: none;
+        position: absolute;
+        width: 579px;
+        height: 16px;
+        left: 380px;
+        top: 375px;
+    
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    
+        color: hsl(30, 2%, 23%);
+    
+    }
+    .education-title {
+        position: absolute;
+        width: 115px;
+        height: 27px;
+        left: 380px;
+        top: 480px;
+    
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 27px;
+        
+        color: hsl(294, 25%, 25%);
+    }
+    .long-line-4 {
+        position: absolute;
+        width: 579.5px;
+        height: 1px;
+        left: 379.5px;
+        top: 508px;
+    
+        background: hsl(276, 5%, 40%);
+    }
+    
+    .education-text {
+        
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 402px;
+        top: 530px;
+    
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: hsl(30, 2%, 23%);
+    }
+    
+    .big-violet-square {
+        position: absolute;
+        width: 644px;
+        height: 40px;
+        left: 348px;
+        top: 906px;
+    
+        background: hsl(294, 25%, 25%);
+        border-radius: 0px;
+    }
+    

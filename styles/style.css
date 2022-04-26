@@ -5,7 +5,6 @@
   --white: #fff;
 }
 
-/* Colors */
 .blue-bg-100 {
   background-color: var(--blue-100);
 }
@@ -37,8 +36,7 @@ a {
   all: unset;
 }
 
-/* CV */
-/* NOTE: please check https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+
 .cv {
   width: 992px;
   min-height: 100%;
@@ -50,7 +48,6 @@ a {
   box-sizing: border-box;
 }
 
-/* Left side */
 .cv-left-side {
   width: 35%;
   height: 100%;
@@ -79,13 +76,9 @@ a {
  width: 240px;
  height: 240px;
  margin: 0 auto;
-
-
-
  
 }
 
-/* Right side */
 .cv-right-side {
   width: 65%;
   height: 100%;
@@ -98,7 +91,6 @@ a {
   columns: 3;
 }
 
-/* Common */
 .cv-section {
   margin-bottom: 1.5rem;
 

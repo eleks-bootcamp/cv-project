@@ -4,4 +4,4 @@
 
 - Figma: https://www.figma.com/file/e0teaPvTd7LkPU4eCdEKts/CV
 
-CV у форматі [png](./CV_Yarema_Ostrovskiy.png)
+CV у форматі [pdf](./CV%20Yarema.pdf)

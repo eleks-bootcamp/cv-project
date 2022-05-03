@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+h2{
+  font-size: 30px;
+}
+.cv{
+  margin: 40px;
+  margin-top: 60px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.personal-info{
+  width: 300px;
+  padding: 20px;
+  margin-right: 10px;
+}
+.full-name{
+  color: #264061;
+  font-size: 45px;
+  text-align: center;
+}
+.photo{
+  width: 250px;
+  margin: 25px;
+  border-radius: 50%;
+  text-align: center;
+}
+.contact{
+  text-align: left;
+}
+.contact-name{
+  color: #264061;
+  margin-bottom: 15px;
+  border-bottom: #264061 solid 1.8px;
+}
+.contact-list{
+  margin: 15px;
+  text-align: center;
+}
+.contact-list li{
+  margin: 10px;
+  text-align: left;
+}
+.contact-list i{
+  margin: 5px;
+}
+.contact-list a{
+  color: black;
+}
+.work-info{
+  width: 700px;
+  margin-left: 10px;
+  padding: 20px;
+}
+.summary{
+  margin-bottom: 20px;
+  text-align: left;
+}
+.summary-name{
+  color: #264061;
+  margin-bottom: 15px;
+  border-bottom: #264061 solid 1.8px;
+}
+.skills{
+  margin-bottom: 20px;
+  text-align: left;
+}
+.skills-name{
+  color: #264061;
+  margin-bottom: 15px;
+  border-bottom: #264061 solid 1.8px;
+}
+.skills-list{
+  margin: 10px;
+  margin-left: 5px;
+  display: flex;
+}
+.two-skills{
+  margin: 0 140px 0 20px;
+}
+.experience{
+  margin-bottom: 20px;
+  text-align: left;
+}
+.experience-name{
+  color: #264061;
+  margin-bottom: 15px;
+  border-bottom: #264061 solid 1.8px;
+}
+.experience-list{
+  margin: 20px;
+  margin-left: 40px;
+}
+.experience-list li{
+  margin-bottom: 30px;
+}
+.experience-description{
+  margin-top: 15px;
+}

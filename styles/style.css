@@ -21,7 +21,6 @@ body {
   font-family: Source Sans Pro;
 }
 
-
 h1,
 h2,
 h3,
@@ -35,7 +34,6 @@ h6 {
 a {
   all: unset;
 }
-
 
 .cv {
   width: 992px;
@@ -68,15 +66,14 @@ a {
 .cv-photo {
   background-color: lightgrey;
   display: flex;
- margin: auto;
- justify-content: center;
- border-radius: 50%;
- size-adjust: 240px;
- overflow: hidden;
- width: 240px;
- height: 240px;
- margin: 0 auto;
- 
+  margin: auto;
+  justify-content: center;
+  border-radius: 50%;
+  size-adjust: 240px;
+  overflow: hidden;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
 }
 
 .cv-right-side {
@@ -93,7 +90,6 @@ a {
 
 .cv-section {
   margin-bottom: 1.5rem;
-
 }
 
 .cv-section-title {
@@ -122,7 +118,6 @@ a {
 .cv-list {
   padding-left: 1.5rem;
   list-style: none;
-  
 }
 
 .cv-list li {

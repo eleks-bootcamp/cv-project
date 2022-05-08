@@ -1,0 +1,65 @@
+.cv {
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid gainsboro;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-block {
+  padding: 43px 33px;
+}
+
+.left-block {
+  padding: 0 33px;
+}
+
+.photo {
+  width: 240px;
+  border-radius: 50%;
+}
+
+.full-name {
+  color: #264061;
+  text-align: center;
+  font-size: 29px;
+}
+
+.contacts-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  margin: 15px;
+}
+
+h2 {
+  font-size: 23px;
+  color: #264061;
+  border-bottom: 1px solid #376193;
+  ;
+}
+
+.tehnology {
+  column-count: 3;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkred;
+}
+
+.top-block {
+  height: 40px;
+  background: #376193;
+}
+
+.bottom-block {
+  height: 40px;
+  background: #264061;
+}

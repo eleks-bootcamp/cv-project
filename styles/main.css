@@ -1,9 +1,25 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  all: unset;
+}
+
 .cv {
   width: 900px;
   margin: 0 auto;
   border: 1px solid gainsboro;
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .right-block {
@@ -38,7 +54,6 @@ h2 {
   font-size: 23px;
   color: #264061;
   border-bottom: 1px solid #376193;
-  ;
 }
 
 .tehnology {
@@ -52,6 +67,7 @@ a {
 
 a:hover {
   color: darkred;
+  cursor: pointer;
 }
 
 .top-block {

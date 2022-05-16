@@ -1,0 +1,80 @@
+.cv-me-img {
+  height: 240px;
+  width:  240px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.cv-title-name {
+  color: darkred;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10%;
+
+}
+.body-all {
+  margin: 0;
+}
+.cv-section-title {
+  border-bottom: 2px solid darkred;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+  color: darkred;
+}
+.cv-logo {
+  height: 16px;
+  width: 16px;
+}
+.cv-list li {
+  margin-bottom: 1rem;
+}
+.cv {
+  background-color: blanchedalmond;
+  width: 1000px;
+  min-height: 100%;
+  max-height: 1200px;
+  display: flex;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: solid darkred 2px;
+}
+.cv-right-side {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.cv-left-side {
+  width: 35%;
+  height: 100%;
+}
+.cv-list {
+  list-style-type: none;
+  padding-left: 10%;
+}
+.cv-dec-block {
+  width: 100%;
+  height: 40px;
+  background: darkred;
+}
+.cv-dec-block2 {
+  width: 100%;
+  height: 40px;
+  background: blanchedalmond;
+}
+.cv-side-content {
+  padding: 2rem;
+}
+.cv-section {
+ margin-bottom: 10%;
+}
+.bottom {
+  margin-top: 40%;
+}
+.cv-skills-list {
+  columns: 3;
+  list-style: square;
+}

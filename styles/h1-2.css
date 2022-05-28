@@ -5,17 +5,16 @@
     font-size: 29px;
     text-align: center;
     text-transform: uppercase;
-    color: rgb(144, 0, 31);
+    color: var(--h1Colors);
     margin: 20px;
 }
 .h2 {
     font-family:Arial, Helvetica, sans-serif;
     font-style:normal;
     text-align: left;
-    color: rgb(176, 4, 41);
+    color: var(--h1Colors);
     padding: 10px;
-    border-bottom: solid 2px;
-    border-color: brown;
+    border-bottom: solid 2px var(--borderscolor);
     margin-bottom: 20px;
 
 

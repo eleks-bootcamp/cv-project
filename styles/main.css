@@ -1,0 +1,49 @@
+:root {
+  --h1Colors:  rgb(65, 2, 70);
+  --borderscolor: rgb(186, 2, 183);
+  --backGroundColor:  rgb(231, 248, 227);
+}
+
+.body {
+    position: absolute;
+    width: 990px;
+    height: 1000px;
+    background:none;
+    border: 1px solid var(--borderscolor);
+    box-sizing: border-box;
+}
+
+.left-collum {
+  width:28%;
+  height: 98%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border: 1px solid var(--borderscolor);
+  padding: 20px;
+  margin: 10px;
+  background-color: var(--backGroundColor);
+  box-sizing: border-box;
+
+}
+.image {
+  position:relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid var(--borderscolor);
+}
+
+.right-collum{
+  width:68%;
+  height: 98%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border: 1px solid var(--borderscolor);
+  padding: 20px;
+  margin: 10px;
+  background-color: var(--backGroundColor);
+  box-sizing: border-box;
+
+}

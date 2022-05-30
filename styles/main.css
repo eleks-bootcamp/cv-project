@@ -33,7 +33,7 @@ p {
 .cv__wrapper {
   display: flex;
   width: 100%;
-  max-width: 992px;
+  max-width: 1240px;
   margin: 0 auto;
   border: 1px solid #e9eced;
 }
@@ -116,7 +116,7 @@ p {
 
 .cv__section.cv__section--skills ul {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0 24px;
   padding-left: 24px;
 }

@@ -5,8 +5,183 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style.css">
   <title>CV</title>
+<style>
+  body {
+  color: #000000;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+.cv {
+  width: 992px;
+  height: 947px;
+  margin: 0 auto;
+  border: 1px solid #D3D3D3;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 25px 33px 2.5px;
+
+  color: #264061;
+}
+
+/* block 1 */
+
+.block1 {
+  width: 347px;
+  float: left;
+  height: 100%;
+}
+
+.rectangle {
+  height: 40px;
+
+  background: #376193;
+}
+
+.full-name {
+  width: 195px;
+  margin: 32px auto 22px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #264061;
+}
+
+.img {
+  width: 240px;
+  height: 240px;
+  left: 278px;
+  top: 163px;
+  display: block;
+  margin: 0 auto;
+
+  background: #D3D3D3;
+  border-radius: 120px;
+}
+
+.line {
+  width: 282.5px;
+  height: 1px;
+
+  background: #376193;
+  display: block;
+  margin: auto;
+}
+
+.icon {
+  height: 18px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.contacts-item {
+  font-size: 13px;
+  line-height: 15px;
+
+  list-style-type: none;
+  margin: 15px 17px;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.languages {
+  list-style-type: none;
+  font-size: 15px;
+  margin: 15px 17px;
+}
+
+
+/* block 2 */
+
+.block2 {
+  width: 644px;
+  float: right;
+  margin-top: 50px;
+  position: relative;
+  height: -webkit-fill-available;
+}
+
+.line-long {
+  width: 579.5px;
+  height: 1px;
+
+  background: #376193;
+  display: block;
+  margin: 1px auto 15px;
+
+}
+
+.summary-text {
+  font-size: 15px;
+  width: 574px;
+  margin-left: 33px;
+}
+
+.skills-list {
+  font-size: 16px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+
+  list-style-type: none;
+  margin-left: 15px;
+}
+
+.experience {
+  width: 525px;
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+.position {
+  font-size: 15px;
+}
+
+.position-time {
+  font-size: 14px;
+}
+
+.responsibilities {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.education {
+  margin-left: 33px;
+  font-size: 14px;
+}
+
+.education.city {
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.rectangle-foot {
+  width: 644px;
+  height: 40px;
+  background: #264061;
+
+  position: absolute;
+  bottom: 0;
+}
+</style>
 </head>
 
 <body>
@@ -17,29 +192,29 @@
       <h1 class="full-name">
         Mariana Kozopas
       </h1>
-      <img src="./images/avatar1.jpg" alt="Avatar" class="img">
+      <img src="./avatar1.jpg" alt="Avatar" class="img">
       <h2 class="title">Contacts</h2>
       <div class="line">
       </div>
-      <ul class="contacts-list">
+      <ul>
         <li class="contacts-item">
           <a class="contacts-link" href="https://github.com/Mariana205">
-            <img src="./images/github.svg" alt="Github" class="icon">
+            <img src="./github.svg" alt="Github" class="icon">
             Mariana205
           </a>
         </li>
         <li class="contacts-item">
           <a class="contacts-link" href="https://www.linkedin.com/in/mariana-kozopas-7a78ab235/">
-            <img src="./images/linkedin.svg" alt="Linkedin" class="icon">
+            <img src="./linkedin.svg" alt="Linkedin" class="icon">
             Mariana205
           </a>
         </li>
         <li class="contacts-item">
-          <img src="./images/mail.svg" alt="Email" class="icon">
+          <img src="./mail.svg" alt="Email" class="icon">
           kozopasmaryana@gmail.com
         </li>
         <li class="contacts-item">
-          <img src="./images/phone.svg" alt="Phone" class="icon">
+          <img src="./phone.svg" alt="Phone" class="icon">
           +380 (97) 108 38 77
         </li>
       </ul>
@@ -90,10 +265,10 @@
           <p class="education">Bachelor of Science: Economics - 2021</p>
           <p class="education city">Ivan Franko National University of Lviv, Ukraine</p>
         </div>
-        <div class="rectangle-foot">
-        </div>
       </div>
+      <!-- <div class="rectangle-foot"> -->
 
+      <!-- </div> -->
   </main>
 
 </body>

@@ -149,7 +149,11 @@ display: flex;}
             align-items: flex-end;}  
         .line2 {background: Navy;
             height: 40px;
-            width: 600px;}       
+            width: 600px;}
+            
+        .none-style{
+            text-decoration: none;
+        }
            
           
 

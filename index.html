@@ -5,183 +5,183 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
   <title>CV</title>
-<style>
-  body {
-  color: #000000;
-  font-family: 'Roboto';
-  font-style: normal;
-}
+  <style>
+    body {
+      color: #000000;
+      font-family: 'Roboto';
+      font-style: normal;
+      box-sizing: border-box;
+    }
 
-.cv {
-  width: 992px;
-  height: 947px;
-  margin: 0 auto;
-  border: 1px solid #D3D3D3;
-}
+    .cv {
+      width: 992px;
+      height: 947px;
+      margin: 0 auto;
+      border: 1px solid #D3D3D3;
+      position: relative;
+    }
 
-.title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  margin: 25px 33px 2.5px;
+    .title {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 26px;
+      margin: 25px 33px 2.5px;
 
-  color: #264061;
-}
+      color: #264061;
+    }
 
-/* block 1 */
+    /* block 1 */
 
-.block1 {
-  width: 347px;
-  float: left;
-  height: 100%;
-}
+    .block1 {
+      width: 347px;
+      float: left;
+      height: 100%;
+    }
 
-.rectangle {
-  height: 40px;
+    .rectangle {
+      height: 40px;
 
-  background: #376193;
-}
+      background: #376193;
+    }
 
-.full-name {
-  width: 195px;
-  margin: 32px auto 22px;
+    .full-name {
+      width: 195px;
+      margin: 32px auto 22px;
 
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 29px;
-  line-height: 34px;
-  text-align: center;
-  text-transform: uppercase;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 29px;
+      line-height: 34px;
+      text-align: center;
+      text-transform: uppercase;
 
-  color: #264061;
-}
+      color: #264061;
+    }
 
-.img {
-  width: 240px;
-  height: 240px;
-  left: 278px;
-  top: 163px;
-  display: block;
-  margin: 0 auto;
+    .img {
+      width: 240px;
+      height: 240px;
+      left: 278px;
+      top: 163px;
+      display: block;
+      margin: 0 auto;
 
-  background: #D3D3D3;
-  border-radius: 120px;
-}
+      background: #D3D3D3;
+      border-radius: 120px;
+    }
 
-.line {
-  width: 282.5px;
-  height: 1px;
+    .line {
+      width: 282.5px;
+      height: 1px;
 
-  background: #376193;
-  display: block;
-  margin: auto;
-}
+      background: #376193;
+      display: block;
+      margin: auto;
+    }
 
-.icon {
-  height: 18px;
-  margin-right: 6px;
-  vertical-align: middle;
-}
+    .icon {
+      height: 18px;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
 
-.contacts-item {
-  font-size: 13px;
-  line-height: 15px;
+    .contacts-item {
+      font-size: 13px;
+      line-height: 15px;
 
-  list-style-type: none;
-  margin: 15px 17px;
-}
+      list-style-type: none;
+      margin: 15px 17px;
+    }
 
-.contacts-link {
-  text-decoration: none;
-  color: #000000;
-}
+    .contacts-link {
+      text-decoration: none;
+      color: #000000;
+    }
 
-.languages {
-  list-style-type: none;
-  font-size: 15px;
-  margin: 15px 17px;
-}
+    .languages {
+      list-style-type: none;
+      font-size: 15px;
+      margin: 15px 17px;
+    }
 
 
-/* block 2 */
+    /* block 2 */
 
-.block2 {
-  width: 644px;
-  float: right;
-  margin-top: 50px;
-  position: relative;
-  height: -webkit-fill-available;
-}
+    .block2 {
+      width: 644px;
+      float: right;
+      margin-top: 50px;
+      height: 100%;
+    }
 
-.line-long {
-  width: 579.5px;
-  height: 1px;
+    .line-long {
+      width: 579.5px;
+      height: 1px;
 
-  background: #376193;
-  display: block;
-  margin: 1px auto 15px;
+      background: #376193;
+      display: block;
+      margin: 1px auto 15px;
+    }
 
-}
+    .summary-text {
+      font-size: 15px;
+      width: 574px;
+      margin-left: 33px;
+    }
 
-.summary-text {
-  font-size: 15px;
-  width: 574px;
-  margin-left: 33px;
-}
+    .skills-list {
+      font-size: 16px;
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
 
-.skills-list {
-  font-size: 16px;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
+      list-style-type: none;
+      margin-left: 15px;
+    }
 
-  list-style-type: none;
-  margin-left: 15px;
-}
+    .experience {
+      width: 525px;
+      list-style-type: none;
+      margin-left: 30px;
+    }
 
-.experience {
-  width: 525px;
-  list-style-type: none;
-  margin-left: 30px;
-}
+    .position {
+      font-size: 15px;
+    }
 
-.position {
-  font-size: 15px;
-}
+    .position-time {
+      font-size: 14px;
+    }
 
-.position-time {
-  font-size: 14px;
-}
+    .responsibilities {
+      font-size: 16px;
+      margin-top: 20px;
+    }
 
-.responsibilities {
-  font-size: 16px;
-  margin-top: 20px;
-}
+    .education {
+      margin-left: 33px;
+      font-size: 14px;
+    }
 
-.education {
-  margin-left: 33px;
-  font-size: 14px;
-}
+    .education.city {
+      font-size: 16px;
+      margin-top: -10px;
 
-.education.city {
-  font-size: 16px;
-  margin-top: -10px;
-}
+    }
 
-.rectangle-foot {
-  width: 644px;
-  height: 40px;
-  background: #264061;
-
-  position: absolute;
-  bottom: 0;
-}
-</style>
+    .rectangle-foot {
+      width: 644px;
+      height: 40px;
+      background: #264061;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  </style>
 </head>
 
 <body>
@@ -228,7 +228,6 @@
     </div>
 
     <div class="block2">
-
       <h2 class="title">Summary</h2>
       <div class="line-long">
       </div>
@@ -266,9 +265,9 @@
           <p class="education city">Ivan Franko National University of Lviv, Ukraine</p>
         </div>
       </div>
-      <!-- <div class="rectangle-foot"> -->
-
-      <!-- </div> -->
+      <div class="rectangle-foot">
+      </div>
+    </div>
   </main>
 
 </body>

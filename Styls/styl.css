@@ -1,9 +1,9 @@
 .osnova {
-    border: 1px solid; 
-height: 1000px;
-width: 950px;
-margin: 0 auto;
-display: flex;}
+    outline: 1px solid black; 
+    height: 1000px;
+    width: 950px;
+    margin: 0 auto;
+    display: flex;}
 
     .colon-left {
         /* background: MintCream; */
@@ -12,7 +12,8 @@ display: flex;}
         flex-direction: column;
         align-items: center;}
 
-        .line1 {background: Navy;
+        .line1 {
+            background: Navy;
             height: 40px;
             width: 350px;}
         .name {
@@ -25,8 +26,19 @@ display: flex;}
             align-items: center;
             text-align: center;}
 
+        .post {
+            /* outline: 1px solid black; */
+            font-size: 20px;
+            height: 23px;
+            width: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;}
+
         .image {
             /* background: Navy; */
+            margin-top: 45px;
             height: 250px;
             width: 350px;
             display: flex;
@@ -36,19 +48,30 @@ display: flex;}
             height: 240px;
             width: 240px;}
 
+        .made {
+            /* outline: 1px solid black; */
+            margin-top: 15px;
+            font-size: 20px;
+            height: 23px;
+            width: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;}
 
         .naz {
             /* background: PaleGreen; */
-                border-bottom: 2px solid MidnightBlue;
-                font-size: 22px; 
-                height: 30px;
-                width: 300px;
-                margin-top: 10px;
-                margin-left: 10px; 
-                display: flex; 
-                align-items: flex-end;}
+            border-bottom: 2px solid MidnightBlue;
+            font-size: 22px; 
+            height: 30px;
+            width: 300px;
+            margin-top: 40px;
+            margin-left: 10px; 
+            display: flex; 
+            align-items: flex-end;}
 
-        .ikon {height: 18px;
+        .ikon {
+            height: 18px;
             width: 18px;
             margin-top: 15px;
             margin-right: 10px;}
@@ -63,13 +86,13 @@ display: flex;}
 
         .contacts {
             /* background: Orchid; */
-            height: 300px;
+            height: 180px;
             width: 350px;
             display: flex;}
 
             .contacts-left {
                 /* background: PaleGreen; */
-                height: 300px;
+                height: 180px;
                 width: 85px;
                 display: flex;
                 flex-direction: column;
@@ -77,21 +100,15 @@ display: flex;}
 
             .contacts-right {
                 /* background: Olive; */
-                height: 300px;
+                height: 180px;
                 width: 200px;}
 
-        .languag {
-            /* background: OrangeRed; */
-            height: 120px;
-            width: 220px;
-            margin-left: 40px;
-            margin-top: 15px;
-            font-size: 18px;}
+        
 
 
     
     .colon-right {
-        /* border: 1px solid; */
+        /* outline: 1px solid black; */
         height: 1000px;
         width: 600px;
         display: flex;
@@ -99,7 +116,7 @@ display: flex;}
         align-items: center;}
 
         .naz-right {
-            /* border: 1px solid; */
+            /* outline: 1px solid black; */
             border-bottom: 2px solid MidnightBlue;
             font-size: 22px; 
             height: 40px;
@@ -118,36 +135,54 @@ display: flex;}
             /* border: 1px solid; */
             height: 110px;
             width: 550px;
-            margin-top: 15px;}
+            margin-top: 12px;}
         
         .skils {
             /* border: 1px solid; */
             height: 80px;
             width: 550px;
-            margin-top: 15px;}
-        .nol {margin: 0px;} 
-        .skils-tabl {column-count: 3;
-            margin-top: 15px;}
+            margin-top: 12px;}
+        .nol {
+            margin: 0px;} 
+        .skils-tabl {
+            column-count: 3;
+            margin-top: 12px;}
             
         .experience {
             /* border: 1px solid; */
             height: 50px;
             width: 550px;
-            margin-top: 15px;}
+            margin-top: 12px;}
                
         .education {
             /* border: 1px solid; */
             height: 60px;
             width: 550px;
-            margin-top: 15px;}
+            margin-top: 12px;}
+
+        .languag {
+            /* border: 1px solid; */
+             height: 120px;
+            width: 550px;
+            margin-top: 12px;
+            font-size: 18px;}
         
+        .hobby {
+            /* border: 1px solid; */
+            height: 120px;
+            width: 550px;
+            margin-top: 12px;
+            font-size: 18px;}
+
         .line {
             /* border: 1px solid;  */
             height: 245px;
             width: 600px;
             display: flex;
             align-items: flex-end;}  
-        .line2 {background: Navy;
+        .line2 {
+            /* outline: 1px solid black; */
+            background: Navy;
             height: 40px;
             width: 600px;}
             

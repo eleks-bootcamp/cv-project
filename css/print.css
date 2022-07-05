@@ -1,0 +1,110 @@
+@media print {
+    html{
+        font-size: 12px;
+    }
+    body{
+        margin: 0 0;
+    }
+    main{
+        grid-column-gap: 0.25rem;
+    }
+    .main-photo{
+        width: 13rem;
+    }
+
+    aside, section{
+        box-shadow: 0 0 5px black;
+        border-radius: 0.000001rem;
+    }
+
+    h1{
+        margin: 0.5rem 0;
+    }
+    .position-work{
+        font-size: 1.5rem;
+        margin: 0.5rem 0 1rem 0;
+    }
+    .aside-text{
+        padding:0 1rem ;
+    }
+    h3{
+        margin: 1rem 0;
+        font-size: 1.5rem;
+
+    }
+    .contacts-list li{
+        font-size: 1rem;
+        padding: 0.7rem 0;
+
+    }
+    .contacts-list a{
+        color: #480963;
+    }
+    .languages-list{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .languages-knowledge{
+        font-size: 0.8rem;
+    }
+    .languages-list li{
+        padding: 0.5rem 0 0.5rem  0.5rem;
+    }
+    .left{ margin:0 0.5rem;}
+    section h2{
+        font-size: 1.7rem;
+        margin: 1rem 0;
+
+    }
+    .profile ul{
+        padding-left: 0.5rem;
+    }
+    .profile ul>li{
+        padding: 0.5rem;
+        font-size: 1rem;
+        max-width: 75%;
+    }
+    .skills ul,.soft-skills ul{
+        padding-top: 1rem;
+        padding-left: 1rem;
+        grid-row-gap: 0.5rem;
+    }
+    .skills li, .soft-skills li{
+        font-size: 1rem;
+    }
+    .portfolio ul{
+        padding: 1rem;
+    }
+    .portfolio a{
+        color: #480963;
+        font-size: 1rem;
+    }
+    .experience>*{
+
+    }
+    .experience-position {
+        margin-top: 1rem;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .experience-description{
+        padding: 0.5rem 0 0 2rem;
+        max-width: 75%;
+        font-size: 1rem;
+    }
+    .education{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .education-specialization{
+        padding: 1rem 0;
+        max-width: 85%;
+        font-size: 1rem;
+    }
+    .education_university{
+        padding-bottom: 2.7rem;
+        font-size: 1rem;
+    }
+
+}

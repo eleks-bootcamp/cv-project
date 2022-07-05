@@ -1,140 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
-  font-family: "Roboto";
+main{
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-column-gap: 2rem;
+  margin:0 auto;
+  max-width:1200px;
 
 }
-.blue-line{
-  background-color: #376193;
-  height: 40px;
+hr{
+  color: grey;
   width: 100%;
 }
-.main-color{
-  background-color: var(--main-color);
-}
-.space-left{
-  padding-left: 2rem;
-}
+aside{
+  display: flex;
+  flex-direction: column;
 
-aside {
-  float:left;
+  align-items: flex-start;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 0.5rem;
+  overflow:hidden;
+
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 0.5rem;
+  overflow:hidden;
+
+}
+.top-line{
+  display: block;
+  height: 3rem;
   width: 100%;
-  position: relative;
-
-}
-@media (min-width: 767px) {
-  aside {
-    float: left;
-    width: 40%;
-  }
+  background: -webkit-linear-gradient(left ,black, #480963);
 }
 h1{
-  font-size: 29px;
-  line-height: 2rem;
-  padding: 2rem 0 1rem 0;
+  font-size: 2.5rem;
   text-align: center;
+  margin: 0.5rem 0;
 }
+.position-work{
+  color: grey;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.5rem 0 1em 0;
+}
+.aside-text{
+  padding:0 1rem ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .main-photo{
   border-radius: 50%;
-  width: 80%;
-margin: 0 auto;
 }
 h3{
-  font-size: 22px;
-  line-height: 1rem;
-  border-bottom: 1px solid var(--main-color);
-  padding-bottom: 0.3rem;
-  margin-bottom: 0.4rem;
+  margin: 1rem 0;
+
+  font-size: 1.5rem;
 }
+.contacts-list li{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  align-items: center;
+  padding: 0.6rem 0;
 
-.contacts{
-  padding:1rem;
-  margin-bottom: 1rem;
-}
-
-
-.contacts-list>*{
-    padding: 0.4rem 0 0.4rem 2rem;
 
 }
-.contacts-list a{
+.contacts-list li a{
   color: black;
 }
-.contacts-list a:hover{
-  color: var(--main-color);
-  font-size: 18px;
-  font-weight: bold;
+.contacts-list li a:hover{
+color: #480963;
+  font-size: 1.4rem;
 }
-.contacts-list img {
-  color: black;
-  max-width: 14px;
-  float: left;
-  margin-right: 0.3rem;
-
+.contacts-list img{
+  width: 1.5rem;
+  margin-right:1rem ;
 }
-.languages{
+.languages-list{
+  font-size: 1.2rem;
   padding: 1rem;
 }
-.languages-list *{
-  padding: 0.4rem 0 0.4rem 2rem;
+.languages-list li{
+  padding: 0.5rem 0 0.5rem  1rem;
 
 }
+.languages-knowledge{
+  font-size: 1rem;
+  color: grey;
+  font-style: italic;
+}
 
-section{
-  float: right;
+section>div{
+
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  overflow: hidden;
+}
+.left{ margin:0 1rem;}
+section h2{
+  font-size: 1.7rem;
+
+  margin: 1rem 0;
+
+}
+section p{
+  font-size: 1.2rem;
+  color: black;
+}
+.line{
+
   width: 100%;
-  padding-top: 5rem;
+  height: 2px;
+  background: grey;
+  margin: 0.5rem 0;
 }
-  @media (min-width: 767px) {
-    section {
-      float: right;
-      width: 60%;
-    }
-  }
-h2{
-  font-size: 23px;
-  border-bottom: 1px solid var(--main-color);
-  padding-bottom: 0.3rem;
-  line-height: 1.5rem;
-  letter-spacing: 0;
-}
-.summary p{
-  font-size: 15px;
-  padding: 1rem 0 2rem 0;
+
+.profile ul>li{
+  padding: 0.5rem ;
 }
 .skills ul{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  padding:1rem 0 ;
-
-
-}
-.skills ul li{
-  padding: 0.3rem 1rem;
-  text-align: left;
-}
-.experience>*{
-  padding-left: 2rem;
-}
-.experience-position{
   padding-top: 1rem;
+  padding-left: 1rem;
+  display: grid;
+  grid-row-gap: 0.5rem;
+  grid-template-columns: repeat(3,1fr);
 }
-.experience-name-company{
-  font-size: 15px;
+.soft-skills ul{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  display: grid;
+  grid-row-gap: 0.5rem;
+  grid-template-columns: repeat(3,1fr);
+}
+.portfolio ul{
+  padding: 1rem;
+}
+
+.portfolio a{
+   color: black;
+  font-size: 1.2rem;
+ }
+.portfolio a:hover{
+  font-size: 1.5rem;
+  color: #480963;
+}
+.experience-position {
+  margin-top: 1rem;
+  font-weight: bold;
 }
 .experience-date{
-  font-size: 14px;
+  color: grey;
 }
 .experience-description{
-  padding: 1.5rem 0 0.5rem 0;
+  padding: 0.5rem;
 }
-
-.education h2{
-  padding-top: 1rem;
+.education{
+  padding: 1rem;
 }
 .education-specialization{
-  font-size: 14px;
-  padding-top: 0.5rem;
+  font-weight: bold;
+  padding: 1rem 0;
 }
 .education_university{
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
+}
+
+.bottom-line{
+  display: block;
+  height: 3rem;
+  width: 100%;
+  background: -webkit-linear-gradient(right ,black, #480963);
 }

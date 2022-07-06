@@ -11,9 +11,7 @@ a {
 .wrapper {
     color: #000;
     width: 992px;
-    height: 892px;
-    /* min-height: 100%;
-    max-height: 1200px; */
+    height: 935px;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
@@ -43,19 +41,19 @@ a {
 }
 
 .line-up-white {
-    width: 644px;
+    width: 643px;
     background: #fff
 }
 
 .line-bottom-white {
     width: 347px;
-    top: 850px;
+    top: 893px;
     background: #fff
 }
 
 .line-bottom {
     width: 644px;
-    top: 850px;
+    top: 893px;
     background: #264061;
 }
 
@@ -74,6 +72,10 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     text-align: center;
+}
+
+h2{
+    left: 5%;
 }
 
 .profile-photo {
@@ -104,19 +106,19 @@ h1 {
 
 .contacts {
     width: 91px;
-    top: 425px;
+    top: 46%;
 }
 
 .contacts-hr {
-    top: 465px;
+    top: 50%;
 }
 
 .contacts-list {
     position: absolute;
     height: 45px;
-    top: 472px;
-    font-size: 13px;
-    line-height: 15px;
+    top: 50%;
+    font-size: 18px;
+    line-height: 18px;
 }
 
 .contacts-item {
@@ -149,18 +151,18 @@ h1 {
 
 .languages {
     width: 111px;
-    top: 620px;
+    top: 67%
 }
 
 .languages-hr {
-    top: 660px;
+    top: 71%;
 }
 
 .languages-list {
     position: absolute;
     height: 18px;
-    top: 662px;
-    font-size: 15px;
+    top: 71%;
+    font-size: 18px;
     line-height: 18px;
 }
 
@@ -171,7 +173,6 @@ h1 {
 .right-wrapper h2 {
     position: absolute;
     height: 27px;
-    left: 0px;
     font-size: 23px;
     line-height: 27px;
 }
@@ -195,7 +196,8 @@ h1 {
 .summary-list {
     height: 72px;
     top: 118px;
-    font-size: 15px;
+    left: 6%;
+    font-size: 18px;
     line-height: 18px;
 }
 
@@ -213,17 +215,17 @@ h1 {
     height: 40px;
     width: 350px;
     top: 270px;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 18px;
+    line-height: 18px;
 }
 
 .experience {
     width: 115px;
-    top: 321px;
+    top: 40%;
 }
 
 .experience-hr {
-    top: 361px;
+    top: 44.5%;
 }
 
 .experience-item {
@@ -232,25 +234,26 @@ h1 {
 
 .experience-list {
     height: 19px;
-    top: 366px;
-    font-size: 16px;
-    line-height: 19px;
+    top: 44%;
+    font-size: 18px;
+    line-height: 18px;
 }
 
 .education {
     width: 105px;
-    top: 550px;
+    top: 67%
 }
 
 .education-hr {
-    top: 590px;
+    top: 71%;
 }
 
 .education-list {
     height: 16px;
-    top: 595px;
-    font-size: 14px;
-    line-height: 16px;
+    top: 71%;
+    left: 6%;
+    font-size: 18px;
+    line-height: 18px;
 }
 
 .wrapper p, ul {

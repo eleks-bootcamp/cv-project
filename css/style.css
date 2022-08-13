@@ -6,6 +6,14 @@ main{
   max-width:1200px;
 
 }
+@media  (max-width: 769px){
+  main{
+
+    grid-template-columns: 1fr;
+
+
+  }
+}
 hr{
   color: grey;
   width: 100%;
@@ -19,6 +27,21 @@ aside{
   border-radius: 0.5rem;
   overflow:hidden;
 
+}
+@media  (max-width: 769px){
+  aside{
+
+
+    align-items: center;
+    box-shadow: none;
+
+  }
+  section{
+
+    align-items: center;
+    box-shadow: none;
+
+  }
 }
 section{
   display: flex;
@@ -138,6 +161,11 @@ section p{
   display: grid;
   grid-row-gap: 0.5rem;
   grid-template-columns: repeat(3,1fr);
+}
+@media  (max-width: 321px){
+  .soft-skills ul{
+    grid-template-columns: repeat(2,1fr);
+  }
 }
 .portfolio ul{
   padding: 1rem;

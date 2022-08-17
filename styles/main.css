@@ -15,29 +15,30 @@ body {
 
 .cv {
   border: 1px solid #61265b;
-  padding: 0 27px 0 44px;
+  padding: 0 20px;
   display: flex;
   /* justify-content: space-between; */
 }
 
 .about-me {
   min-width: 283px;
-  margin-right: 65px;
+  margin-right: 40px;
 }
 
-.about-me__frame {
+/* .about-me__frame {
   width: 347px;
   height: 40px;
   background: #61265b;
   margin-bottom: 33px;
   margin-left: -44px;
-}
+} */
 
 .about-me__name {
   font-size: 29px;
   line-height: 1.17;
   text-align: center;
   margin-bottom: 22px;
+  color: #61265b;
 }
 
 .about-me__photo {
@@ -55,11 +56,11 @@ body {
   margin-bottom: 15px;
 }
 
-.about-me .about-me__contacts,
+/* .about-me .about-me__contacts,
 .about-me .about-me__languages,
 .main-skills .main-skills__list {
   margin-left: 20px;
-}
+} */
 
 .about-me__contacts-links {
   margin-bottom: 20px;
@@ -112,7 +113,7 @@ body {
 }
 
 .main-summary {
-  margin-bottom: 26px;
+  margin-bottom: 20px;
 }
 
 .main-skills__list {
@@ -122,6 +123,10 @@ body {
 
 .main-skills .main-skills__list {
   margin-bottom: 24px;
+}
+
+.main-skills__item {
+  padding: 5px;
 }
 
 .main-experience__item {
@@ -139,7 +144,7 @@ span {
 }
 
 .main-experience .main-experience__project {
-  margin: 0 0 30px 30px;
+  margin: 0 0 20px 30px;
 }
 
 .main-experience__project-list:not(:last-child) {

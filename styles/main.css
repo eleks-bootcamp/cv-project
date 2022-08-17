@@ -14,21 +14,21 @@ body {
 }
 
 .cv {
-  border: 1px solid #D3D3D3;
+  border: 1px solid #61265b;
   padding: 0 27px 0 44px;
   display: flex;
   /* justify-content: space-between; */
 }
 
 .about-me {
- min-width: 283px;
- margin-right: 65px;
+  min-width: 283px;
+  margin-right: 65px;
 }
 
 .about-me__frame {
- width: 347px;
+  width: 347px;
   height: 40px;
-  background: #376193;
+  background: #61265b;
   margin-bottom: 33px;
   margin-left: -44px;
 }
@@ -42,16 +42,16 @@ body {
 
 .about-me__photo {
   object-fit: cover;
-  border-radius: 120%;
-  margin-bottom: 24px;
+  border-radius: 20%;
+  margin: 20px;
 }
 
 .title {
   font-size: 22px;
   line-height: 26px;
-  color: #264061;
+  color: #61265b;
   padding-bottom: 2px;
-  border-bottom: 1px solid #376193;
+  border-bottom: 1px solid #61265b;
   margin-bottom: 15px;
 }
 
@@ -62,11 +62,18 @@ body {
 }
 
 .about-me__contacts-links {
-  padding-left: 26px;
   margin-bottom: 20px;
   position: relative;
+
 }
 
+.about-me__contacts-link {
+  display: inline-flex;
+}
+
+.img {
+  padding-right: 10px;
+}
 
 .about-me__contacts-links::before {
   content: '';
@@ -76,7 +83,7 @@ body {
   left: 0;
 }
 
-.about-me__contacts-git::before {
+/* .about-me__contacts-git::before {
   background-image: url('../image/git.svg');
 }
 
@@ -90,7 +97,7 @@ body {
 
 .about-me__contacts-tel::before {
   background-image: url('../image/phone.svg');
-}
+} */
 
 .about-me__languages-item {
   margin-bottom: 17px;
@@ -135,7 +142,7 @@ span {
   margin: 0 0 30px 30px;
 }
 
-.main-experience__project-list:not(:last-child){
+.main-experience__project-list:not(:last-child) {
   margin-bottom: 10px;
 }
 
@@ -143,16 +150,15 @@ span {
   margin-bottom: 90px;
 }
 
+.main-education__item {
+  margin-bottom: 10px;
+}
+
 .main-frame {
   width: 644px;
   height: 40px;
-  background-color: #264061;
+  background-color: #61265b;
   position: absolute;
   left: -45px;
   bottom: 0;
 }
-
-
-
-
-

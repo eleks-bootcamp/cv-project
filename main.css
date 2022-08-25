@@ -1,0 +1,135 @@
+:root {
+    --blue-100: #376193;
+    --blue-200: #264061;
+    --grey-100: #d3d3d3;
+    --white: #fff;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    background: whitesmoke;
+  }
+  
+  .headings{
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    all: unset;
+  }
+  
+  
+  .main-container {
+    width: 992px;
+    min-height: 100%;
+    max-height: max-content;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid var(--grey-100);
+    background: var(--white);
+    box-sizing: border-box;
+  }
+  
+  .left-container {
+    width: 35%;
+    height: 100%;
+  }
+  
+  .right-container {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  
+  
+  .side-content {
+    padding: 2rem;
+  }
+  
+  .name-heading {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    color: var(--blue-200)
+  }
+  
+  .my-photo{
+    background-color: lightgrey;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+  }
+  
+  .photo{
+    width: 240px;
+    height: 240px;
+  }
+  
+  .skills-list {
+    columns: 3;
+  }
+  
+  .section{
+    margin-bottom: 1.5rem;
+  }
+  
+  .headings{
+    color: var(--blue-200);
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--blue-100);
+  }
+  
+  .bi {
+    height: 1rem;
+    margin-right: 0.4rem;
+    display: inline-block;
+    vertical-align: -0.125rem;
+  }
+  
+  .contacts-link {
+    cursor: pointer;
+  }
+  
+  
+  .list {
+    padding-left: 1.5rem;
+  }
+  
+  .list li {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-item {
+    margin-bottom: 1rem;
+  }
+  
+  .decorative-block {
+    height: 40px;
+    width: 100%;
+  }
+  
+  .blue-bg-100 {
+    background-color: var(--blue-100);
+  }
+  
+  .blue-bg-200{
+    margin-top: 18rem;
+    background: var(--blue-200);
+  }
+  
+  
+  .contacts-list, .languages-list{
+    list-style-type: none;
+  }
+  

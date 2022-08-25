@@ -1,277 +1,150 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>CV | Volodymyr Shevchuk</title>
-  <style>
-    :root {
-      --blue-100: #376193;
-      --blue-200: #264061;
-      --grey-100: #d3d3d3;
-      --white: #fff;
-    }
+  <title>CV | Solonynka Andriy</title>
+  <link rel="stylesheet" href="./main.css">
 
-    /* Colors */
-    .blue-bg-100 {
-      background-color: var(--blue-100);
-    }
-
-    .blue-bg-200 {
-      background-color: var(--blue-200);
-    }
-
-    /* Reset */
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      margin: 0;
-      padding: 0;
-    }
-
-    a {
-      all: unset;
-    }
-
-    /* CV */
-    /* NOTE: please check https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
-    .cv {
-      width: 992px;
-      min-height: 100%;
-      max-height: 1200px;
-      display: flex;
-      margin: 0 auto;
-      border: 1px solid var(--grey-100);
-      background: var(--white);
-      box-sizing: border-box;
-    }
-
-    /* Left side */
-    .cv-left-side {
-      width: 35%;
-      height: 100%;
-    }
-
-    .cv-side-content {
-      padding: 2rem;
-    }
-
-    .cv-full-name {
-      text-align: center;
-      font-size: 1.8rem;
-      margin-bottom: 1.5rem;
-      text-transform: uppercase;
-      color: var(--blue-200)
-    }
-
-    .cv-photo {
-      background-color: lightgrey;
-      border-radius: 50%;
-      overflow: hidden;
-      width: 240px;
-      height: 240px;
-      margin: 0 auto;
-    }
-
-    /* Right side */
-    .cv-right-side {
-      width: 65%;
-      height: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-    }
-
-    .cv-skills-list {
-      columns: 3;
-    }
-
-    /* Common */
-    .cv-section {
-      margin-bottom: 1.5rem;
-    }
-
-    .cv-section-title {
-      color: var(--blue-200);
-      margin-bottom: 1rem;
-      border-bottom: 1px solid var(--blue-100);
-    }
-
-    .bi {
-      width: 1rem;
-      height: 1rem;
-      margin-right: 0.4rem;
-      display: inline-block;
-      vertical-align: -0.125rem;
-    }
-
-    .cv-cursor-pointer {
-      cursor: pointer;
-    }
-
-    .cv-decorative-block {
-      height: 40px;
-      width: 100%;
-    }
-
-    .cv-list {
-      padding-left: 1.5rem;
-    }
-
-    .cv-list li {
-      margin-bottom: 1rem;
-    }
-  </style>
 </head>
 
-<body style="background-color: whitesmoke">
-  <div class="cv">
-    <div class="cv-left-side">
-      <div class="cv-decorative-block blue-bg-100"></div>
-      <div class="cv-side-content">
-        <h1 class="cv-full-name">
-          Volodymyr Shevchuk
-        </h1>
+<body class="body_color">
 
-        <div class="cv-section">
-          <div class="cv-photo">
-            <img src="./shevchuk-volodymyr.jpg" alt="shevchuk-volodymyr">
+  <div class="main-container">
+    <div class="left-container">
+      <div class="decorative-block blue-bg-100"></div>
+      <div class="side-content">
+        <div class="name-container">
+          <h1 class="name-heading ">Solonynka Andriy</h1>
+        </div>
+        <div class="section">
+          <div class="my-photo">
+            <img class="photo" src="./photo_2022-04-13_13-16-12.jpg" alt="Фото Андрія Солонинки">
           </div>
         </div>
 
-        <div class="cv-section">
-          <h2 class="cv-section-title">Contacts</h2>
 
-          <ul class="cv-list">
-            <li>
-              <span class="bi">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                </svg>
-              </span>
-              <a target="_blank" href="https://github.com/dosandk" class="cv-cursor-pointer">
-                dosandk
-              </a>
-            </li>
-            <li>
-              <span class="bi">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                </svg>
-              </span>
-              <a target="_blank" href="https://www.linkedin.com/in/dosandk/" class="cv-cursor-pointer">
-                dosandk
-              </a>
-            </li>
-            <li>
-              <span class="bi">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                </svg>
-              </span>
-              {{your.email}}@mail.com
-            </li>
-            <li>
-              <span class="bi bi-telephone">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                </svg>
-              </span>
-              +38 (050) 123 45 67
-            </li>
-          </ul>
+
+        <div class="section">
+          <div class="contacts-container">
+            <h2 class="contacts-heading headings">Contacts</h2>
+            <ul class="contacts-list list">
+              <li class="contacts-items">
+                <span class="bi">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+                </span>
+                <a class="contacts-link" target="_blank" href="https://github.com/Sloian">
+                  <i class="fa fa-github"></i>Sloian</a>
+              </li>
+              <li class="contacts-items">
+                <span class="bi">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg>
+                </span>
+                <a  class="contacts-link" target="_blank" href="https://www.linkedin.com/in/andriy-solonynka-1664a4195/">
+                  <i class="fa fa-linkedin"></i>LinkedIn</a>
+              </li>
+              <li class="contacts-item">
+                <span class="bi">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                  </svg>
+                </span>
+                <i class="fa fa-mail">andriysolonynka10@gmail.com</i></li>
+              <li class="contacts-item">
+                <span class="bi bi-telephone">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                  </svg>
+                </span>
+                <i class="fa fa-phone"></i>380683548376</li>
+              <li class="contacts-item">
+                <span class="bi">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 240 240">
+                    <path d="M66.964 134.874s-32.08-10.062-51.344-16.002c-17.542-6.693-1.57-14.928 6.015-17.59 7.585-2.66 186.38-71.948 194.94-75.233 8.94-4.147 19.884-.35 14.767 18.656-4.416 20.407-30.166 142.874-33.827 158.812-3.66 15.937-18.447 6.844-18.447 6.844l-83.21-61.442z" fill="none" stroke="#000" stroke-width="10"/>
+                    <path d="M92.412 201.62s4.295.56 8.83-3.702c4.536-4.26 26.303-25.603 26.303-25.603" fill="none" stroke="#000" stroke-width="10"/>
+                    <path d="M66.985 134.887l28.922 14.082-3.488 52.65s-4.928.843-6.25-3.613c-1.323-4.455-19.185-63.12-19.185-63.12z" fill-rule="evenodd" stroke="#000" stroke-width="10" stroke-linejoin="bevel"/>
+                    <path d="M66.985 134.887s127.637-77.45 120.09-71.138c-7.55 6.312-91.168 85.22-91.168 85.22z" fill-rule="evenodd" stroke="#000" stroke-width="9.67" stroke-linejoin="bevel"/>
+                  </svg>
+                </span>
+                <a class="contacts-link" target="_blank" href="https://t.me/Solonynka10"><i class="bi bi-telegram"></i>Telegram</a>
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div class="cv-section">
-          <h2 class="cv-section-title">Languages</h2>
+          <div class="section">
+            <div class="languages-container">
+              <h2 class="languages-heading headings">Languages</h2>
+              <ul class="languages-list list">
+                <li class="languages-items">Ukrainian(native)</li>
+                <li class="languages-items">Englisn(B1-B2)</li>
+              </ul>
+            </div>
+          </div>
 
-          <ul class="cv-list">
-            <li>Ukrainian</li>
-            <li>English</li>
-          </ul>
-        </div>
       </div>
     </div>
-
-    <div class="cv-right-side">
-      <div class="cv-decorative-block"></div>
-      <div class="cv-side-content">
-        <div class="cv-section">
-          <h2 class="cv-section-title">Summary</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Ad adipisci commodi consequuntur corporis dicta dolor dolore doloribus ea error et exercitationem
-            in inventore ipsa itaque modi necessitatibus nemo nihil possimus praesentium provident quaerat,
-            quas quo reprehenderit sapiente sit suscipit tenetur unde vel velit veniam.
-          </p>
-        </div>
-        <div class="cv-section">
-          <h2 class="cv-section-title">Skills</h2>
-
-          <ul class="cv-skills-list cv-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git</li>
-            <li>JavaScript</li>
-            <li>React</li>
-          </ul>
-        </div>
-        <div class="cv-section">
-          <h2 class="cv-section-title">Experience</h2>
-
-          <ul class="cv-list">
-            <li>
-              <div>
-                <span>{{ Position }}</span> at {{ Company name }}
-              </div>
-
-              <em>November 2020 - present</em>
-              <p>
-                Job Responsibilities: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aut cum deleniti maxime perferendis qui voluptate.
-              </p>
-            </li>
-
-            <li>
-              <div>
-                <span>{{ Position }}</span> at {{ Company name }}
-              </div>
-              <em>January 2019 - November 2020</em>
-              <p>
-                Job Responsibilities: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                A aliquam aperiam at consectetur dicta ex maxime minus totam unde vel.
-              </p>
-            </li>
-
-            <li>
-              <div>
-                <span>{{ Position }}</span> at {{ Company name }}
-              </div>
-              <em>January 2019 - November 2020</em>
-              <p>
-                Job Responsibilities: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusamus aspernatur corporis facilis inventore ipsum minus nulla optio vero voluptatum.
-                Aut dignissimos dolore eaque esse eveniet impedit, non numquam optio repudiandae?
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div class="cv-section">
-          <h2 class="cv-section-title">Education</h2>
-
-          <p>
-            Bachelor of Science: Computer information Systems - 2003
-            <br>
-            {{ University Name }}, Ukraine
-          </p>
+        <!-- right conteiner -->
+    <div class="right-container">
+      <div class="decorative-block"></div>
+      <div class="side-content">
+        <div class="section">
+          <div class="summary-container margins">
+            <h2 class="summary-heading headings">Summary</h2>
+            <p>
+              I have the desire and motivation to work in Frontend development and
+              I am ready to learn something new. I work well both as a team and on my own.
+              I am motivated to improve and achieve my goals. I quickly adapt to a new space.
+            </p>
+          </div>
         </div>
 
+        <div class="section">
+          <div class="skills-container margins">
+            <h2 class="skills-heading headings">Skills:</h2>
+            <ul class="skills-list list">
+              <li class="skills-item">Python</li>
+              <li class="skills-item">HTML</li>
+              <li class="skills-item">CSS</li>
+              <li class="skills-item">Git</li>
+              <li class="skills-item">Javascript</li>
+              <li class="skills-item">React</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="experiance-container margins">
+            <h2 class="experiance-heading headings">Activity:</h2>
+           
+            <ul class="list">
+              <li>I continue to study in college</li>
+              <li>I have been involved in music for a long time</li>
+              <li>I study programming from books and attending courses</li>
+              <li>I am currently working as a football extra</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="education-container margins">
+            <h2 class="education-heading headings">Education:</h2>
+            <p>
+              Junior specialist degree, Programming(2018 - 2022)<br>
+              Halytskyi College named after Viacheslav Chornovi, Ukraine
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="cv-decorative-block blue-bg-200"></div>
+      <div class="decorative-block blue-bg-200"></div>
     </div>
   </div>
-</body>
+
+
+
 </html>

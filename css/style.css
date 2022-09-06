@@ -6,14 +6,7 @@ main{
   max-width:1200px;
 
 }
-@media  (max-width: 769px){
-  main{
 
-    grid-template-columns: 1fr;
-
-
-  }
-}
 hr{
   color: grey;
   width: 100%;

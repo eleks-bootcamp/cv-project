@@ -69,19 +69,16 @@
     }
 
     li img:hover {
-      /* background-color: #0069ea; */
       -webkit-filter: red;
       -moz-filter: red;
       filter: 50%;
       transition: all 0.5s ease;
     }
 
-
     .cv-skills-list li p {
       padding: 0;
       margin: 0;
       text-align: center;
-
     }
 
     .cv {
@@ -124,7 +121,7 @@
     }
 
     .cv-right-side {
-      width: 65%;
+      width: 70%;
       height: 100%;
       display: flex;
       justify-content: space-between;
@@ -160,6 +157,12 @@
       color: var(--blue-200);
       margin-bottom: 1rem;
       border-bottom: 1px solid var(--blue-100);
+    }
+
+    strong {
+      color: var(--blue-200);
+
+
     }
 
     .bi {
@@ -267,17 +270,59 @@
           </ul>
         </div>
         <div class="cv-section">
+          <h2 class="cv-section-title">Education</h2>
+          <ul class="cv-list">
+            <li>
+              <strong>
+                High-school
+              </strong>
+              at Ukrainian Academy of Print (Lviv)
+              <em>2010 - 2014</em>
+              <p> Multimedia Electronic Publications</p>
+              <p>master degree</p>
+            </li>
+
+            <li>
+              <strong>HactoberFest-2021</strong>
+
+            </li>
+            <li>
+              <strong>Coderetreat-2021
+            </li></strong>
+            <li>
+              <strong>
+                Bootcamp
+              </strong>
+              at ELEKS
+              <br>
+              <em>24/03/2021- present</em>
+              <!-- <p>Topics:</p>
+            <p>GIT, CSS/HTML, JavaScript, React</p> -->
+            </li>
+            <li>
+              <strong>
+                Soft skills
+              </strong>
+              at FRI-camp (Federation region initiasies)
+              <br>
+              <em>05/08/2022-12/08/2022 </em>
+              <!-- <p>Topics:</p>
+            <p>GIT, CSS/HTML, JavaScript, React</p> -->
+            </li>
+          </ul>
+        </div>
+        <div class="cv-section">
           <h2 class="cv-section-title">Interests</h2>
 
           <ul class="cv-list interests">
-            <li>Technologies</li>
-            <li>Photography</li>
-            <li>Art</li>
-            <li>Yoga</li>
-            <li>Hiking</li>
-            <li>Longboard</li>
-            <li>Storytelling</li>
-
+            <span>Technologies,</span>
+            <span>Photography,</span>
+            <span>Art,</span>
+            <span>Yoga,</span>
+            <span>Hiking,</span>
+            <span>Longboard,</span>
+            <span>Storytelling,</span>
+            <span>Fasion, Style.</span>
           </ul>
         </div>
 
@@ -290,11 +335,9 @@
         <div class="cv-section">
           <h2 class="cv-section-title">Summary</h2>
           <p>
-            From 02.2020 there is experience with Frontend.
-            Frontend developer with 6 months of commercial experience in React. Used JavaScript for more 2 year and
-            half
-            years on TypeScript. Worked with domains: E-commerce, Education, Fintech. Can work on remote. With spiker
-            English.
+            Seeking for a Front-End Developer position on React in a fast-growing organization to utilize my experience
+            in
+            software development. Coming with skills in computer science in addition to excellent communication skills.
           </p>
         </div>
         <div class="cv-section">
@@ -311,10 +354,7 @@
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 alt="JavaScript">
               <p>JavaScript</p>
-
             </li>
-
-
             <li>
               <img
                 src="data:image/png;base64,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"
@@ -332,14 +372,12 @@
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"
                 alt="Sass">
               <p>Sass</p>
-
             </li>
             <li>
               <img
                 src="data:image/png;base64,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"
                 alt="Github">
               <p>Git</p>
-
             </li>
           </ul>
         </div>
@@ -349,7 +387,9 @@
             <li>
               <strong>Skills and technologies:</strong>
               <br>
-              Styles: CSS3/flex, grid, Bootstrap, Material UI, Ant Design, Sass, Figma, Photoshop;
+              Styles: CSS3/flex, grid,
+              СSS Frameworks: Bootstrap, Material UI, Tailwind, Ant Design, Sass, Figma, Photoshop;
+              СSS-modules;
               <br>
               Manager: Slack, Zoom, Google meet, Trello, Worksection, Keynote, Miro, Upwork, gitHub;
               <br>
@@ -361,15 +401,47 @@
               <br>
               Package manager: Npm, Yarn;
               <br>
-              Patern: SPA, MPA;
+              Patern: SPA, PWA(service worker);
               <br>
               Deploy: Git page, Netlify, Heroku, Versel;
-              Testing: Jest snapshot testing, Debuggers, EsLint, Prettier;
+              Testing: Jest snapshot testing, Debuggers, EsLint, Prettier, pre-commit;
               <br>
-              <br>
-              Introductory:
-              React Apollo, Next, GraphQL, MongoDB, Mongoose, Express, Node.js
             </li>
+            <li>
+              <div>
+                <strong>
+                  <span>Frontend developer</span> at StartApp
+                </strong>
+              </div>
+              <em>07/2022- present</em>
+              <p>Tech stack:</p>
+              <p>React, Google map platform, Service worker, Firebase, Lottie, SCC-module, Docker, Git </p>
+
+            </li>
+            <li>
+              <div>
+                <strong>
+                  <span>Frontend developer</span> at ATC-267 Art-tech.charity
+                </strong>
+
+              </div>
+              <em>09/2021- 02/2022</em>
+              <p>Job responsebility:</p>
+              <p>Implementing estimate tasks.
+                Development from the beginning product.
+                Further to this, creating structured app. Also, realizing adaptive and responsive UI. Working with team.
+                In addition, Involvement with Web3, Dapps, Moralis, and Solidity technologies. Preparation of the UI
+                part for connection with the crypto-wallet, De-Fi and NFT. Conversations with the foundering project.
+                Build an app on React-toolkit, RTK-query
+                Furthermore, adding and styling features and new tools (searching, filtering, creating a topic, changes
+                on server part, responsibilities screen, module windows, tips…)
+                Build testing Mock API (JSON-server).
+                Also, Working with the rest API Implementing UI mockup with Bootstrap and CSS modules. Custom save on
+                localStorage. Git merge branching versions.
+                Deploy on Heroku.
+              </p>
+            </li>
+
             <li>
               <div>
                 <strong>
@@ -377,7 +449,7 @@
                 </strong>
               </div>
 
-              <em>06/2021- 09/2021</em>
+              <em>05/2021- 09/2021</em>
               <p>Job responsebility:</p>
               <p>Assisted the development manager in working on software design and coding. Attended and contributed to
                 company development meetings. Also participation in conversations and building plan tasks. Updating and
@@ -392,29 +464,9 @@
               </p>
             </li>
 
-            <li>
-              <div>
-                <strong>
-                  <span>Frontend developer</span> at ATC-267 Art-tech.charity
-                </strong>
 
-              </div>
-              <em>09/2021- 11/2021</em>
-              <p>Job responsebility:</p>
-              <p>Building MVP product for a startup. Implementing estimate tasks.
-                Development from the beginning product.
-                Further to this, creating structured app. Also, realizing adaptive and responsive UI. Working with team.
-                In addition, Involvement with Web3, Dapps, Moralis, and Solidity technologies. Preparation of the UI
-                part for connection with the crypto-wallet, De-Fi and NFT. Conversations with the foundering project.
-                Build an app on React-toolkit, RTK-query
-                Furthermore, adding and styling features and new tools (searching, filtering, creating a topic, changes
-                on server part, responsibilities screen, module windows, tips…)
-                Build testing Mock API (JSON-server).
-                Also, Working with the rest API Implementing UI mockup with Bootstrap and CSS modules. Custom save on
-                localStorage. Git merge branching versions.
-                Deploy on Heroku.
-              </p>
-            </li>
+
+
           </ul>
         </div>
         <div class="cv-section">
@@ -436,7 +488,7 @@
               </strong>
 
               <br />
-              <span>SPA. App can build project with discription, photo and video view on gallery. Project have able edit
+              <span>SPA can build project with discription, photo and video view on gallery. Project have able edit
                 and
                 delete. Common features- searching</span>
             </li>
@@ -449,7 +501,7 @@
             </li>
           </ol>
         </div>
-        <div class="cv-section">
+        <!-- <div class="cv-section">
           <h2 class="cv-section-title">Experience in design</h2>
           <ul class="cv-list">
             <li>
@@ -516,41 +568,10 @@
               </p>
             </li>
           </ul>
-        </div>
+        </div> -->
 
 
-        <div class="cv-section">
-          <h2 class="cv-section-title">Education</h2>
-          <ul class="cv-list">
-            <li>
-              <strong>
-                High-school
-              </strong>
-              at Ukrainian Academy of Print (Lviv)
-              <em>2010 - 2014</em>
-              <p> Multimedia Electronic Publications</p>
-              <p>master degree</p>
-            </li>
 
-            <li>
-              <strong>HactoberFest-2021</strong>
-
-            </li>
-            <li>
-              <strong>Coderetreat-2021
-            </li></strong>
-            <li>
-              <strong>
-                Bootcamp
-              </strong>
-              at ELEKS
-              <br>
-              <em>24/03/2021- present</em>
-              <!-- <p>Topics:</p>
-            <p>GIT, CSS/HTML, JavaScript, React</p> -->
-            </li>
-          </ul>
-        </div>
 
       </div>
       <!-- <div class="cv-decorative-block blue-bg-200"></div> -->

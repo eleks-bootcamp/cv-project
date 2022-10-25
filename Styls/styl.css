@@ -1,0 +1,200 @@
+.osnova {
+    outline: 1px solid black; 
+    height: 1000px;
+    width: 950px;
+    margin: 0 auto;
+    display: flex;}
+
+    .colon-left {
+        /* background: MintCream; */
+        height: 1000px;
+        width: 350px;
+        flex-direction: column;
+        align-items: center;}
+
+        .line1 {
+            background: Navy;
+            height: 40px;
+            width: 350px;}
+        .name {
+            /* background: NavajoWhite; */
+            font-size: 29px;
+            height: 100px;
+            width: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;}
+
+        .post {
+            /* outline: 1px solid black; */
+            font-size: 20px;
+            height: 23px;
+            width: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;}
+
+        .image {
+            /* background: Navy; */
+            margin-top: 45px;
+            height: 250px;
+            width: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;}
+        .radius {border-radius: 50%;
+            height: 240px;
+            width: 240px;}
+
+        .made {
+            /* outline: 1px solid black; */
+            margin-top: 15px;
+            font-size: 20px;
+            height: 23px;
+            width: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;}
+
+        .naz {
+            /* background: PaleGreen; */
+            border-bottom: 2px solid MidnightBlue;
+            font-size: 22px; 
+            height: 30px;
+            width: 300px;
+            margin-top: 40px;
+            margin-left: 10px; 
+            display: flex; 
+            align-items: flex-end;}
+
+        .ikon {
+            height: 18px;
+            width: 18px;
+            margin-top: 15px;
+            margin-right: 10px;}
+
+        .stroki {
+            /* background: OrangeRed; */
+            height: 18px;
+            width: 200px;
+            font-size: 18px;
+            margin-top: 15px;}
+
+
+        .contacts {
+            /* background: Orchid; */
+            height: 180px;
+            width: 350px;
+            display: flex;}
+
+            .contacts-left {
+                /* background: PaleGreen; */
+                height: 180px;
+                width: 85px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;}
+
+            .contacts-right {
+                /* background: Olive; */
+                height: 180px;
+                width: 200px;}
+
+        
+
+
+    
+    .colon-right {
+        /* outline: 1px solid black; */
+        height: 1000px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+
+        .naz-right {
+            /* outline: 1px solid black; */
+            border-bottom: 2px solid MidnightBlue;
+            font-size: 22px; 
+            height: 40px;
+            width: 550px;
+            margin-top: 30px; 
+            display: flex; 
+            align-items: flex-end;}
+
+        .nul-blok {
+            /* border: 1px solid; */
+            height: 28px;
+            width: 550px;
+            margin-top: 5px;}
+
+        .summery {
+            /* border: 1px solid; */
+            height: 110px;
+            width: 550px;
+            margin-top: 12px;}
+        
+        .skils {
+            /* border: 1px solid; */
+            height: 80px;
+            width: 550px;
+            margin-top: 12px;}
+        .nol {
+            margin: 0px;} 
+        .skils-tabl {
+            column-count: 3;
+            margin-top: 12px;}
+            
+        .experience {
+            /* border: 1px solid; */
+            height: 50px;
+            width: 550px;
+            margin-top: 12px;}
+               
+        .education {
+            /* border: 1px solid; */
+            height: 60px;
+            width: 550px;
+            margin-top: 12px;}
+
+        .languag {
+            /* border: 1px solid; */
+             height: 120px;
+            width: 550px;
+            margin-top: 12px;
+            font-size: 18px;}
+        
+        .hobby {
+            /* border: 1px solid; */
+            height: 120px;
+            width: 550px;
+            margin-top: 12px;
+            font-size: 18px;}
+
+        .line {
+            /* border: 1px solid;  */
+            height: 245px;
+            width: 600px;
+            display: flex;
+            align-items: flex-end;}  
+        .line2 {
+            /* outline: 1px solid black; */
+            background: Navy;
+            height: 40px;
+            width: 600px;}
+            
+        .none-style{
+            text-decoration: none;
+            color: black;}
+           
+          
+
+
+
+
+
+
+

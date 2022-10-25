@@ -1,8 +1,10 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>CV | Volodymyr Shevchuk</title>
+  <title>CV | Yarema Ostrovskiy</title>
+  <!-- <link rel="stylesheet" href="./styles/style.css"> -->
   <style>
     :root {
       --blue-100: #376193;
@@ -11,7 +13,6 @@
       --white: #fff;
     }
 
-    /* Colors */
     .blue-bg-100 {
       background-color: var(--blue-100);
     }
@@ -25,19 +26,61 @@
     body {
       height: 100%;
       margin: 0;
+      font-family: Source Sans Pro;
     }
 
-    h1, h2, h3, h4, h5, h6 {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       margin: 0;
       padding: 0;
     }
 
     a {
       all: unset;
+      cursor: pointer;
+      text-decoration: underline;
+      color: #376193;
+
     }
 
-    /* CV */
-    /* NOTE: please check https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+    a:hover {
+      color: white;
+      background-color: #0069ea;
+      padding: 3px;
+      border-radius: 2px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      transform: translateX(10px) translateY(-10px) scale(1.2);
+    }
+
+    li img {
+      justify-content: center;
+      align-items: center;
+      width: 36px;
+      transform: none;
+    }
+
+    li img:hover {
+      -webkit-filter: red;
+      -moz-filter: red;
+      filter: 50%;
+      transition: all 0.5s ease;
+    }
+
+    .cv-skills-list li p {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
     .cv {
       width: 992px;
       min-height: 100%;
@@ -49,7 +92,6 @@
       box-sizing: border-box;
     }
 
-    /* Left side */
     .cv-left-side {
       width: 35%;
       height: 100%;
@@ -64,7 +106,7 @@
       font-size: 1.8rem;
       margin-bottom: 1.5rem;
       text-transform: uppercase;
-      color: var(--blue-200)
+      color: var(--blue-200);
     }
 
     .cv-photo {
@@ -73,12 +115,13 @@
       overflow: hidden;
       width: 240px;
       height: 240px;
+      /* size: 100%; */
       margin: 0 auto;
+
     }
 
-    /* Right side */
     .cv-right-side {
-      width: 65%;
+      width: 70%;
       height: 100%;
       display: flex;
       justify-content: space-between;
@@ -86,18 +129,40 @@
     }
 
     .cv-skills-list {
-      columns: 3;
+      flex-direction: column-6;
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+      margin-right: 40px;
+
     }
 
-    /* Common */
+    .cv-skills-list li {
+      /* -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      transition: all 0.5s ease; */
+      justify-content: center;
+      text-align: center
+    }
+
     .cv-section {
       margin-bottom: 1.5rem;
+
     }
 
     .cv-section-title {
       color: var(--blue-200);
       margin-bottom: 1rem;
       border-bottom: 1px solid var(--blue-100);
+    }
+
+    strong {
+      color: var(--blue-200);
+
+
     }
 
     .bi {
@@ -119,6 +184,8 @@
 
     .cv-list {
       padding-left: 1.5rem;
+      list-style: none;
+
     }
 
     .cv-list li {
@@ -130,15 +197,15 @@
 <body style="background-color: whitesmoke">
   <div class="cv">
     <div class="cv-left-side">
-      <div class="cv-decorative-block blue-bg-100"></div>
+      <!-- <div class="cv-decorative-block blue-bg-100"></div> -->
       <div class="cv-side-content">
         <h1 class="cv-full-name">
-          Volodymyr Shevchuk
+          Yarema Ostrovskyi
         </h1>
 
         <div class="cv-section">
           <div class="cv-photo">
-            <img src="./shevchuk-volodymyr.jpg" alt="shevchuk-volodymyr">
+            <img src="./MRH03204.jpg" alt="yarema-ostrovskyi">
           </div>
         </div>
 
@@ -148,39 +215,47 @@
           <ul class="cv-list">
             <li>
               <span class="bi">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                 </svg>
               </span>
-              <a target="_blank" href="https://github.com/dosandk" class="cv-cursor-pointer">
-                dosandk
+              <a target="_blank" href="https://github.com/Yarema91" class="cv-cursor-pointer">
+                Github
               </a>
             </li>
             <li>
               <span class="bi">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                 </svg>
               </span>
-              <a target="_blank" href="https://www.linkedin.com/in/dosandk/" class="cv-cursor-pointer">
-                dosandk
+              <a target="_blank" href="https://www.linkedin.com/in/yarema-ostrovskiy/" class="cv-cursor-pointer">
+                Linkedin
               </a>
             </li>
             <li>
               <span class="bi">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
                 </svg>
               </span>
-              {{your.email}}@mail.com
+              yaremaphoto@gmail.com
             </li>
             <li>
               <span class="bi bi-telephone">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path
+                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
                 </svg>
               </span>
-              +38 (050) 123 45 67
+              +38 (096) 367 66 54
             </li>
           </ul>
         </div>
@@ -189,89 +264,343 @@
           <h2 class="cv-section-title">Languages</h2>
 
           <ul class="cv-list">
-            <li>Ukrainian</li>
-            <li>English</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="cv-right-side">
-      <div class="cv-decorative-block"></div>
-      <div class="cv-side-content">
-        <div class="cv-section">
-          <h2 class="cv-section-title">Summary</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Ad adipisci commodi consequuntur corporis dicta dolor dolore doloribus ea error et exercitationem
-            in inventore ipsa itaque modi necessitatibus nemo nihil possimus praesentium provident quaerat,
-            quas quo reprehenderit sapiente sit suscipit tenetur unde vel velit veniam.
-          </p>
-        </div>
-        <div class="cv-section">
-          <h2 class="cv-section-title">Skills</h2>
-
-          <ul class="cv-skills-list cv-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git</li>
-            <li>JavaScript</li>
-            <li>React</li>
-          </ul>
-        </div>
-        <div class="cv-section">
-          <h2 class="cv-section-title">Experience</h2>
-
-          <ul class="cv-list">
-            <li>
-              <div>
-                <span>{{ Position }}</span> at {{ Company name }}
-              </div>
-
-              <em>November 2020 - present</em>
-              <p>
-                Job Responsibilities: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aut cum deleniti maxime perferendis qui voluptate.
-              </p>
-            </li>
-
-            <li>
-              <div>
-                <span>{{ Position }}</span> at {{ Company name }}
-              </div>
-              <em>January 2019 - November 2020</em>
-              <p>
-                Job Responsibilities: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                A aliquam aperiam at consectetur dicta ex maxime minus totam unde vel.
-              </p>
-            </li>
-
-            <li>
-              <div>
-                <span>{{ Position }}</span> at {{ Company name }}
-              </div>
-              <em>January 2019 - November 2020</em>
-              <p>
-                Job Responsibilities: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusamus aspernatur corporis facilis inventore ipsum minus nulla optio vero voluptatum.
-                Aut dignissimos dolore eaque esse eveniet impedit, non numquam optio repudiandae?
-              </p>
-            </li>
+            <li>Ukrainian - native</li>
+            <li>Russian - but trying forget</li>
+            <li>English - Intermediate ( B1 ) conversational</li>
           </ul>
         </div>
         <div class="cv-section">
           <h2 class="cv-section-title">Education</h2>
+          <ul class="cv-list">
+            <li>
+              <strong>
+                High-school
+              </strong>
+              at Ukrainian Academy of Print (Lviv)
+              <em>2010 - 2014</em>
+              <p> Multimedia Electronic Publications</p>
+              <p>master degree</p>
+            </li>
+            <li>
+              <strong>American Art Incubator-2020</strong>
+              <p>Worked with team and building 3d game with AI</p>
+            </li>
 
-          <p>
-            Bachelor of Science: Computer information Systems - 2003
+            <li>
+              <strong>HactoberFest-2021</strong>
+
+            </li>
+            <li>
+              <strong>Coderetreat-2021
+            </li></strong>
+            <li>
+              <strong>
+                Bootcamp
+              </strong>
+              at ELEKS
+              <br>
+              <em>24/03/2022- 1/07/2022</em>
+              <!-- <p>Topics:</p>
+            <p>GIT, CSS/HTML, JavaScript, React</p> -->
+            </li>
+            <li>
+              <strong>
+                Soft skills 2.0
+              </strong>
+              at FRI-camp (Federation region initiasies)
+              <br>
+              <em>05/08/2022-12/08/2022 </em>
+              <!-- <p>Topics:</p>
+            <p>GIT, CSS/HTML, JavaScript, React</p> -->
+            </li>
+          </ul>
+        </div>
+        <div class="cv-section">
+          <h2 class="cv-section-title">Interests</h2>
+
+          <ul class="cv-list interests">
+
+            <span>Owner chanel <a href="https://t.me/mentoring_frontend">t.me/mentoring_frontend</a>
+            </span>
             <br>
-            {{ University Name }}, Ukraine
-          </p>
+            <span>Art, Photography</span>
+            <span>Yoga,</span>
+            <span>Hiking,</span>
+            <span>Storytelling,</span>
+            <span>Fastion, Styles, Design.</span>
+          </ul>
         </div>
 
       </div>
-      <div class="cv-decorative-block blue-bg-200"></div>
+    </div>
+
+    <div class="cv-right-side">
+      <!-- <div class="cv-decorative-block"></div> -->
+      <div class="cv-side-content">
+        <div class="cv-section">
+          <h2 class="cv-section-title">Summary</h2>
+          <p>
+            Seeking for a Front-End Developer position on React in a fast-growing organization to utilize my experience
+            in
+            software development. Coming with skills in computer science in addition to excellent communication skills.
+          </p>
+        </div>
+        <div class="cv-section">
+          <h2 class="cv-section-title">Basic skills</h2>
+
+          <ul class="cv-skills-list cv-list">
+            <li>
+              <img src="  https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png" alt="React">
+              <p>React</p>
+
+            </li>
+            <li>
+              <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                alt="JavaScript">
+              <p>JavaScript</p>
+            </li>
+            <li>
+              <img
+                src="data:image/png;base64,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"
+                alt="Redux">
+              <p>Redux</p>
+            </li>
+            <li>
+              <img
+                src=" https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
+                alt="TypeScript">
+              <p>TypeScript</p>
+            </li>
+            <li>
+              <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"
+                alt="Sass">
+              <p>Sass</p>
+            </li>
+            <li>
+              <img
+                src="data:image/png;base64,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"
+                alt="Github">
+              <p>Git</p>
+            </li>
+          </ul>
+        </div>
+        <div class="cv-section">
+          <h2 class="cv-section-title">Highlights of qualifications</h2>
+          <ul class="cv-list">
+            <strong>Skills and technologies:</strong>
+            <br>
+            Styles: CSS3/flex, grid, responsive, adaptive.
+            СSS Frameworks: Bootstrap, Material UI, Tailwind, Ant Design, Sass, Figma, Photoshop;
+            React СSS-modules;
+            <br>
+            Manager: Slack, Zoom, Google meet, Trello, Worksection, Keynote, Miro, Upwork, gitHub;
+            <br>
+            JavaScript: ES6, Lodash, Vanilla JS, EcmaScript, Webpack;
+            <br>
+            Transpilators: Babel, Galb, TypeScript;
+            <br>
+            Redux( hooks, redux-toolkit, fetch API, RTK query, Axios)
+            <br>
+            Package manager: Npm, Yarn;
+            <br>
+            Patern: SPA, PWA(service worker);
+            <br>
+            Deploy: Git page, Netlify, Heroku, Versel;
+            Testing: Jest snapshot testing, Debuggers, EsLint, Prettier, pre-commit;
+            Basic knowledge: MobX, Node.js, Next.js, GraphQL, mongoDB
+
+            <!-- <br> -->
+          </ul>
+        </div>
+        <div class="cv-section">
+          <h2 class="cv-section-title">Areas of excellence</h2>
+          <ul class="cv-list">
+            <li>
+              Collaborate with product and UX designers to translate wireframes to powerful yet intuitive user
+              interfaces;
+            </li>
+            <li>Working knowledge of modern programming/scripting languages and runtime environments including
+              TypeScript,
+              Node.js and experience in mid-tier web services development;</li>
+            <li>Mentoring engineers on the team</li>
+            <li>Design and develop features that deliver the best experience and most value to own customers;</li>
+          </ul>
+        </div>
+        <div class="cv-section">
+          <h2 class="cv-section-title">Work History</h2>
+          <ul class="cv-list">
+            <li>
+              <div>
+                <strong>
+                  <span>Frontend developer</span> at StartApp
+                </strong>
+              </div>
+              <em>07/2022- present</em>
+              <p>Tech stack:</p>
+              <p>React, Google map platform, Service worker, Firebase, Lottie, CSS-modules, Docker, Git </p>
+
+            </li>
+            <li>
+              <div>
+                <strong>
+                  <span>Frontend developer</span> at ATC-267 Art-tech.charity
+                </strong>
+
+              </div>
+              <em>09/2021- 02/2022</em>
+              <p>Job responsebility:</p>
+              <p>Implementing estimate tasks.
+                Development from the beginning product.
+                Further to this, creating structured app. Also, realizing adaptive and responsive UI. Working with team.
+                In addition, Involvement with Web3, Dapps, Moralis, and Solidity technologies. Preparation of the UI
+                part for connection with the crypto-wallet, De-Fi and NFT. Conversations with the foundering project.
+                Build an app on React-toolkit, RTK-query
+                Furthermore, adding and styling features and new tools (searching, filtering, creating a topic, changes
+                on server part, responsibilities screen, module windows, tips…)
+                Build testing Mock API (JSON-server).
+                Also, Working with the rest API Implementing UI mockup with Bootstrap and CSS modules. Custom save on
+                localStorage. Git merge branching versions.
+                Deploy on Heroku.
+              </p>
+            </li>
+
+            <li>
+              <div>
+                <strong>
+                  <span>Frontend developer</span> at Softteam
+                </strong>
+              </div>
+
+              <em>05/2021- 09/2021</em>
+              <p>Job responsebility:</p>
+              <p>Assisted the development manager in working on software design and coding. Attended and contributed to
+                company development meetings. Also participation in conversations and building plan tasks. Updating and
+                learning new coding skills.
+                Writing and maintaining code. Working and monitoring minor bug fixes and the technical performance of
+                internal systems.
+                In addition, response to requests from the development team. Gathering information from consumers about
+                program
+                functionality.
+                Writing reports. Conducting development tests. Furthermore, chatting and meeting with clients, teams,
+                and mentor.
+              </p>
+            </li>
+
+
+
+
+          </ul>
+        </div>
+        <div class="cv-section">
+          <h2 class="cv-section-title">Public repositories links:</h2>
+
+          <ol class="cv-list">
+
+            <li>
+              <strong>
+                <a href="https://github.com/Yarema91/Currency-converter-app">Currency converter</a>
+              </strong>
+              <br />
+              <span>Fintech app has few features of conversion currency -change date, count, history and graphs</span>
+            </li>
+            <li>
+              <strong>
+                <a href="https://github.com/Yarema91/projects">Constructor projects</a>
+
+              </strong>
+
+              <br />
+              <span>SPA can build project with discription, photo and video view on gallery. Project have able edit
+                and
+                delete. Common features- searching</span>
+            </li>
+            <li>
+              <strong>
+                <a href="https://github.com/Yarema91/StarNavi-task">Game square</a>
+              </strong>
+              <br />
+              <span>Game click on the squares. It has three levels of difficulty. Responsive to the screen </span>
+            </li>
+          </ol>
+        </div>
+        <!-- <div class="cv-section">
+          <h2 class="cv-section-title">Experience in design</h2>
+          <ul class="cv-list">
+            <li>
+              <strong>Skills and technologies:</strong>
+              <br>
+              Photoeditors: Photoshop, Lightroom, CaptureOne,
+              Raw Photo Processor (RPP)
+              <br>
+              VideoEditors: Premier Pro, Davinci resolve;
+              <br>
+              2d animation: After Effects(Riging, Traking, Motion school plagins, Mocha, 3d plagins, ...)
+              <br>
+              3d Editors: Blender 3d( Modeling, Texture, Lightroom, Motion camera, Motion object, AR viewer Schulpting,
+              Rigging, Rendering, Grease pencil)
+            </li>
+            <li>
+              <div>
+                <strong>
+                  <span>Multimedia designer</span> at Postmen(Kyiv)
+                </strong>
+              </div>
+
+              <em>2017</em>
+              <p>Job responsebility:</p>
+              <p>Assist the Art director manager in working on the design. Hand-on estimate tasks.
+                Made 360 videos online reportage. Also had business trips. Realised text accompaniment video. Create
+                video and text animation. Cut and transaction video pieces,
+                Write reports. Chatting and meeting with clients, teams, and mentor.
+              </p>
+            </li>
+            <li>
+              <div>
+                <strong>
+                  <span>Motion designer</span> at PlusOne(Kyiv)
+                </strong>
+
+              </div>
+              <em> 2018 - 2019</em>
+              <p>Job responsebility:</p>
+              <p>
+                Making conception and design(work with contents, fonts, color, form, sounds, motions, 3d objects).
+                Also, build 2d Explainers animation.
+                Making a video interview and photoshoots( organization, shooting, post-prod). Realized 3d animations for
+                a video content.
+                Furthermore, created animations for the Web (Figma, Lottie animation, After Effects).
+              </p>
+            </li>
+            <li>
+              <div>
+                <strong>
+                  <span>Animation producer and designer</span> at Freelanser
+                </strong>
+              </div>
+              <em>2019 - 2020</em>
+              <p>Job responsebility:</p>
+              <p>
+                Managed and found projects.
+                Maintained connection with customers and team. Estimated tasks and assessed the way to do the project.
+                Also handling documentation and contracts.
+                It ensured quality and deadlines. Guided and founded a remote team. In addition, done implemente
+                project with optimal way and tools. Build project turnkey.
+                Cooperated with the music industry, cinema directors, historical and social projects, and advertising
+                agencies.
+              </p>
+            </li>
+          </ul>
+        </div> -->
+
+
+
+
+      </div>
+      <!-- <div class="cv-decorative-block blue-bg-200"></div> -->
     </div>
   </div>
 </body>
+
 </html>

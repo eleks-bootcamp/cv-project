@@ -44,7 +44,7 @@
 }
 
 .main-footer {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .full-name {
@@ -75,7 +75,7 @@ h3 {
 
 .skills-list {
   columns: 3;
-  padding: 0 25px;
+  padding: 0 35px;
 }
 
 .experience-list {
@@ -86,8 +86,20 @@ h3 {
   margin: 10px auto;
 }
 
+
+
+.education-courses > li {
+  margin: 20px 35px;
+}
+
+
+.university,
+.specialization {
+  padding-left: 35px;
+}
+
 .languages-list {
-  padding-left: 40px;
+  padding-left: 25px;
 }
 
 .contacts-list {
